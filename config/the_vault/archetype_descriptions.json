@@ -2,139 +2,139 @@
   "descriptions": {
     "the_vault:default": [
       {
-        "text": "ありのままのあなた。バフもデバフもありません"
+        "text": "\u3042\u308a\u306e\u307e\u307e\u306e\u3042\u306a\u305f\u3002\u30d0\u30d5\u3082\u30c7\u30d0\u30d5\u3082\u3042\u308a\u307e\u305b\u3093"
       }
     ],
     "the_vault:treasure_hunter": [
       {
-        "text": "ルーティングの技術に身を捧げよう！\n\n"
+        "text": "\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u306e\u6280\u8853\u306b\u8eab\u3092\u6367\u3052\u3088\u3046\uff01\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "50% アイテム数量\n"
+        "text": "50% \u30a2\u30a4\u30c6\u30e0\u6570\u91cf\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "50% アイテム品質\n"
+        "text": "50% \u30a2\u30a4\u30c6\u30e0\u54c1\u8cea\n"
       },
       {
         "text": "+",
         "color": "dark_red"
       },
       {
-        "text": "100% 被ダメージ"
+        "text": "100% \u88ab\u30c0\u30e1\u30fc\u30b8"
       }
     ],
     "the_vault:berserker": [
       {
-        "text": "バーサーカーの魂で満たせ！\n\n"
+        "text": "\u30d0\u30fc\u30b5\u30fc\u30ab\u30fc\u306e\u9b42\u3067\u6e80\u305f\u305b\uff01\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "500% ダメージ\n"
+        "text": "500% \u30c0\u30e1\u30fc\u30b8\n"
       },
       {
         "text": "-",
         "color": "dark_red"
       },
       {
-        "text": "80% 最大体力"
+        "text": "80% \u6700\u5927\u4f53\u529b"
       }
     ],
     "the_vault:commander": [
       {
-        "text": "エターナルを栄光の勝利に導け！\n\n"
+        "text": "\u30a8\u30bf\u30fc\u30ca\u30eb\u3092\u6804\u5149\u306e\u52dd\u5229\u306b\u5c0e\u3051\uff01\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "100% エターナルへのダメージ\n"
+        "text": "100% \u30a8\u30bf\u30fc\u30ca\u30eb\u3078\u306e\u30c0\u30e1\u30fc\u30b8\n"
       },
       {
         "text": "-",
         "color": "dark_red"
       },
       {
-        "text": "50% プレイヤーダメージ"
+        "text": "50% \u30d7\u30ec\u30a4\u30e4\u30fc\u30c0\u30e1\u30fc\u30b8"
       }
     ],
     "the_vault:ward": [
       {
-        "text": "盾を持って最強の壁になれ！\n\n"
+        "text": "\u76fe\u3092\u6301\u3063\u3066\u6700\u5f37\u306e\u58c1\u306b\u306a\u308c\uff01\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "25% 盾装備時のブロック確率\n"
+        "text": "25% \u76fe\u88c5\u5099\u6642\u306e\u30d6\u30ed\u30c3\u30af\u78ba\u7387\n"
       },
       {
         "text": "-",
         "color": "dark_red"
       },
       {
-        "text": "50% プレイヤーダメージ"
+        "text": "50% \u30d7\u30ec\u30a4\u30e4\u30fc\u30c0\u30e1\u30fc\u30b8"
       }
     ],
     "the_vault:barbarian": [
       {
-        "text": "血への飢えを解き放て！\n\n"
+        "text": "\u8840\u3078\u306e\u98e2\u3048\u3092\u89e3\u304d\u653e\u3066\uff01\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "ヒットごとに3 レイジ",
+        "text": "\u30d2\u30c3\u30c8\u3054\u3068\u306b3 \u30ec\u30a4\u30b8",
         "color": "gold"
       },
       {
-        "text": " ポイント\n"
+        "text": " \u30dd\u30a4\u30f3\u30c8\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "レイジポイントごとに2.5% ダメージ\n"
+        "text": "\u30ec\u30a4\u30b8\u30dd\u30a4\u30f3\u30c8\u3054\u3068\u306b2.5% \u30c0\u30e1\u30fc\u30b8\n"
       },
       {
         "text": "-",
         "color": "dark_red"
       },
       {
-        "text": "レイジポイントごとに0.5% 回復効率低下"
+        "text": "\u30ec\u30a4\u30b8\u30dd\u30a4\u30f3\u30c8\u3054\u3068\u306b0.5% \u56de\u5fa9\u52b9\u7387\u4f4e\u4e0b"
       }
     ],
     "the_vault:vampire": [
       {
-        "text": "ヴァンパイアの血が脈打つ\n\n"
+        "text": "\u30f4\u30a1\u30f3\u30d1\u30a4\u30a2\u306e\u8840\u304c\u8108\u6253\u3064\n\n"
       },
       {
         "text": "+",
         "color": "green"
       },
       {
-        "text": "5% ライフリーチ\n"
+        "text": "5% \u30e9\u30a4\u30d5\u30ea\u30fc\u30c1\n"
       },
       {
         "text": "-",
         "color": "dark_red"
       },
       {
-        "text": "他の手段では回復できなくなる"
+        "text": "\u4ed6\u306e\u624b\u6bb5\u3067\u306f\u56de\u5fa9\u3067\u304d\u306a\u304f\u306a\u308b"
       }
     ]
   }

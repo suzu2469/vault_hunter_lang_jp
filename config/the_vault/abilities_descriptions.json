@@ -3,19 +3,19 @@
     "Dash_Base": {
       "description": [
         {
-          "text": "向いている方向に",
+          "text": "\u5411\u3044\u3066\u3044\u308b\u65b9\u5411\u306b",
           "color": "$text"
         },
         {
-          "text": "一定距離",
+          "text": "\u4e00\u5b9a\u8ddd\u96e2",
           "color": "$distance"
         },
         {
-          "text": "推進します！\n\n",
+          "text": "\u63a8\u9032\u3057\u307e\u3059\uff01\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -33,19 +33,19 @@
     "Dash_Damage": {
       "description": [
         {
-          "text": "ダッシュを弾丸に変え、ダッシュで命中したすべてのモブにあなたの",
+          "text": "\u30c0\u30c3\u30b7\u30e5\u3092\u5f3e\u4e38\u306b\u5909\u3048\u3001\u30c0\u30c3\u30b7\u30e5\u3067\u547d\u4e2d\u3057\u305f\u3059\u3079\u3066\u306e\u30e2\u30d6\u306b\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "物理ダメージ",
+          "text": "\u7269\u7406\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "の一定割合を与えます。\n\n",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u3092\u4e0e\u3048\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -65,31 +65,31 @@
     "Dash_Warp": {
       "description": [
         {
-          "text": "着弾地点にテレポートする",
+          "text": "\u7740\u5f3e\u5730\u70b9\u306b\u30c6\u30ec\u30dd\u30fc\u30c8\u3059\u308b",
           "color": "$text"
         },
         {
-          "text": "魔法の矢",
+          "text": "\u9b54\u6cd5\u306e\u77e2",
           "color": "$force"
         },
         {
-          "text": "を放ちます。",
+          "text": "\u3092\u653e\u3061\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "着弾時",
+          "text": "\u7740\u5f3e\u6642",
           "color": "$name"
         },
         {
-          "text": "\nモブや他のプレイヤーに命中すると、位置が入れ替わります",
+          "text": "\n\u30e2\u30d6\u3084\u4ed6\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u4f4d\u7f6e\u304c\u5165\u308c\u66ff\u308f\u308a\u307e\u3059",
           "color": "$text"
         },
         {
-          "text": "。\n\n",
+          "text": "\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -107,27 +107,27 @@
     "Execute_Base": {
       "description": [
         {
-          "text": "ターゲットの最大HPの",
+          "text": "\u30bf\u30fc\u30b2\u30c3\u30c8\u306e\u6700\u5927HP\u306e",
           "color": "$text"
         },
         {
-          "text": "一定割合",
+          "text": "\u4e00\u5b9a\u5272\u5408",
           "color": "$damage"
         },
         {
-          "text": "の",
+          "text": "\u306e",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を次の攻撃で与えます。\n\n",
+          "text": "\u3092\u6b21\u306e\u653b\u6483\u3067\u4e0e\u3048\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✷ ネクストヒット型アビリティ ",
+          "text": "\u2737 \u30cd\u30af\u30b9\u30c8\u30d2\u30c3\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -145,51 +145,51 @@
     "Farmer_Base": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内の作物の成長速度を",
+          "text": "\u5185\u306e\u4f5c\u7269\u306e\u6210\u9577\u901f\u5ea6\u3092",
           "color": "$text"
         },
         {
-          "text": "一定間隔",
+          "text": "\u4e00\u5b9a\u9593\u9694",
           "color": "$delay"
         },
         {
-          "text": "で促進します。\n\n",
+          "text": "\u3067\u4fc3\u9032\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "ファーマーの対象:\n",
+          "text": "\u30d5\u30a1\u30fc\u30de\u30fc\u306e\u5bfe\u8c61:\n",
           "color": "$text"
         },
         {
-          "text": " • 種\n",
+          "text": " \u2022 \u7a2e\n",
           "color": "$text"
         },
         {
-          "text": " • ジャガイモ\n",
+          "text": " \u2022 \u30b8\u30e3\u30ac\u30a4\u30e2\n",
           "color": "$text"
         },
         {
-          "text": " • ニンジン (PAG)\n",
+          "text": " \u2022 \u30cb\u30f3\u30b8\u30f3 (PAG)\n",
           "color": "$text"
         },
         {
-          "text": " • ビートルート\n",
+          "text": " \u2022 \u30d3\u30fc\u30c8\u30eb\u30fc\u30c8\n",
           "color": "$text"
         },
         {
-          "text": " • 亜麻の種\n\n",
+          "text": " \u2022 \u4e9c\u9ebb\u306e\u7a2e\n\n",
           "color": "$text"
         },
         {
-          "text": "● トグル型アビリティ ",
+          "text": "\u25cf \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -209,51 +209,51 @@
     "Farmer_Animal": {
       "description": [
         {
-          "text": "ファーマーを変更し、",
+          "text": "\u30d5\u30a1\u30fc\u30de\u30fc\u3092\u5909\u66f4\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "子どもの動物",
+          "text": "\u5b50\u3069\u3082\u306e\u52d5\u7269",
           "color": "$baby"
         },
         {
-          "text": "の成長も促進します！\n",
+          "text": "\u306e\u6210\u9577\u3082\u4fc3\u9032\u3057\u307e\u3059\uff01\n",
           "color": "$text"
         },
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "一定間隔",
+          "text": "\u4e00\u5b9a\u9593\u9694",
           "color": "$delay"
         },
         {
-          "text": "の",
+          "text": "\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内で効果を発揮します。\n\n",
+          "text": "\u5185\u3067\u52b9\u679c\u3092\u767a\u63ee\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "ランチャーの対象はベースアビリティの対象に加えて:\n",
+          "text": "\u30e9\u30f3\u30c1\u30e3\u30fc\u306e\u5bfe\u8c61\u306f\u30d9\u30fc\u30b9\u30a2\u30d3\u30ea\u30c6\u30a3\u306e\u5bfe\u8c61\u306b\u52a0\u3048\u3066:\n",
           "color": "$text"
         },
         {
-          "text": " • 子どもの動物\n",
+          "text": " \u2022 \u5b50\u3069\u3082\u306e\u52d5\u7269\n",
           "color": "$text"
         },
         {
-          "text": " • 子どもの村人\n\n",
+          "text": " \u2022 \u5b50\u3069\u3082\u306e\u6751\u4eba\n\n",
           "color": "$text"
         },
         {
-          "text": "● トグル型アビリティ ",
+          "text": "\u25cf \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -275,43 +275,43 @@
     "Farmer_Cactus": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内の作物の成長速度を",
+          "text": "\u5185\u306e\u4f5c\u7269\u306e\u6210\u9577\u901f\u5ea6\u3092",
           "color": "$text"
         },
         {
-          "text": "一定間隔",
+          "text": "\u4e00\u5b9a\u9593\u9694",
           "color": "$delay"
         },
         {
-          "text": "で促進します。\n\n",
+          "text": "\u3067\u4fc3\u9032\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "ガーデナーの対象はベースアビリティの対象に加えて:\n",
+          "text": "\u30ac\u30fc\u30c7\u30ca\u30fc\u306e\u5bfe\u8c61\u306f\u30d9\u30fc\u30b9\u30a2\u30d3\u30ea\u30c6\u30a3\u306e\u5bfe\u8c61\u306b\u52a0\u3048\u3066:\n",
           "color": "$text"
         },
         {
-          "text": " • サボテン\n",
+          "text": " \u2022 \u30b5\u30dc\u30c6\u30f3\n",
           "color": "$text"
         },
         {
-          "text": " • サトウキビ\n",
+          "text": " \u2022 \u30b5\u30c8\u30a6\u30ad\u30d3\n",
           "color": "$text"
         },
         {
-          "text": " • ネザーウォート\n\n",
+          "text": " \u2022 \u30cd\u30b6\u30fc\u30a6\u30a9\u30fc\u30c8\n\n",
           "color": "$text"
         },
         {
-          "text": "● トグル型アビリティ ",
+          "text": "\u25cf \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -331,39 +331,39 @@
     "Farmer_Melon": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内の作物の成長速度を",
+          "text": "\u5185\u306e\u4f5c\u7269\u306e\u6210\u9577\u901f\u5ea6\u3092",
           "color": "$text"
         },
         {
-          "text": "一定間隔",
+          "text": "\u4e00\u5b9a\u9593\u9694",
           "color": "$delay"
         },
         {
-          "text": "で促進します。\n\n",
+          "text": "\u3067\u4fc3\u9032\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "カルティベーターの対象はベースアビリティの対象に加えて:\n",
+          "text": "\u30ab\u30eb\u30c6\u30a3\u30d9\u30fc\u30bf\u30fc\u306e\u5bfe\u8c61\u306f\u30d9\u30fc\u30b9\u30a2\u30d3\u30ea\u30c6\u30a3\u306e\u5bfe\u8c61\u306b\u52a0\u3048\u3066:\n",
           "color": "$text"
         },
         {
-          "text": " • スイカ\n",
+          "text": " \u2022 \u30b9\u30a4\u30ab\n",
           "color": "$text"
         },
         {
-          "text": " • カボチャ\n\n",
+          "text": " \u2022 \u30ab\u30dc\u30c1\u30e3\n\n",
           "color": "$text"
         },
         {
-          "text": "● トグル型アビリティ ",
+          "text": "\u25cf \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -383,19 +383,19 @@
     "Ghost_Walk_Base": {
       "description": [
         {
-          "text": "一定",
+          "text": "\u4e00\u5b9a",
           "color": "$text"
         },
         {
-          "text": "持続時間",
+          "text": "\u6301\u7d9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "の間、透明になります。ゴーストウォーク中に何かを攻撃すると効果が解除されます。\n\n",
+          "text": "\u306e\u9593\u3001\u900f\u660e\u306b\u306a\u308a\u307e\u3059\u3002\u30b4\u30fc\u30b9\u30c8\u30a6\u30a9\u30fc\u30af\u4e2d\u306b\u4f55\u304b\u3092\u653b\u6483\u3059\u308b\u3068\u52b9\u679c\u304c\u89e3\u9664\u3055\u308c\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -413,27 +413,27 @@
     "Ghost_Walk_Spirit": {
       "description": [
         {
-          "text": "一定",
+          "text": "\u4e00\u5b9a",
           "color": "$text"
         },
         {
-          "text": "持続時間",
+          "text": "\u6301\u7d9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "の間、透明になります。",
+          "text": "\u306e\u9593\u3001\u900f\u660e\u306b\u306a\u308a\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "スピリットウォーク",
+          "text": "\u30b9\u30d4\u30ea\u30c3\u30c8\u30a6\u30a9\u30fc\u30af",
           "color": "$name"
         },
         {
-          "text": "中に何かを攻撃したり、ブロックを壊したり、コンテナを開けたりすると効果が解除されます。\n\n",
+          "text": "\u4e2d\u306b\u4f55\u304b\u3092\u653b\u6483\u3057\u305f\u308a\u3001\u30d6\u30ed\u30c3\u30af\u3092\u58ca\u3057\u305f\u308a\u3001\u30b3\u30f3\u30c6\u30ca\u3092\u958b\u3051\u305f\u308a\u3059\u308b\u3068\u52b9\u679c\u304c\u89e3\u9664\u3055\u308c\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -451,7 +451,7 @@
     "Heal_Base": {
       "description": [
         {
-          "text": "一定量の",
+          "text": "\u4e00\u5b9a\u91cf\u306e",
           "color": "$text"
         },
         {
@@ -459,11 +459,11 @@
           "color": "$heal"
         },
         {
-          "text": "を回復します。\n\n",
+          "text": "\u3092\u56de\u5fa9\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -481,11 +481,11 @@
     "Heal_Cleanse": {
       "description": [
         {
-          "text": "ヒールを変更し、あなたに影響しているすべてのデバフを浄化します。\n\n",
+          "text": "\u30d2\u30fc\u30eb\u3092\u5909\u66f4\u3057\u3001\u3042\u306a\u305f\u306b\u5f71\u97ff\u3057\u3066\u3044\u308b\u3059\u3079\u3066\u306e\u30c7\u30d0\u30d5\u3092\u6d44\u5316\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -501,7 +501,7 @@
     "Heal_Group": {
       "description": [
         {
-          "text": "ヒールをグループヒールに変更します！あなたと周囲の仲間を一定量の",
+          "text": "\u30d2\u30fc\u30eb\u3092\u30b0\u30eb\u30fc\u30d7\u30d2\u30fc\u30eb\u306b\u5909\u66f4\u3057\u307e\u3059\uff01\u3042\u306a\u305f\u3068\u5468\u56f2\u306e\u4ef2\u9593\u3092\u4e00\u5b9a\u91cf\u306e",
           "color": "$text"
         },
         {
@@ -509,11 +509,11 @@
           "color": "$heal"
         },
         {
-          "text": "回復します。\n\n",
+          "text": "\u56de\u5fa9\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -533,67 +533,67 @@
     "Hunter_Base": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "注目ポイント(POI)",
+          "text": "\u6ce8\u76ee\u30dd\u30a4\u30f3\u30c8(POI)",
           "color": "$qhighlight"
         },
         {
-          "text": "すべてを",
+          "text": "\u3059\u3079\u3066\u3092",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内で",
+          "text": "\u5185\u3067",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "ハイライト表示します。\n\n",
+          "text": "\u30cf\u30a4\u30e9\u30a4\u30c8\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "POIには",
+          "text": "POI\u306b\u306f",
           "color": "$text"
         },
         {
-          "text": "すべてのチェスト",
+          "text": "\u3059\u3079\u3066\u306e\u30c1\u30a7\u30b9\u30c8",
           "color": "$chance"
         },
         {
-          "text": "、",
+          "text": "\u3001",
           "color": "$text"
         },
         {
-          "text": "コイン",
+          "text": "\u30b3\u30a4\u30f3",
           "color": "$chance"
         },
         {
-          "text": "、",
+          "text": "\u3001",
           "color": "$text"
         },
         {
-          "text": "神の祭壇",
+          "text": "\u795e\u306e\u796d\u58c7",
           "color": "$chance"
         },
         {
-          "text": "、",
+          "text": "\u3001",
           "color": "$text"
         },
         {
-          "text": "目標地点",
+          "text": "\u76ee\u6a19\u5730\u70b9",
           "color": "$chance"
         },
         {
-          "text": "\nが含まれます。\n\n✴ キャスト型アビリティ ",
+          "text": "\n\u304c\u542b\u307e\u308c\u307e\u3059\u3002\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -613,27 +613,27 @@
     "Hunter_Blocks": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のオブジェクティブを",
+          "text": "\u5185\u306e\u30aa\u30d6\u30b8\u30a7\u30af\u30c6\u30a3\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -653,27 +653,27 @@
     "Hunter_Wooden": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のウッドチェストを",
+          "text": "\u5185\u306e\u30a6\u30c3\u30c9\u30c1\u30a7\u30b9\u30c8\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -693,27 +693,27 @@
     "Hunter_Gilded": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のギルデッドチェストを",
+          "text": "\u5185\u306e\u30ae\u30eb\u30c7\u30c3\u30c9\u30c1\u30a7\u30b9\u30c8\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -733,27 +733,27 @@
     "Hunter_Living": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のリビングチェストを",
+          "text": "\u5185\u306e\u30ea\u30d3\u30f3\u30b0\u30c1\u30a7\u30b9\u30c8\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -773,27 +773,27 @@
     "Hunter_Ornate": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のオーネイトチェストを",
+          "text": "\u5185\u306e\u30aa\u30fc\u30cd\u30a4\u30c8\u30c1\u30a7\u30b9\u30c8\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -813,27 +813,27 @@
     "Hunter_Coins": {
       "description": [
         {
-          "text": "ハンターを変更し、代わりに周囲の",
+          "text": "\u30cf\u30f3\u30bf\u30fc\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のコインの山を",
+          "text": "\u5185\u306e\u30b3\u30a4\u30f3\u306e\u5c71\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "表示します。\n\n",
+          "text": "\u8868\u793a\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -853,23 +853,23 @@
     "Shield_Bash": {
       "description": [
         {
-          "text": "盾でモブを叩き、前方の",
+          "text": "\u76fe\u3067\u30e2\u30d6\u3092\u53e9\u304d\u3001\u524d\u65b9\u306e",
           "color": "$text"
         },
         {
-          "text": "棘ダメージ",
+          "text": "\u68d8\u30c0\u30e1\u30fc\u30b8",
           "color": "$thornsDamage"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "直線範囲",
+          "text": "\u76f4\u7dda\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に与えます。",
+          "text": "\u306b\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
@@ -877,7 +877,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -897,23 +897,23 @@
     "Mana_Shield_Base": {
       "description": [
         {
-          "text": "一定時間、",
+          "text": "\u4e00\u5b9a\u6642\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "防御バリア",
+          "text": "\u9632\u5fa1\u30d0\u30ea\u30a2",
           "color": "$absorb"
         },
         {
-          "text": "を展開し、",
+          "text": "\u3092\u5c55\u958b\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "限られた時間",
+          "text": "\u9650\u3089\u308c\u305f\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "シールドが尽きるか時間切れになるまで、すべての被ダメージを吸収します。",
+          "text": "\u30b7\u30fc\u30eb\u30c9\u304c\u5c3d\u304d\u308b\u304b\u6642\u9593\u5207\u308c\u306b\u306a\u308b\u307e\u3067\u3001\u3059\u3079\u3066\u306e\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u5438\u53ce\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
@@ -921,7 +921,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -939,31 +939,31 @@
     "Mana_Barrier": {
       "description": [
         {
-          "text": "魔法の",
+          "text": "\u9b54\u6cd5\u306e",
           "color": "$text"
         },
         {
-          "text": "マナキューブ",
+          "text": "\u30de\u30ca\u30ad\u30e5\u30fc\u30d6",
           "color": "$absorb"
         },
         {
-          "text": "をあなたの周囲に",
+          "text": "\u3092\u3042\u306a\u305f\u306e\u5468\u56f2\u306b",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "召喚します。モブはこの",
+          "text": "\u53ec\u559a\u3057\u307e\u3059\u3002\u30e2\u30d6\u306f\u3053\u306e",
           "color": "$text"
         },
         {
-          "text": "ブロック",
+          "text": "\u30d6\u30ed\u30c3\u30af",
           "color": "$absorb"
         },
         {
-          "text": "を通過できませんが、あなたは通れます！",
+          "text": "\u3092\u901a\u904e\u3067\u304d\u307e\u305b\u3093\u304c\u3001\u3042\u306a\u305f\u306f\u901a\u308c\u307e\u3059\uff01",
           "color": "$text"
         },
         {
@@ -971,7 +971,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -991,47 +991,47 @@
     "Retribution_Base": {
       "description": [
         {
-          "text": "マナシールドを付与し、受けたダメージの",
+          "text": "\u30de\u30ca\u30b7\u30fc\u30eb\u30c9\u3092\u4ed8\u4e0e\u3057\u3001\u53d7\u3051\u305f\u30c0\u30e1\u30fc\u30b8\u306e",
           "color": "$text"
         },
         {
-          "text": "一定割合",
+          "text": "\u4e00\u5b9a\u5272\u5408",
           "color": "$absorb"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "マナプール",
+          "text": "\u30de\u30ca\u30d7\u30fc\u30eb",
           "color": "$manaCost"
         },
         {
-          "text": "にリダイレクトします。\n\n",
+          "text": "\u306b\u30ea\u30c0\u30a4\u30ec\u30af\u30c8\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "ダメージを吸収した後、次の攻撃のダメージに",
+          "text": "\u30c0\u30e1\u30fc\u30b8\u3092\u5438\u53ce\u3057\u305f\u5f8c\u3001\u6b21\u306e\u653b\u6483\u306e\u30c0\u30e1\u30fc\u30b8\u306b",
           "color": "$text"
         },
         {
-          "text": "吸収したダメージの一定割合",
+          "text": "\u5438\u53ce\u3057\u305f\u30c0\u30e1\u30fc\u30b8\u306e\u4e00\u5b9a\u5272\u5408",
           "color": "$damage"
         },
         {
-          "text": "が加算され、ターゲット周囲の",
+          "text": "\u304c\u52a0\u7b97\u3055\u308c\u3001\u30bf\u30fc\u30b2\u30c3\u30c8\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのモブに与えます。\n\n",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30e2\u30d6\u306b\u4e0e\u3048\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1049,39 +1049,39 @@
     "Mana_Shield_Retribution": {
       "description": [
         {
-          "text": "強力な復讐のオーラを付与します。発動すると、モブからの被ダメージが",
+          "text": "\u5f37\u529b\u306a\u5fa9\u8b90\u306e\u30aa\u30fc\u30e9\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002\u767a\u52d5\u3059\u308b\u3068\u3001\u30e2\u30d6\u304b\u3089\u306e\u88ab\u30c0\u30e1\u30fc\u30b8\u304c",
           "color": "$text"
         },
         {
-          "text": "リトリビューションスタック",
+          "text": "\u30ea\u30c8\u30ea\u30d3\u30e5\u30fc\u30b7\u30e7\u30f3\u30b9\u30bf\u30c3\u30af",
           "color": "$qhighlight"
         },
         {
-          "text": "を蓄積し、オーラが",
+          "text": "\u3092\u84c4\u7a4d\u3057\u3001\u30aa\u30fc\u30e9\u304c",
           "color": "$text"
         },
         {
-          "text": "消滅",
+          "text": "\u6d88\u6ec5",
           "color": "$duration"
         },
         {
-          "text": "すると、球状の",
+          "text": "\u3059\u308b\u3068\u3001\u7403\u72b6\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に強力な爆発を放ち、",
+          "text": "\u306b\u5f37\u529b\u306a\u7206\u767a\u3092\u653e\u3061\u3001",
           "color": "$text"
         },
         {
-          "text": "スタックごとの棘ダメージ",
+          "text": "\u30b9\u30bf\u30c3\u30af\u3054\u3068\u306e\u68d8\u30c0\u30e1\u30fc\u30b8",
           "color": "$thornsDamage"
         },
         {
-          "text": "を蓄積分、周囲のすべてのモブに与えます。",
+          "text": "\u3092\u84c4\u7a4d\u5206\u3001\u5468\u56f2\u306e\u3059\u3079\u3066\u306e\u30e2\u30d6\u306b\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
@@ -1089,7 +1089,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1109,27 +1109,27 @@
     "Mana_Shield_Implode": {
       "description": [
         {
-          "text": "すべてのマナを消費し、消費したマナの",
+          "text": "\u3059\u3079\u3066\u306e\u30de\u30ca\u3092\u6d88\u8cbb\u3057\u3001\u6d88\u8cbb\u3057\u305f\u30de\u30ca\u306e",
           "color": "$text"
         },
         {
-          "text": "一定割合",
+          "text": "\u4e00\u5b9a\u5272\u5408",
           "color": "$damage"
         },
         {
-          "text": "のダメージを周囲の",
+          "text": "\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内の敵に与えます。\n\n",
+          "text": "\u5185\u306e\u6575\u306b\u4e0e\u3048\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1147,19 +1147,19 @@
     "Mega_Jump_Base": {
       "description": [
         {
-          "text": "空中に",
+          "text": "\u7a7a\u4e2d\u306b",
           "color": "$text"
         },
         {
-          "text": "メガジャンプ",
+          "text": "\u30e1\u30ac\u30b8\u30e3\u30f3\u30d7",
           "color": "$range"
         },
         {
-          "text": "する能力を得ます。\n\n",
+          "text": "\u3059\u308b\u80fd\u529b\u3092\u5f97\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1177,15 +1177,15 @@
     "Mega_Jump_Break_Down": {
       "description": [
         {
-          "text": "メガジャンプをメガディグに変更します！空中に飛ぶ代わりに、下方向にブロックを掘り進みます。\n\n",
+          "text": "\u30e1\u30ac\u30b8\u30e3\u30f3\u30d7\u3092\u30e1\u30ac\u30c7\u30a3\u30b0\u306b\u5909\u66f4\u3057\u307e\u3059\uff01\u7a7a\u4e2d\u306b\u98db\u3076\u4ee3\u308f\u308a\u306b\u3001\u4e0b\u65b9\u5411\u306b\u30d6\u30ed\u30c3\u30af\u3092\u6398\u308a\u9032\u307f\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "このアビリティはオーバーワールドでは機能しません。\n\n",
+          "text": "\u3053\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306f\u30aa\u30fc\u30d0\u30fc\u30ef\u30fc\u30eb\u30c9\u3067\u306f\u6a5f\u80fd\u3057\u307e\u305b\u3093\u3002\n\n",
           "color": "$chance"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1205,15 +1205,15 @@
     "Mega_Jump_Break_Up": {
       "description": [
         {
-          "text": "メガジャンプを変更し、ジャンプ中にぶつかったブロックを破壊します。\n\n",
+          "text": "\u30e1\u30ac\u30b8\u30e3\u30f3\u30d7\u3092\u5909\u66f4\u3057\u3001\u30b8\u30e3\u30f3\u30d7\u4e2d\u306b\u3076\u3064\u304b\u3063\u305f\u30d6\u30ed\u30c3\u30af\u3092\u7834\u58ca\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "このアビリティはオーバーワールドでは機能しません。\n\n",
+          "text": "\u3053\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306f\u30aa\u30fc\u30d0\u30fc\u30ef\u30fc\u30eb\u30c9\u3067\u306f\u6a5f\u80fd\u3057\u307e\u305b\u3093\u3002\n\n",
           "color": "$chance"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1231,35 +1231,35 @@
     "Nova_Base": {
       "description": [
         {
-          "text": "あなたの",
+          "text": "\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "の一定割合を周囲の",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に与えます。\n",
+          "text": "\u306b\u4e0e\u3048\u307e\u3059\u3002\n",
           "color": "$text"
         },
         {
-          "text": "ノヴァの",
+          "text": "\u30ce\u30f4\u30a1\u306e",
           "color": "$name"
         },
         {
-          "text": "ダメージは範囲の中心から離れるほど減少します。",
+          "text": "\u30c0\u30e1\u30fc\u30b8\u306f\u7bc4\u56f2\u306e\u4e2d\u5fc3\u304b\u3089\u96e2\u308c\u308b\u307b\u3069\u6e1b\u5c11\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1279,35 +1279,35 @@
     "Nova_Dot": {
       "description": [
         {
-          "text": "ノヴァを変更し、代わりにあなたの",
+          "text": "\u30ce\u30f4\u30a1\u3092\u5909\u66f4\u3057\u3001\u4ee3\u308f\u308a\u306b\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "の一定割合を",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u3092",
           "color": "$text"
         },
         {
-          "text": "毒",
+          "text": "\u6bd2",
           "color": "$poison"
         },
         {
-          "text": "で与えます。ダメージは",
+          "text": "\u3067\u4e0e\u3048\u307e\u3059\u3002\u30c0\u30e1\u30fc\u30b8\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "かけて与えられます。\n\n",
+          "text": "\u304b\u3051\u3066\u4e0e\u3048\u3089\u308c\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1329,43 +1329,43 @@
     "Nova_Slow": {
       "description": [
         {
-          "text": "ノヴァを変更し、周囲の",
+          "text": "\u30ce\u30f4\u30a1\u3092\u5909\u66f4\u3057\u3001\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のモブを凍結させます。モブは",
+          "text": "\u5185\u306e\u30e2\u30d6\u3092\u51cd\u7d50\u3055\u305b\u307e\u3059\u3002\u30e2\u30d6\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "の間凍結し、その後",
+          "text": "\u306e\u9593\u51cd\u7d50\u3057\u3001\u305d\u306e\u5f8c",
           "color": "$text"
         },
         {
-          "text": "低体温症",
+          "text": "\u4f4e\u4f53\u6e29\u75c7",
           "color": "$slowness"
         },
         {
-          "text": "になり、永続的に",
+          "text": "\u306b\u306a\u308a\u3001\u6c38\u7d9a\u7684\u306b",
           "color": "$text"
         },
         {
-          "text": "冷却",
+          "text": "\u51b7\u5374",
           "color": "$chilled"
         },
         {
-          "text": "され3秒ごとにダメージを受けます\n\n",
+          "text": "\u3055\u308c3\u79d2\u3054\u3068\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -1385,19 +1385,19 @@
     "Rampage_Base": {
       "description": [
         {
-          "text": "ランページ状態に入り、有効な間",
+          "text": "\u30e9\u30f3\u30da\u30fc\u30b8\u72b6\u614b\u306b\u5165\u308a\u3001\u6709\u52b9\u306a\u9593",
           "color": "$text"
         },
         {
-          "text": "物理ダメージ",
+          "text": "\u7269\u7406\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "が追加で上昇します。\n\n",
+          "text": "\u304c\u8ffd\u52a0\u3067\u4e0a\u6607\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1415,19 +1415,19 @@
     "Rampage_Chain": {
       "description": [
         {
-          "text": "ランページを変更し、攻撃に",
+          "text": "\u30e9\u30f3\u30da\u30fc\u30b8\u3092\u5909\u66f4\u3057\u3001\u653b\u6483\u306b",
           "color": "$text"
         },
         {
-          "text": "連鎖効果",
+          "text": "\u9023\u9396\u52b9\u679c",
           "color": "$chains"
         },
         {
-          "text": "を付与します。ダメージ上昇の代わりに、最初のモブ以降の複数のモブにも攻撃が連鎖します。\n\n",
+          "text": "\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002\u30c0\u30e1\u30fc\u30b8\u4e0a\u6607\u306e\u4ee3\u308f\u308a\u306b\u3001\u6700\u521d\u306e\u30e2\u30d6\u4ee5\u964d\u306e\u8907\u6570\u306e\u30e2\u30d6\u306b\u3082\u653b\u6483\u304c\u9023\u9396\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1445,19 +1445,19 @@
     "Rampage_Leech": {
       "description": [
         {
-          "text": "ランページを変更し、ダメージ上昇の代わりに",
+          "text": "\u30e9\u30f3\u30da\u30fc\u30b8\u3092\u5909\u66f4\u3057\u3001\u30c0\u30e1\u30fc\u30b8\u4e0a\u6607\u306e\u4ee3\u308f\u308a\u306b",
           "color": "$text"
         },
         {
-          "text": "ライフリーチ",
+          "text": "\u30e9\u30a4\u30d5\u30ea\u30fc\u30c1",
           "color": "$leech"
         },
         {
-          "text": "を付与します。\n\n",
+          "text": "\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1475,43 +1475,43 @@
     "Earthquake_Landmine": {
       "description": [
         {
-          "text": "足元に",
+          "text": "\u8db3\u5143\u306b",
           "color": "$text"
         },
         {
-          "text": "地雷",
+          "text": "\u5730\u96f7",
           "color": "$name"
         },
         {
-          "text": "を設置します。モブが踏むと",
+          "text": "\u3092\u8a2d\u7f6e\u3057\u307e\u3059\u3002\u30e2\u30d6\u304c\u8e0f\u3080\u3068",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に爆発し、あなたの",
+          "text": "\u306b\u7206\u767a\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "攻撃力",
+          "text": "\u653b\u6483\u529b",
           "color": "$damage"
         },
         {
-          "text": "に基づくダメージを与え、",
+          "text": "\u306b\u57fa\u3065\u304f\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001",
           "color": "$text"
         },
         {
-          "text": "ノックバック",
+          "text": "\u30ce\u30c3\u30af\u30d0\u30c3\u30af",
           "color": "$knockback"
         },
         {
-          "text": "させます。\n\n地雷は互いの爆発範囲内にあると連鎖爆発します。",
+          "text": "\u3055\u305b\u307e\u3059\u3002\n\n\u5730\u96f7\u306f\u4e92\u3044\u306e\u7206\u767a\u7bc4\u56f2\u5185\u306b\u3042\u308b\u3068\u9023\u9396\u7206\u767a\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1533,35 +1533,35 @@
     "Stonefall_Base": {
       "description": [
         {
-          "text": "有効な間、着地時の",
+          "text": "\u6709\u52b9\u306a\u9593\u3001\u7740\u5730\u6642\u306e",
           "color": "$text"
         },
         {
-          "text": "落下ダメージ",
+          "text": "\u843d\u4e0b\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を軽減し、",
+          "text": "\u3092\u8efd\u6e1b\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "有効時",
+          "text": "\u6709\u52b9\u6642",
           "color": "$duration"
         },
         {
-          "text": "ノックバック",
+          "text": "\u30ce\u30c3\u30af\u30d0\u30c3\u30af",
           "color": "$radius"
         },
         {
-          "text": "で周囲のモブを吹き飛ばします",
+          "text": "\u3067\u5468\u56f2\u306e\u30e2\u30d6\u3092\u5439\u304d\u98db\u3070\u3057\u307e\u3059",
           "color": "$text"
         },
         {
-          "text": "。\n\n",
+          "text": "\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1585,47 +1585,47 @@
     "Stonefall_Cold": {
       "description": [
         {
-          "text": "有効な間、着地時の",
+          "text": "\u6709\u52b9\u306a\u9593\u3001\u7740\u5730\u6642\u306e",
           "color": "$text"
         },
         {
-          "text": "落下ダメージ",
+          "text": "\u843d\u4e0b\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を軽減します。\n",
+          "text": "\u3092\u8efd\u6e1b\u3057\u307e\u3059\u3002\n",
           "color": "$text"
         },
         {
-          "text": "有効時\n",
+          "text": "\u6709\u52b9\u6642\n",
           "color": "$duration"
         },
         {
-          "text": "冷却",
+          "text": "\u51b7\u5374",
           "color": "$chilled"
         },
         {
-          "text": "効果と",
+          "text": "\u52b9\u679c\u3068",
           "color": "$text"
         },
         {
-          "text": "氷の牢獄",
+          "text": "\u6c37\u306e\u7262\u7344",
           "color": "$maxGlacialPrison"
         },
         {
-          "text": "を周囲のモブに与えます。\n",
+          "text": "\u3092\u5468\u56f2\u306e\u30e2\u30d6\u306b\u4e0e\u3048\u307e\u3059\u3002\n",
           "color": "$text"
         },
         {
-          "text": "範囲は落下距離に影響されます。",
+          "text": "\u7bc4\u56f2\u306f\u843d\u4e0b\u8ddd\u96e2\u306b\u5f71\u97ff\u3055\u308c\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "。\n\n",
+          "text": "\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1651,39 +1651,39 @@
     "Stonefall_Snow": {
       "description": [
         {
-          "text": "有効な間、着地時の",
+          "text": "\u6709\u52b9\u306a\u9593\u3001\u7740\u5730\u6642\u306e",
           "color": "$text"
         },
         {
-          "text": "落下ダメージ",
+          "text": "\u843d\u4e0b\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を軽減し、",
+          "text": "\u3092\u8efd\u6e1b\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "有効時 ",
+          "text": "\u6709\u52b9\u6642 ",
           "color": "$duration"
         },
         {
-          "text": "着地時に",
+          "text": "\u7740\u5730\u6642\u306b",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "に基づくダメージを周囲のモブに与えます。\n範囲は落下距離に応じて拡大します。",
+          "text": "\u306b\u57fa\u3065\u304f\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e\u30e2\u30d6\u306b\u4e0e\u3048\u307e\u3059\u3002\n\u7bc4\u56f2\u306f\u843d\u4e0b\u8ddd\u96e2\u306b\u5fdc\u3058\u3066\u62e1\u5927\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "。\n\n",
+          "text": "\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1707,19 +1707,19 @@
     "Summon_Eternal_Base": {
       "description": [
         {
-          "text": "あなたの",
+          "text": "\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "エターナル",
+          "text": "\u30a8\u30bf\u30fc\u30ca\u30eb",
           "color": "$eternals"
         },
         {
-          "text": "を召喚します！このアビリティを使うには、エターナルの台座に少なくとも1体の生きたエターナルが必要です。\n\n",
+          "text": "\u3092\u53ec\u559a\u3057\u307e\u3059\uff01\u3053\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u3092\u4f7f\u3046\u306b\u306f\u3001\u30a8\u30bf\u30fc\u30ca\u30eb\u306e\u53f0\u5ea7\u306b\u5c11\u306a\u304f\u3068\u30821\u4f53\u306e\u751f\u304d\u305f\u30a8\u30bf\u30fc\u30ca\u30eb\u304c\u5fc5\u8981\u3067\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1739,23 +1739,23 @@
     "Empower_Base": {
       "description": [
         {
-          "text": "あなたと周囲のプレイヤーに",
+          "text": "\u3042\u306a\u305f\u3068\u5468\u56f2\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b",
           "color": "$text"
         },
         {
-          "text": "移動速度",
+          "text": "\u79fb\u52d5\u901f\u5ea6",
           "color": "$speed"
         },
         {
-          "text": "のオーラを付与します。",
+          "text": "\u306e\u30aa\u30fc\u30e9\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内で有効\n\n◐ トグル型アビリティ ",
+          "text": "\u5185\u3067\u6709\u52b9\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1775,27 +1775,27 @@
     "Empower_Ice_Armor": {
       "description": [
         {
-          "text": "氷の障壁で身を包み、あなたを攻撃したモブを",
+          "text": "\u6c37\u306e\u969c\u58c1\u3067\u8eab\u3092\u5305\u307f\u3001\u3042\u306a\u305f\u3092\u653b\u6483\u3057\u305f\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "冷却",
+          "text": "\u51b7\u5374",
           "color": "$chilled"
         },
         {
-          "text": "し",
+          "text": "\u3057",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "有効な間効果を発揮します\n\n",
+          "text": "\u6709\u52b9\u306a\u9593\u52b9\u679c\u3092\u767a\u63ee\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1815,27 +1815,27 @@
     "Empower_Slowness_Aura": {
       "description": [
         {
-          "text": "エントロピーのオーラを付与し、有効な間",
+          "text": "\u30a8\u30f3\u30c8\u30ed\u30d4\u30fc\u306e\u30aa\u30fc\u30e9\u3092\u4ed8\u4e0e\u3057\u3001\u6709\u52b9\u306a\u9593",
           "color": "$text"
         },
         {
-          "text": "周囲のモブを減速",
+          "text": "\u5468\u56f2\u306e\u30e2\u30d6\u3092\u6e1b\u901f",
           "color": "$slowness"
         },
         {
-          "text": "させます。",
+          "text": "\u3055\u305b\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内で効果を発揮します\n\n",
+          "text": "\u5185\u3067\u52b9\u679c\u3092\u767a\u63ee\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "◐ トグル型アビリティ ",
+          "text": "\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1853,43 +1853,43 @@
     "Taunt_Base": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のモブを挑発し、あなたに敵意を向けさせ、",
+          "text": "\u5185\u306e\u30e2\u30d6\u3092\u6311\u767a\u3057\u3001\u3042\u306a\u305f\u306b\u6575\u610f\u3092\u5411\u3051\u3055\u305b\u3001",
           "color": "$text"
         },
         {
-          "text": "脆弱",
+          "text": "\u8106\u5f31",
           "color": "$vulnerable"
         },
         {
-          "text": "状態にします（",
+          "text": "\u72b6\u614b\u306b\u3057\u307e\u3059\uff08",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "）。\n\n",
+          "text": "\uff09\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "各",
+          "text": "\u5404",
           "color": "$text"
         },
         {
-          "text": "脆弱レベル",
+          "text": "\u8106\u5f31\u30ec\u30d9\u30eb",
           "color": "$vulnerable"
         },
         {
-          "text": "につき、そのモブへの与ダメージが",
+          "text": "\u306b\u3064\u304d\u3001\u305d\u306e\u30e2\u30d6\u3078\u306e\u4e0e\u30c0\u30e1\u30fc\u30b8\u304c",
           "color": "$text"
         },
         {
@@ -1897,7 +1897,7 @@
           "color": "$vulnerable"
         },
         {
-          "text": "増加します。\n\n✴ キャスト型アビリティ ",
+          "text": "\u5897\u52a0\u3057\u307e\u3059\u3002\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1919,35 +1919,35 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "周囲のモブを挑発する代わりに、",
+          "text": "\u5468\u56f2\u306e\u30e2\u30d6\u3092\u6311\u767a\u3059\u308b\u4ee3\u308f\u308a\u306b\u3001",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のモブを恐怖させます。恐怖したモブは",
+          "text": "\u5185\u306e\u30e2\u30d6\u3092\u6050\u6016\u3055\u305b\u307e\u3059\u3002\u6050\u6016\u3057\u305f\u30e2\u30d6\u306f",
           "color": "$text"
         },
         {
-          "text": "押し飛ばされ",
+          "text": "\u62bc\u3057\u98db\u3070\u3055\u308c",
           "color": "$distance"
         },
         {
-          "text": "、一定",
+          "text": "\u3001\u4e00\u5b9a",
           "color": "$text"
         },
         {
-          "text": "時間",
+          "text": "\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "の間攻撃を拒否します。\n\n",
+          "text": "\u306e\u9593\u653b\u6483\u3092\u62d2\u5426\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -1969,51 +1969,51 @@
     "Taunt_Charm": {
       "description": [
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "ランダムなモブ",
+          "text": "\u30e9\u30f3\u30c0\u30e0\u306a\u30e2\u30d6",
           "color": "$maxTargets"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内から魅了し、味方として戦わせます。魅了されたモブはあなたの",
+          "text": "\u5185\u304b\u3089\u9b45\u4e86\u3057\u3001\u5473\u65b9\u3068\u3057\u3066\u6226\u308f\u305b\u307e\u3059\u3002\u9b45\u4e86\u3055\u308c\u305f\u30e2\u30d6\u306f\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "攻撃力の一定割合",
+          "text": "\u653b\u6483\u529b\u306e\u4e00\u5b9a\u5272\u5408",
           "color": "$damage"
         },
         {
-          "text": "のダメージを与え、",
+          "text": "\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001",
           "color": "$text"
         },
         {
-          "text": "ヒット時効果を発動できます。",
+          "text": "\u30d2\u30c3\u30c8\u6642\u52b9\u679c\u3092\u767a\u52d5\u3067\u304d\u307e\u3059\u3002",
           "color": "$name"
         },
         {
-          "text": " 魅了されたモブは",
+          "text": " \u9b45\u4e86\u3055\u308c\u305f\u30e2\u30d6\u306f",
           "color": "$text"
         },
         {
-          "text": "移動速度が上昇",
+          "text": "\u79fb\u52d5\u901f\u5ea6\u304c\u4e0a\u6607",
           "color": "$speed"
         },
         {
-          "text": "します。\n\n",
+          "text": "\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2039,27 +2039,27 @@
     "Totem_Base": {
       "description": [
         {
-          "text": "近くにトーテムを設置し、周囲の",
+          "text": "\u8fd1\u304f\u306b\u30c8\u30fc\u30c6\u30e0\u3092\u8a2d\u7f6e\u3057\u3001\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "回復",
+          "text": "\u56de\u5fa9",
           "color": "$heal"
         },
         {
-          "text": "効果を",
+          "text": "\u52b9\u679c\u3092",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのプレイヤーに毎秒付与します。\n\n",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u6bce\u79d2\u4ed8\u4e0e\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2081,27 +2081,27 @@
     "Totem_Mana_Regen": {
       "description": [
         {
-          "text": "近くにトーテムを設置し、周囲の",
+          "text": "\u8fd1\u304f\u306b\u30c8\u30fc\u30c6\u30e0\u3092\u8a2d\u7f6e\u3057\u3001\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "マナ",
+          "text": "\u30de\u30ca",
           "color": "$manaCost"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのプレイヤーに毎秒回復します。\n\n",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u6bce\u79d2\u56de\u5fa9\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2123,47 +2123,47 @@
     "Totem_Mob_Damage": {
       "description": [
         {
-          "text": "近くにトーテムを設置し、あなたの",
+          "text": "\u8fd1\u304f\u306b\u30c8\u30fc\u30c6\u30e0\u3092\u8a2d\u7f6e\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "の一定割合のダメージを周囲の",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのモブに",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30e2\u30d6\u306b",
           "color": "$text"
         },
         {
-          "text": "一定間隔",
+          "text": "\u4e00\u5b9a\u9593\u9694",
           "color": "$delay"
         },
         {
-          "text": "で与えます。これらの攻撃は",
+          "text": "\u3067\u4e0e\u3048\u307e\u3059\u3002\u3053\u308c\u3089\u306e\u653b\u6483\u306f",
           "color": "$text"
         },
         {
-          "text": "ヒット時効果",
+          "text": "\u30d2\u30c3\u30c8\u6642\u52b9\u679c",
           "color": "$name"
         },
         {
-          "text": "を適用しますが、Lucky Hitは除きます",
+          "text": "\u3092\u9069\u7528\u3057\u307e\u3059\u304c\u3001Lucky Hit\u306f\u9664\u304d\u307e\u3059",
           "color": "$text"
         },
         {
-          "text": "。\n\n",
+          "text": "\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2187,27 +2187,27 @@
     "Totem_Player_Damage": {
       "description": [
         {
-          "text": "近くにトーテムを設置し、周囲の",
+          "text": "\u8fd1\u304f\u306b\u30c8\u30fc\u30c6\u30e0\u3092\u8a2d\u7f6e\u3057\u3001\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "物理ダメージ",
+          "text": "\u7269\u7406\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのプレイヤーに上昇させます。\n\n",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u4e0a\u6607\u3055\u305b\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2229,19 +2229,19 @@
     "Vein_Miner_Base": {
       "description": [
         {
-          "text": "複数の",
+          "text": "\u8907\u6570\u306e",
           "color": "$text"
         },
         {
-          "text": "ブロック",
+          "text": "\u30d6\u30ed\u30c3\u30af",
           "color": "$blocks"
         },
         {
-          "text": "を一度に採掘できます！\n\n",
+          "text": "\u3092\u4e00\u5ea6\u306b\u63a1\u6398\u3067\u304d\u307e\u3059\uff01\n\n",
           "color": "$text"
         },
         {
-          "text": "● ホールド型アビリティ ",
+          "text": "\u25cf \u30db\u30fc\u30eb\u30c9\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2255,27 +2255,27 @@
     "Vein_Miner_Durability": {
       "description": [
         {
-          "text": "ヴェインマイナーを変更し、採掘中に",
+          "text": "\u30f4\u30a7\u30a4\u30f3\u30de\u30a4\u30ca\u30fc\u3092\u5909\u66f4\u3057\u3001\u63a1\u6398\u4e2d\u306b",
           "color": "$text"
         },
         {
-          "text": "耐久値ダメージ",
+          "text": "\u8010\u4e45\u5024\u30c0\u30e1\u30fc\u30b8",
           "color": "$unbreaking"
         },
         {
-          "text": "を無視する確率を得ます。ただし、",
+          "text": "\u3092\u7121\u8996\u3059\u308b\u78ba\u7387\u3092\u5f97\u307e\u3059\u3002\u305f\u3060\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "採掘ブロック数",
+          "text": "\u63a1\u6398\u30d6\u30ed\u30c3\u30af\u6570",
           "color": "$blocks"
         },
         {
-          "text": "は減少します。\n\n",
+          "text": "\u306f\u6e1b\u5c11\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "● ホールド型アビリティ ",
+          "text": "\u25cf \u30db\u30fc\u30eb\u30c9\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2291,27 +2291,27 @@
     "Vein_Miner_Fortune": {
       "description": [
         {
-          "text": "ヴェインマイナーを変更し、採掘中に",
+          "text": "\u30f4\u30a7\u30a4\u30f3\u30de\u30a4\u30ca\u30fc\u3092\u5909\u66f4\u3057\u3001\u63a1\u6398\u4e2d\u306b",
           "color": "$text"
         },
         {
-          "text": "幸運",
+          "text": "\u5e78\u904b",
           "color": "$fortune"
         },
         {
-          "text": "レベルを追加します。ただし、",
+          "text": "\u30ec\u30d9\u30eb\u3092\u8ffd\u52a0\u3057\u307e\u3059\u3002\u305f\u3060\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "採掘ブロック数",
+          "text": "\u63a1\u6398\u30d6\u30ed\u30c3\u30af\u6570",
           "color": "$blocks"
         },
         {
-          "text": "は減少します。\n\n",
+          "text": "\u306f\u6e1b\u5c11\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "● ホールド型アビリティ ",
+          "text": "\u25cf \u30db\u30fc\u30eb\u30c9\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2327,27 +2327,27 @@
     "Vein_Miner_Void": {
       "description": [
         {
-          "text": "ヴェインマイナーを変更し、",
+          "text": "\u30f4\u30a7\u30a4\u30f3\u30de\u30a4\u30ca\u30fc\u3092\u5909\u66f4\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "Vault内",
+          "text": "Vault\u5185",
           "color": "$chance"
         },
         {
-          "text": "で採掘したブロックを消滅させます（Vault鉱石を除く）。ただし、",
+          "text": "\u3067\u63a1\u6398\u3057\u305f\u30d6\u30ed\u30c3\u30af\u3092\u6d88\u6ec5\u3055\u305b\u307e\u3059\uff08Vault\u9271\u77f3\u3092\u9664\u304f\uff09\u3002\u305f\u3060\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "採掘ブロック数",
+          "text": "\u63a1\u6398\u30d6\u30ed\u30c3\u30af\u6570",
           "color": "$blocks"
         },
         {
-          "text": "は減少します。\n\n",
+          "text": "\u306f\u6e1b\u5c11\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "● ホールド型アビリティ ",
+          "text": "\u25cf \u30db\u30fc\u30eb\u30c9\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2361,31 +2361,31 @@
     "Javelin_Base": {
       "description": [
         {
-          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "text": "\u9b54\u6cd5\u306e\u30b8\u30e3\u30d9\u30ea\u30f3\u3092\u53ec\u559a\u3057\u3001\u9060\u304f\u306e\u6575\u3092\u653b\u6483\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "武器ダメージに基づく",
+          "text": "\u6b66\u5668\u30c0\u30e1\u30fc\u30b8\u306b\u57fa\u3065\u304f",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を与え、着弾時にモブを",
+          "text": "\u3092\u4e0e\u3048\u3001\u7740\u5f3e\u6642\u306b\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "ノックバック",
+          "text": "\u30ce\u30c3\u30af\u30d0\u30c3\u30af",
           "color": "$knockback"
         },
         {
-          "text": "させます\n\n",
+          "text": "\u3055\u305b\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2405,31 +2405,31 @@
     "Javelin_Piercing": {
       "description": [
         {
-          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "text": "\u9b54\u6cd5\u306e\u30b8\u30e3\u30d9\u30ea\u30f3\u3092\u53ec\u559a\u3057\u3001\u9060\u304f\u306e\u6575\u3092\u653b\u6483\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "武器ダメージに基づく",
+          "text": "\u6b66\u5668\u30c0\u30e1\u30fc\u30b8\u306b\u57fa\u3065\u304f",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を与え、着弾時に",
+          "text": "\u3092\u4e0e\u3048\u3001\u7740\u5f3e\u6642\u306b",
           "color": "$text"
         },
         {
-          "text": "一定数のモブを貫通",
+          "text": "\u4e00\u5b9a\u6570\u306e\u30e2\u30d6\u3092\u8cab\u901a",
           "color": "$piercing"
         },
         {
-          "text": "します\n\n",
+          "text": "\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2449,35 +2449,35 @@
     "Javelin_Scatter": {
       "description": [
         {
-          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "text": "\u9b54\u6cd5\u306e\u30b8\u30e3\u30d9\u30ea\u30f3\u3092\u53ec\u559a\u3057\u3001\u9060\u304f\u306e\u6575\u3092\u653b\u6483\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "武器ダメージに基づく",
+          "text": "\u6b66\u5668\u30c0\u30e1\u30fc\u30b8\u306b\u57fa\u3065\u304f",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を与え、着弾時に",
+          "text": "\u3092\u4e0e\u3048\u3001\u7740\u5f3e\u6642\u306b",
           "color": "$text"
         },
         {
-          "text": "一定数のジャベリンを散乱",
+          "text": "\u4e00\u5b9a\u6570\u306e\u30b8\u30e3\u30d9\u30ea\u30f3\u3092\u6563\u4e71",
           "color": "$numberOfJavelins"
         },
         {
-          "text": "させ、",
+          "text": "\u3055\u305b\u3001",
           "color": "$text"
         },
         {
-          "text": "複数回バウンドします\n\n",
+          "text": "\u8907\u6570\u56de\u30d0\u30a6\u30f3\u30c9\u3057\u307e\u3059\n\n",
           "color": "$numberOfBounces"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2499,47 +2499,47 @@
     "Javelin_Sight": {
       "description": [
         {
-          "text": "魔法の",
+          "text": "\u9b54\u6cd5\u306e",
           "color": "$text"
         },
         {
-          "text": "ジャベリン",
+          "text": "\u30b8\u30e3\u30d9\u30ea\u30f3",
           "color": "$qhighlight"
         },
         {
-          "text": "を放ち、着弾時に周囲の",
+          "text": "\u3092\u653e\u3061\u3001\u7740\u5f3e\u6642\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "をスキャンし、すべての",
+          "text": "\u3092\u30b9\u30ad\u30e3\u30f3\u3057\u3001\u3059\u3079\u3066\u306e",
           "color": "$text"
         },
         {
-          "text": "チェスト",
+          "text": "\u30c1\u30a7\u30b9\u30c8",
           "color": "$qhighlight"
         },
         {
-          "text": "と",
+          "text": "\u3068",
           "color": "$text"
         },
         {
-          "text": "モブ",
+          "text": "\u30e2\u30d6",
           "color": "$qhighlight"
         },
         {
-          "text": "を",
+          "text": "\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間表示します\n\n",
+          "text": "\u4e00\u5b9a\u6642\u9593\u8868\u793a\u3057\u307e\u3059\n\n",
           "color": "$duration"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2559,51 +2559,51 @@
     "Smite_Base": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "スマイト",
+          "text": "\u30b9\u30de\u30a4\u30c8",
           "color": "$name"
         },
         {
-          "text": "は",
+          "text": "\u306f",
           "color": "$text"
         },
         {
-          "text": "定期的に",
+          "text": "\u5b9a\u671f\u7684\u306b",
           "color": "$damageInterval"
         },
         {
-          "text": "周囲の",
+          "text": "\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のモブに雷を落とし、あなたの",
+          "text": "\u5185\u306e\u30e2\u30d6\u306b\u96f7\u3092\u843d\u3068\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "のランダムな割合のダメージを与え、",
+          "text": "\u306e\u30e9\u30f3\u30c0\u30e0\u306a\u5272\u5408\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001",
           "color": "$text"
         },
         {
-          "text": "ヒット時効果",
+          "text": "\u30d2\u30c3\u30c8\u6642\u52b9\u679c",
           "color": "$name"
         },
         {
-          "text": "をターゲットに転送します（Lucky Hitを除く）。",
+          "text": "\u3092\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u8ee2\u9001\u3057\u307e\u3059\uff08Lucky Hit\u3092\u9664\u304f\uff09\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2627,43 +2627,43 @@
     "Smite_Thunderstorm": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "スマイト・サンダーストーム",
+          "text": "\u30b9\u30de\u30a4\u30c8\u30fb\u30b5\u30f3\u30c0\u30fc\u30b9\u30c8\u30fc\u30e0",
           "color": "$name"
         },
         {
-          "text": "は",
+          "text": "\u306f",
           "color": "$text"
         },
         {
-          "text": "雷を降らせ",
+          "text": "\u96f7\u3092\u964d\u3089\u305b",
           "color": "$damageInterval"
         },
         {
-          "text": "、周囲の",
+          "text": "\u3001\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のモブにあなたの",
+          "text": "\u5185\u306e\u30e2\u30d6\u306b\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "のランダムな割合のダメージを与えます。",
+          "text": "\u306e\u30e9\u30f3\u30c0\u30e0\u306a\u5272\u5408\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2685,27 +2685,27 @@
     "Smite_Archon": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "スマイト・アルコン",
+          "text": "\u30b9\u30de\u30a4\u30c8\u30fb\u30a2\u30eb\u30b3\u30f3",
           "color": "$name"
         },
         {
-          "text": "はあなたをスパークに変身させます。物理的に触れたモブにあなたの",
+          "text": "\u306f\u3042\u306a\u305f\u3092\u30b9\u30d1\u30fc\u30af\u306b\u5909\u8eab\u3055\u305b\u307e\u3059\u3002\u7269\u7406\u7684\u306b\u89e6\u308c\u305f\u30e2\u30d6\u306b\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "のランダムな割合の雷撃を与えます。",
+          "text": "\u306e\u30e9\u30f3\u30c0\u30e0\u306a\u5272\u5408\u306e\u96f7\u6483\u3092\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2725,27 +2725,27 @@
     "Shell_Base": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "シェル",
+          "text": "\u30b7\u30a7\u30eb",
           "color": "$name"
         },
         {
-          "text": "は硬化した皮膚を付与し、攻撃を受けた時にモブを",
+          "text": "\u306f\u786c\u5316\u3057\u305f\u76ae\u819a\u3092\u4ed8\u4e0e\u3057\u3001\u653b\u6483\u3092\u53d7\u3051\u305f\u6642\u306b\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "スタンさせる確率",
+          "text": "\u30b9\u30bf\u30f3\u3055\u305b\u308b\u78ba\u7387",
           "color": "$chance"
         },
         {
-          "text": "を得ます。",
+          "text": "\u3092\u5f97\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2765,27 +2765,27 @@
     "Shell_Porcupine": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "ポーキュパイン",
+          "text": "\u30dd\u30fc\u30ad\u30e5\u30d1\u30a4\u30f3",
           "color": "$name"
         },
         {
-          "text": "はあなたの",
+          "text": "\u306f\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "棘ダメージ",
+          "text": "\u68d8\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を上昇させます。",
+          "text": "\u3092\u4e0a\u6607\u3055\u305b\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2803,35 +2803,35 @@
     "Shell_Quill": {
       "description": [
         {
-          "text": "有効な間、",
+          "text": "\u6709\u52b9\u306a\u9593\u3001",
           "color": "$text"
         },
         {
-          "text": "クイル",
+          "text": "\u30af\u30a4\u30eb",
           "color": "$name"
         },
         {
-          "text": "はあなたの",
+          "text": "\u306f\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "棘ダメージ",
+          "text": "\u68d8\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を上昇させ、",
+          "text": "\u3092\u4e0a\u6607\u3055\u305b\u3001",
           "color": "$text"
         },
         {
-          "text": "棘を連鎖",
+          "text": "\u68d8\u3092\u9023\u9396",
           "color": "$chains"
         },
         {
-          "text": "させて追加のターゲットにヒットさせます。",
+          "text": "\u3055\u305b\u3066\u8ffd\u52a0\u306e\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u30d2\u30c3\u30c8\u3055\u305b\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n◐ トグル型アビリティ ",
+          "text": "\n\n\u25d0 \u30c8\u30b0\u30eb\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2853,23 +2853,23 @@
     "Fireball_Base": {
       "description": [
         {
-          "text": "魔法のファイアボールを召喚し、遠くの敵を攻撃します\n\n",
+          "text": "\u9b54\u6cd5\u306e\u30d5\u30a1\u30a4\u30a2\u30dc\u30fc\u30eb\u3092\u53ec\u559a\u3057\u3001\u9060\u304f\u306e\u6575\u3092\u653b\u6483\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "アビリティパワーに基づく",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc\u306b\u57fa\u3065\u304f",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$ability_power"
         },
         {
-          "text": "を与えます。",
+          "text": "\u3092\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2889,43 +2889,43 @@
     "Fireball_Volley": {
       "description": [
         {
-          "text": "魔法のバウンドするファイアボールを召喚し、経路上のモブを",
+          "text": "\u9b54\u6cd5\u306e\u30d0\u30a6\u30f3\u30c9\u3059\u308b\u30d5\u30a1\u30a4\u30a2\u30dc\u30fc\u30eb\u3092\u53ec\u559a\u3057\u3001\u7d4c\u8def\u4e0a\u306e\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "焦がし",
+          "text": "\u7126\u304c\u3057",
           "color": "$ability_power"
         },
         {
-          "text": "、アビリティパワーに基づく",
+          "text": "\u3001\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc\u306b\u57fa\u3065\u304f",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$ability_power"
         },
         {
-          "text": "を与えます。\n",
+          "text": "\u3092\u4e0e\u3048\u307e\u3059\u3002\n",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "後に周囲の",
+          "text": "\u5f8c\u306b\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に爆発し、フルダメージを与えます。",
+          "text": "\u306b\u7206\u767a\u3057\u3001\u30d5\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2947,39 +2947,39 @@
     "Fireball_Fireshot": {
       "description": [
         {
-          "text": "小さな魔法のファイアショットを召喚し、遠くのモブを攻撃します\n\n",
+          "text": "\u5c0f\u3055\u306a\u9b54\u6cd5\u306e\u30d5\u30a1\u30a4\u30a2\u30b7\u30e7\u30c3\u30c8\u3092\u53ec\u559a\u3057\u3001\u9060\u304f\u306e\u30e2\u30d6\u3092\u653b\u6483\u3057\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "あなたの",
+          "text": "\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$ability_power"
         },
         {
-          "text": "は",
+          "text": "\u306f",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "に基づき、あなたの",
+          "text": "\u306b\u57fa\u3065\u304d\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "ヒット時効果",
+          "text": "\u30d2\u30c3\u30c8\u6642\u52b9\u679c",
           "color": "$name"
         },
         {
-          "text": "をターゲットに転送します（Lucky Hitを除く）。",
+          "text": "\u3092\u30bf\u30fc\u30b2\u30c3\u30c8\u306b\u8ee2\u9001\u3057\u307e\u3059\uff08Lucky Hit\u3092\u9664\u304f\uff09\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -2997,39 +2997,39 @@
     "Storm_Arrow_Base": {
       "description": [
         {
-          "text": "着弾地点の上空に嵐を生成する矢を放ちます\n\n",
+          "text": "\u7740\u5f3e\u5730\u70b9\u306e\u4e0a\u7a7a\u306b\u5d50\u3092\u751f\u6210\u3059\u308b\u77e2\u3092\u653e\u3061\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "アビリティパワーに基づくランダムな",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc\u306b\u57fa\u3065\u304f\u30e9\u30f3\u30c0\u30e0\u306a",
           "color": "$text"
         },
         {
-          "text": "ダメージ",
+          "text": "\u30c0\u30e1\u30fc\u30b8",
           "color": "$ability_power"
         },
         {
-          "text": "を与えます。嵐の雲は",
+          "text": "\u3092\u4e0e\u3048\u307e\u3059\u3002\u5d50\u306e\u96f2\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "持続し、",
+          "text": "\u6301\u7d9a\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "落雷",
+          "text": "\u843d\u96f7",
           "color": "$duration"
         },
         {
-          "text": "が定期的に発生します。",
+          "text": "\u304c\u5b9a\u671f\u7684\u306b\u767a\u751f\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3053,39 +3053,39 @@
     "Storm_Arrow_Blizzard": {
       "description": [
         {
-          "text": "着弾地点の上空に氷の嵐を生成する矢を放ちます\n\n",
+          "text": "\u7740\u5f3e\u5730\u70b9\u306e\u4e0a\u7a7a\u306b\u6c37\u306e\u5d50\u3092\u751f\u6210\u3059\u308b\u77e2\u3092\u653e\u3061\u307e\u3059\n\n",
           "color": "$text"
         },
         {
-          "text": "各氷の破片はモブを命中時に",
+          "text": "\u5404\u6c37\u306e\u7834\u7247\u306f\u30e2\u30d6\u3092\u547d\u4e2d\u6642\u306b",
           "color": "$text"
         },
         {
-          "text": "一定時間凍結させます。",
+          "text": "\u4e00\u5b9a\u6642\u9593\u51cd\u7d50\u3055\u305b\u307e\u3059\u3002",
           "color": "$duration"
         },
         {
-          "text": "また、",
+          "text": "\u307e\u305f\u3001",
           "color": "$text"
         },
         {
-          "text": "確率",
+          "text": "\u78ba\u7387",
           "color": "$chance"
         },
         {
-          "text": "でモブにフロストバイトを",
+          "text": "\u3067\u30e2\u30d6\u306b\u30d5\u30ed\u30b9\u30c8\u30d0\u30a4\u30c8\u3092",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "与えます。",
+          "text": "\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3113,43 +3113,43 @@
     "Battle_Cry_Base": {
       "description": [
         {
-          "text": "周囲のモブのエッセンスを吸収し、",
+          "text": "\u5468\u56f2\u306e\u30e2\u30d6\u306e\u30a8\u30c3\u30bb\u30f3\u30b9\u3092\u5438\u53ce\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "バトルクライスタック",
+          "text": "\u30d0\u30c8\u30eb\u30af\u30e9\u30a4\u30b9\u30bf\u30c3\u30af",
           "color": "$maxStacks"
         },
         {
-          "text": "を蓄積します。",
+          "text": "\u3092\u84c4\u7a4d\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "一定量",
+          "text": "\u4e00\u5b9a\u91cf",
           "color": "$stacksUsedPerHit"
         },
         {
-          "text": "のスタックを消費し、次の直接攻撃に",
+          "text": "\u306e\u30b9\u30bf\u30c3\u30af\u3092\u6d88\u8cbb\u3057\u3001\u6b21\u306e\u76f4\u63a5\u653b\u6483\u306b",
           "color": "$text"
         },
         {
-          "text": "ボーナス攻撃力",
+          "text": "\u30dc\u30fc\u30ca\u30b9\u653b\u6483\u529b",
           "color": "$damage"
         },
         {
-          "text": "を付与します。\nスタックは",
+          "text": "\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002\n\u30b9\u30bf\u30c3\u30af\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "使用しないと消滅します。\n\n",
+          "text": "\u4f7f\u7528\u3057\u306a\u3044\u3068\u6d88\u6ec5\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3175,43 +3175,43 @@
     "Battle_Cry_Spectral_Strike": {
       "description": [
         {
-          "text": "周囲のモブのエッセンスを吸収し、",
+          "text": "\u5468\u56f2\u306e\u30e2\u30d6\u306e\u30a8\u30c3\u30bb\u30f3\u30b9\u3092\u5438\u53ce\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "バトルクライスタック",
+          "text": "\u30d0\u30c8\u30eb\u30af\u30e9\u30a4\u30b9\u30bf\u30c3\u30af",
           "color": "$maxStacks"
         },
         {
-          "text": "を蓄積します。",
+          "text": "\u3092\u84c4\u7a4d\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "一定量",
+          "text": "\u4e00\u5b9a\u91cf",
           "color": "$stacksUsedPerHit"
         },
         {
-          "text": "のスタックを消費し、",
+          "text": "\u306e\u30b9\u30bf\u30c3\u30af\u3092\u6d88\u8cbb\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$abilityPowerPerStack"
         },
         {
-          "text": "をダメージとして次の直接攻撃に追加します。\nスタックは",
+          "text": "\u3092\u30c0\u30e1\u30fc\u30b8\u3068\u3057\u3066\u6b21\u306e\u76f4\u63a5\u653b\u6483\u306b\u8ffd\u52a0\u3057\u307e\u3059\u3002\n\u30b9\u30bf\u30c3\u30af\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "使用しないと消滅します。\n\n",
+          "text": "\u4f7f\u7528\u3057\u306a\u3044\u3068\u6d88\u6ec5\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3237,43 +3237,43 @@
     "Battle_Cry_Lucky_Strike": {
       "description": [
         {
-          "text": "周囲のモブのエッセンスを吸収し、",
+          "text": "\u5468\u56f2\u306e\u30e2\u30d6\u306e\u30a8\u30c3\u30bb\u30f3\u30b9\u3092\u5438\u53ce\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "バトルクライスタック",
+          "text": "\u30d0\u30c8\u30eb\u30af\u30e9\u30a4\u30b9\u30bf\u30c3\u30af",
           "color": "$maxStacks"
         },
         {
-          "text": "を蓄積します。",
+          "text": "\u3092\u84c4\u7a4d\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "一定量",
+          "text": "\u4e00\u5b9a\u91cf",
           "color": "$stacksUsedPerHit"
         },
         {
-          "text": "のスタックを消費し、次の直接攻撃に",
+          "text": "\u306e\u30b9\u30bf\u30c3\u30af\u3092\u6d88\u8cbb\u3057\u3001\u6b21\u306e\u76f4\u63a5\u653b\u6483\u306b",
           "color": "$text"
         },
         {
-          "text": "ボーナスLucky Hit確率",
+          "text": "\u30dc\u30fc\u30ca\u30b9Lucky Hit\u78ba\u7387",
           "color": "$luckyHit"
         },
         {
-          "text": "を付与します。\nスタックは",
+          "text": "\u3092\u4ed8\u4e0e\u3057\u307e\u3059\u3002\n\u30b9\u30bf\u30c3\u30af\u306f",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "使用しないと消滅します。\n\n",
+          "text": "\u4f7f\u7528\u3057\u306a\u3044\u3068\u6d88\u6ec5\u3057\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3299,35 +3299,35 @@
     "Ice_Bolt_Base": {
       "description": [
         {
-          "text": "小さなアイスボルトを召喚し、",
+          "text": "\u5c0f\u3055\u306a\u30a2\u30a4\u30b9\u30dc\u30eb\u30c8\u3092\u53ec\u559a\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "固定ダメージ",
+          "text": "\u56fa\u5b9a\u30c0\u30e1\u30fc\u30b8",
           "color": "$damage"
         },
         {
-          "text": "を与え、命中したモブを",
+          "text": "\u3092\u4e0e\u3048\u3001\u547d\u4e2d\u3057\u305f\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "冷却",
+          "text": "\u51b7\u5374",
           "color": "$chilled"
         },
         {
-          "text": "し",
+          "text": "\u3057",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "効果を持続させます。",
+          "text": "\u52b9\u679c\u3092\u6301\u7d9a\u3055\u305b\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3349,43 +3349,43 @@
     "Ice_Bolt_Blast": {
       "description": [
         {
-          "text": "大きなグレイシャルブラストを召喚し、着弾時に爆発して",
+          "text": "\u5927\u304d\u306a\u30b0\u30ec\u30a4\u30b7\u30e3\u30eb\u30d6\u30e9\u30b9\u30c8\u3092\u53ec\u559a\u3057\u3001\u7740\u5f3e\u6642\u306b\u7206\u767a\u3057\u3066",
           "color": "$text"
         },
         {
-          "text": "冷却",
+          "text": "\u51b7\u5374",
           "color": "$chilled"
         },
         {
-          "text": "し、",
+          "text": "\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "氷の牢獄",
+          "text": "\u6c37\u306e\u7262\u7344",
           "color": "$maxGlacialPrison"
         },
         {
-          "text": "でモブを閉じ込める可能性があります。",
+          "text": "\u3067\u30e2\u30d6\u3092\u9589\u3058\u8fbc\u3081\u308b\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内で",
+          "text": "\u5185\u3067",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "効果が持続します ",
+          "text": "\u52b9\u679c\u304c\u6301\u7d9a\u3057\u307e\u3059 ",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3409,35 +3409,35 @@
     "Arcane_Base": {
       "description": [
         {
-          "text": "魔法のビームをチャネリングし、あなたの",
+          "text": "\u9b54\u6cd5\u306e\u30d3\u30fc\u30e0\u3092\u30c1\u30e3\u30cd\u30ea\u30f3\u30b0\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "の一定割合のダメージを0.5秒ごとに",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u306e\u30c0\u30e1\u30fc\u30b8\u30920.5\u79d2\u3054\u3068\u306b",
           "color": "$text"
         },
         {
-          "text": "距離",
+          "text": "\u8ddd\u96e2",
           "color": "$distance"
         },
         {
-          "text": "内で与えます。\n\nアルケインは",
+          "text": "\u5185\u3067\u4e0e\u3048\u307e\u3059\u3002\n\n\u30a2\u30eb\u30b1\u30a4\u30f3\u306f",
           "color": "$text"
         },
         {
-          "text": "マナコスト",
+          "text": "\u30de\u30ca\u30b3\u30b9\u30c8",
           "color": "$manaCost"
         },
         {
-          "text": "をチャネリング中毎秒消費します。",
+          "text": "\u3092\u30c1\u30e3\u30cd\u30ea\u30f3\u30b0\u4e2d\u6bce\u79d2\u6d88\u8cbb\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n● ホールド型アビリティ",
+          "text": "\n\n\u25cf \u30db\u30fc\u30eb\u30c9\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -3455,43 +3455,43 @@
     "Arcane_Rail": {
       "description": [
         {
-          "text": "魔法のアルケインレールを召喚し、単体のモブに驚異的な威力で攻撃します",
+          "text": "\u9b54\u6cd5\u306e\u30a2\u30eb\u30b1\u30a4\u30f3\u30ec\u30fc\u30eb\u3092\u53ec\u559a\u3057\u3001\u5358\u4f53\u306e\u30e2\u30d6\u306b\u9a5a\u7570\u7684\u306a\u5a01\u529b\u3067\u653b\u6483\u3057\u307e\u3059",
           "color": "$text"
         },
         {
-          "text": "。あなたの",
+          "text": "\u3002\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "の一定割合のダメージを与え、",
+          "text": "\u306e\u4e00\u5b9a\u5272\u5408\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001",
           "color": "$text"
         },
         {
-          "text": "ヒット時効果",
+          "text": "\u30d2\u30c3\u30c8\u6642\u52b9\u679c",
           "color": "$name"
         },
         {
-          "text": "（",
+          "text": "\uff08",
           "color": "$text"
         },
         {
-          "text": "クラウド",
+          "text": "\u30af\u30e9\u30a6\u30c9",
           "color": "$name"
         },
         {
-          "text": "や",
+          "text": "\u3084",
           "color": "$text"
         },
         {
-          "text": "チェイン",
+          "text": "\u30c1\u30a7\u30a4\u30f3",
           "color": "$chaining"
         },
         {
-          "text": "\nなど）を発動します\n\n✴ キャスト型アビリティ ",
+          "text": "\n\u306a\u3069\uff09\u3092\u767a\u52d5\u3057\u307e\u3059\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3509,43 +3509,43 @@
     "Earthquake_Base": {
       "description": [
         {
-          "text": "足元に巨大な爆発を起こし、あなたの",
+          "text": "\u8db3\u5143\u306b\u5de8\u5927\u306a\u7206\u767a\u3092\u8d77\u3053\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "攻撃力",
+          "text": "\u653b\u6483\u529b",
           "color": "$damage"
         },
         {
-          "text": "に基づくダメージを与え、",
+          "text": "\u306b\u57fa\u3065\u304f\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001",
           "color": "$text"
         },
         {
-          "text": "ノックバック",
+          "text": "\u30ce\u30c3\u30af\u30d0\u30c3\u30af",
           "color": "$knockback"
         },
         {
-          "text": "で周囲の",
+          "text": "\u3067\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内の敵モブを",
+          "text": "\u5185\u306e\u6575\u30e2\u30d6\u3092",
           "color": "$text"
         },
         {
-          "text": "遅延後にノックバックさせます。\n中心から離れるほどダメージが減少します。",
+          "text": "\u9045\u5ef6\u5f8c\u306b\u30ce\u30c3\u30af\u30d0\u30c3\u30af\u3055\u305b\u307e\u3059\u3002\n\u4e2d\u5fc3\u304b\u3089\u96e2\u308c\u308b\u307b\u3069\u30c0\u30e1\u30fc\u30b8\u304c\u6e1b\u5c11\u3057\u307e\u3059\u3002",
           "color": "$delay"
         },
         {
-          "text": "\n\nアースクエイクは経路上のブロックを破壊する確率もあります。",
+          "text": "\n\n\u30a2\u30fc\u30b9\u30af\u30a8\u30a4\u30af\u306f\u7d4c\u8def\u4e0a\u306e\u30d6\u30ed\u30c3\u30af\u3092\u7834\u58ca\u3059\u308b\u78ba\u7387\u3082\u3042\u308a\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3569,39 +3569,39 @@
     "Implode_Life_Tap": {
       "description": [
         {
-          "text": "あなたの",
+          "text": "\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "残り体力",
+          "text": "\u6b8b\u308a\u4f53\u529b",
           "color": "$health"
         },
         {
-          "text": "の80%を消費し、消費した",
+          "text": "\u306e80%\u3092\u6d88\u8cbb\u3057\u3001\u6d88\u8cbb\u3057\u305f",
           "color": "$text"
         },
         {
-          "text": "HPあたり",
+          "text": "HP\u3042\u305f\u308a",
           "color": "$damage"
         },
         {
-          "text": "のダメージを周囲の",
+          "text": "\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "内のすべてのモブに与えます。\n\n",
+          "text": "\u5185\u306e\u3059\u3079\u3066\u306e\u30e2\u30d6\u306b\u4e0e\u3048\u307e\u3059\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "注: ハート1つはHP2に相当します。",
+          "text": "\u6ce8: \u30cf\u30fc\u30c81\u3064\u306fHP2\u306b\u76f8\u5f53\u3057\u307e\u3059\u3002",
           "color": "$darkgray"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3619,43 +3619,43 @@
     "Chain_Lightning_Base": {
       "description": [
         {
-          "text": "着弾時に",
+          "text": "\u7740\u5f3e\u6642\u306b",
           "color": "$text"
         },
         {
-          "text": "雷撃",
+          "text": "\u96f7\u6483",
           "color": "$name"
         },
         {
-          "text": "を呼ぶ雷の矢を召喚し、あなたの",
+          "text": "\u3092\u547c\u3076\u96f7\u306e\u77e2\u3092\u53ec\u559a\u3057\u3001\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "雷ダメージ",
+          "text": "\u96f7\u30c0\u30e1\u30fc\u30b8",
           "color": "$lightning"
         },
         {
-          "text": "は",
+          "text": "\u306f",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "に基づき、着弾地点周囲の",
+          "text": "\u306b\u57fa\u3065\u304d\u3001\u7740\u5f3e\u5730\u70b9\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$range"
         },
         {
-          "text": "内のモブに伝播します。",
+          "text": "\u5185\u306e\u30e2\u30d6\u306b\u4f1d\u64ad\u3057\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3677,35 +3677,35 @@
     "Chain_Lightning_Orbs": {
       "description": [
         {
-          "text": "強力な",
+          "text": "\u5f37\u529b\u306a",
           "color": "$text"
         },
         {
-          "text": "ライトニングボール",
+          "text": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30dc\u30fc\u30eb",
           "color": "$name"
         },
         {
-          "text": "を召喚します。照準に従いゆっくり移動し、命中したモブに",
+          "text": "\u3092\u53ec\u559a\u3057\u307e\u3059\u3002\u7167\u6e96\u306b\u5f93\u3044\u3086\u3063\u304f\u308a\u79fb\u52d5\u3057\u3001\u547d\u4e2d\u3057\u305f\u30e2\u30d6\u306b",
           "color": "$text"
         },
         {
-          "text": "雷ダメージ",
+          "text": "\u96f7\u30c0\u30e1\u30fc\u30b8",
           "color": "$lightning"
         },
         {
-          "text": "を与えます。ダメージはあなたの",
+          "text": "\u3092\u4e0e\u3048\u307e\u3059\u3002\u30c0\u30e1\u30fc\u30b8\u306f\u3042\u306a\u305f\u306e",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "に基づきます。",
+          "text": "\u306b\u57fa\u3065\u304d\u307e\u3059\u3002",
           "color": "$text"
         },
         {
-          "text": "\n\n✴ キャスト型アビリティ ",
+          "text": "\n\n\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3 ",
           "color": "$castType"
         }
       ],
@@ -3725,31 +3725,31 @@
     "Grenade_Base": {
       "description": [
         {
-          "text": "神秘的で強力な",
+          "text": "\u795e\u79d8\u7684\u3067\u5f37\u529b\u306a",
           "color": "$text"
         },
         {
-          "text": "カオスキューブ",
+          "text": "\u30ab\u30aa\u30b9\u30ad\u30e5\u30fc\u30d6",
           "color": "$qhighlight"
         },
         {
-          "text": "を投げます。少し経つと爆発し、",
+          "text": "\u3092\u6295\u3052\u307e\u3059\u3002\u5c11\u3057\u7d4c\u3064\u3068\u7206\u767a\u3057\u3001",
           "color": "$text"
         },
         {
-          "text": "攻撃力",
+          "text": "\u653b\u6483\u529b",
           "color": "$damage"
         },
         {
-          "text": "に基づくダメージを周囲の",
+          "text": "\u306b\u57fa\u3065\u304f\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に与えます。",
+          "text": "\u306b\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
@@ -3757,7 +3757,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
@@ -3777,55 +3777,55 @@
     "Toxic_Grenade": {
       "description": [
         {
-          "text": "毒を注入した",
+          "text": "\u6bd2\u3092\u6ce8\u5165\u3057\u305f",
           "color": "$text"
         },
         {
-          "text": "有毒",
+          "text": "\u6709\u6bd2",
           "color": "$poison"
         },
         {
-          "text": "な",
+          "text": "\u306a",
           "color": "$text"
         },
         {
-          "text": "毒",
+          "text": "\u6bd2",
           "color": "$poison"
         },
         {
-          "text": "の薬瓶を投げます。砕けると",
+          "text": "\u306e\u85ac\u74f6\u3092\u6295\u3052\u307e\u3059\u3002\u7815\u3051\u308b\u3068",
           "color": "$text"
         },
         {
-          "text": "毒の雲",
+          "text": "\u6bd2\u306e\u96f2",
           "color": "$poison"
         },
         {
-          "text": "に変わり、",
+          "text": "\u306b\u5909\u308f\u308a\u3001",
           "color": "$text"
         },
         {
-          "text": "アビリティパワー",
+          "text": "\u30a2\u30d3\u30ea\u30c6\u30a3\u30d1\u30ef\u30fc",
           "color": "$ability_power"
         },
         {
-          "text": "に基づくダメージを周囲の",
+          "text": "\u306b\u57fa\u3065\u304f\u30c0\u30e1\u30fc\u30b8\u3092\u5468\u56f2\u306e",
           "color": "$text"
         },
         {
-          "text": "範囲",
+          "text": "\u7bc4\u56f2",
           "color": "$radius"
         },
         {
-          "text": "に",
+          "text": "\u306b",
           "color": "$text"
         },
         {
-          "text": "一定時間",
+          "text": "\u4e00\u5b9a\u6642\u9593",
           "color": "$duration"
         },
         {
-          "text": "与えます。",
+          "text": "\u4e0e\u3048\u307e\u3059\u3002",
           "color": "$text"
         },
         {
@@ -3833,7 +3833,7 @@
           "color": "$text"
         },
         {
-          "text": "✴ キャスト型アビリティ",
+          "text": "\u2734 \u30ad\u30e3\u30b9\u30c8\u578b\u30a2\u30d3\u30ea\u30c6\u30a3",
           "color": "$castType"
         }
       ],
