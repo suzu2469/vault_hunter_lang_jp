@@ -1,0 +1,75 @@
+{
+
+  "sortnum": 1,
+  "name": "ポジティブヴォールトモディファイア",
+  "icon": "botania:cosmetic_four_leaf_clover",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ポジティブモディファイアはプレイヤーに$(l)有利$()なようにヴォールトに影響を与えます。$(br2)ヴォールト中にどのポジティブモディファイアが発生するかは、ヴォールトクリスタルを$(l:game_mechanics/crystal_modification)$(l)修正$()することでプレイヤーが$(l)制御可能$()です。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "ポジティブヴォールトモディファイア",
+      "text": "$(br)これらは$(l)未修正$()のヴォールト内で$(l)ランダム$()に発生する可能性があります。$(br2)さらに、アフターライフが適用されたヴォールトでも発生する可能性があります。$(br2)一部のモディファイアは、ヴォールトクリスタルに適用された$(l:game_mechanics/crystal_modification#vault_catalysts)$(t:Vault Catalysts)$(l)ヴォールトカタリスト$()の結果として発生することもあります。"
+    },
+
+    {
+      "anchor": "saving_grace_modifiers",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_skeleton_skull",
+      "title": "セービンググレースモディファイア",
+      "text": "セービンググレースモディファイアは、プレイヤーがヴォールト内で$(l)倒された$()時に何が起こるかに影響します。$(br2)これには$(l)復活$()と$(l)インベントリの復元$()が含まれます。$(br2)セービンググレースモディファイアで倒された場合、ヴォールトのレベルより21レベル以上でない限り、装備の$(l)耐久値$()が$(l)低下$()します。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "セービンググレースモディファイア",
+      "text": "$(li)$(l)アフターライフ$()$(li2)死亡時にアイテムを復元$(li2)-50% ヴォールト経験値$(br)$(li)$(l)ビギナーズグレイス$()$(li2)死亡時にアイテムを復元$(li2)ヴォールトレベル0-19で自動適用$(br)$(li)$(l)フェニックス$()$(li2)ヴォールト内で死亡時にプレイヤーを復活$(li2)クリスタルに複数回スタック可能"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_chest",
+      "title": "戦利品モディファイア",
+      "text": "戦利品モディファイアはヴォールト内で得られる戦利品に影響します。$(br2)$(l)ボーナス$()モディファイアは無防備な$(l)散在$()する戦利品を追加します。$(br2)$(l)カスケーディング$()モディファイアは$(l)戦利品スポーンごとの$()戦利品数を増加させます。Woodenモディファイアはこの例です。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "戦利品モディファイア",
+      "text": "$(li)$(l)Beginner's Insurance$()$(li2)トラップチェストなし$()$(li2)ヴォールトレベル0-4で自動適用$()$(br)$(li)$(l)Looter's Dream$()$(li2)トラップチェストなし$(br)$(li)$(l)Trapped$()$(li2)+5% チェストトラップ確率"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "戦利品モディファイア",
+      "text": "$(li)$(l)Plentiful$()$(li2)+20% ヴォールト鉱石$(br)$(li)$(l)Bonus Gilded$()$(li2)+1セット 金装飾のチェスト$(br)$(li)$(l)Bonus Living$()$(li2)+1セット 生きたチェスト$(br)$(li)$(l)Bonus Ornate$()$(li2)+1セット 華麗なチェスト$(br)$(li)$(l)Coin Stacks$()$(li2)+1セット コインスタック"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "戦利品モディファイア",
+      "text": "$(li)$(l)Wooden$()$(li2)+25% 木のチェスト$(br)$(li)$(l)Gilded$()$(li2)+25% 金装飾のチェスト$(br)$(li)$(l)Living$()$(li2)+25% 生きたチェスト$(br)$(li)$(l)Ornate$()$(li2)+25% 華麗なチェスト$(br)$(li)$(l)Wealthy$()$(li2)+25% コインパイル"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "戦利品モディファイア",
+      "text": "$(li)$(l)Opulent$()$(li2)+10% アイテム量$(br)$(li)$(l)Lucky$()$(li2)+20% アイテムレア度$(br)$(li)$(l)Prosperous$()$(li2)+10% アーティファクト確率$(br)$(li)$(l)Prismatic$()$(li2)+10% カタリストフラグメント$(br)$(li)$(l)Haunted$()$(li2)+50% ソウルシャードドロップ率"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "その他のモディファイア",
+      "text": "$(li)$(l)Extended$()$(li2)+1分 ヴォールト時間$(br)$(li)$(l)Accustomed$()$(li2)+20% ヴォールト経験値"
+    }
+
+  ]
+
+}

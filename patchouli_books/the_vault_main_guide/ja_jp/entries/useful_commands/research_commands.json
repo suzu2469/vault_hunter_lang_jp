@@ -1,0 +1,34 @@
+{
+
+  "sortnum": 4,
+  "name": "リサーチコマンド",
+  "icon": "the_vault:mod_box",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "リサーチチームを作成して、$(l)他のプレイヤー$()と共同ですべての$(l:game_mechanics/researches)$(l)リサーチ$()を段階的に解放できます。$(br2)リサーチの共同発見は、リサーチのコストに小さな$(l)増加$()を加えます。$(br2)リサーチチームに$(l)参加する前$()に解放されたリサーチは$(l)遡って$()解放$(l)されません$()。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "リサーチコマンド",
+      "text": "$(li)$(8)$(l)/the_vault research_team invite <player>$()$(li2)プレイヤーを招待$()$(br)$(li)$(8)$(l)/the_vault research_team accept_invite <player>$()$(li2)プレイヤーのリサーチチームへの招待を承認$()$(br)$(li)$(c:/the_vault research_team list)$(t:Click to execute this command)$(l)/the_vault research_team list$()$(li2)全メンバーを一覧表示$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "リサーチコマンド",
+      "text": "$(li)$(c:/the_vault research_team leave)$(t:Click to execute this command)$(l)/the_vault research_team leave$()$(li2)リサーチチームを脱退$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

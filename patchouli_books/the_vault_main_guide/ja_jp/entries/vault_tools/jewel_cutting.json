@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "ジュエルカッティング",
+  "icon": "the_vault:vault_jewel_cutting_station",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ジュエルは$(l)ジュエルカッティングステーション$()でカットできます。$(br2)$(l)シルバースクラップ$()と$(l)ヴォールトブロンズ$()を$(l)消費$()して、ジュエルの$(l)サイズ$()を最小10まで$(l)縮小$()できます。$(br2)"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_jewel_cutting_station",
+      "title": "ジュエルカッティングステーション",
+      "text": "デフォルトでは$(l)50%$()の確率で$(l)失敗$()し、ジュエルのレアリティがモディファイアを$(l)1つ失う$()ことで低下します。$(br2)ジュエルが失敗時に既に$(l)チップド$()の場合、いくつかの素材に$(l)砕けます$()。"
+    }
+
+  ]
+
+}

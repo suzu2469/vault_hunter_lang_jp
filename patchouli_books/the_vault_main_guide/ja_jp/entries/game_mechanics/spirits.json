@@ -1,0 +1,33 @@
+{
+
+  "name": "スピリット",
+  "icon": "the_vault:spirit_extractor",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "スピリットは倒された後にヴォールト内の$(l)アイテムを回収$()する方法です。$(br2)倒された$(l)時点$()でプレイヤーが持っていたアイテムが含まれています。$(br2)スピリットが出現するかどうかは、対応する$(l:useful_commands/gamerule_commands#vaultmode)$(t:Gamerule: vaultMode)$(l)ゲームルール$()によります。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "出現",
+      "text": "$(br)$(l:the_vault/cooperative_vaults)$(l)協力ヴォールト$()で倒された場合、スピリットはプレイヤーが$(l)倒された$()$(l)場所$()に出現します。$(br2)スピリットを見つけたら、$(l)運んで$()ヴォールトポータルに$(l)投げ入れる$()ことができます。$(br2)プレイヤーがヴォールト内の$(l)最後$()の1人だった場合、スピリットは$(l)オーバーワールド$()のプレイヤーの$(l)スポーン$()地点に出現します。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:spirit_extractor",
+      "text": "スピリットからアイテムを$(l)抽出$()するには、スピリットエクストラクターに設置する必要があります。$(br2)抽出$(l)コスト$()はスピリットが含むアイテムによって異なります。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

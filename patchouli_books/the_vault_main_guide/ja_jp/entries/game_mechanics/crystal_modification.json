@@ -1,0 +1,121 @@
+{
+
+  "name": "クリスタル修正",
+  "icon": "the_vault:augment",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ヴォールトクリスタルを鍛造した後、ヴォールトでの体験を調整するために$(l)修正$()できます。$(br2)修正は$(l)金床$()を使用して、いくらかの経験値レベルを消費して適用されます。$(br2)特定の修正をヴォールトクリスタルに適用すると、その$(l)不安定性$()が上昇します。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "不安定性",
+      "text": "$(br)不安定性が高いほど、$(l)呪い$()がかかったり$(l)修正不可$()になる確率が高くなります。これはヴォールトクリスタルの不安定性を$(l)変化$()させる修正を適用した場合にのみ発生します。$(br2)ヴォールトクリスタルが$(l)呪い$()を受ける確率は75%で、ランダムな呪いモディファイアが追加されます。ヴォールトクリスタルの呪いの数は$(l)ドクロ$()の数で示されます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_executioner",
+      "title": "シール",
+      "text": "シールを適用すると特定の$(l)$(l:the_vault/objectives)目標$()を強制できます。$(br2)プレイヤーが$(l)クラフト$()します。$(br2)$(l)すべての目標$()にシールがありますが、モノリスに灯をともせは$(l)除外$()です。ケーキハント目標はシールを通じて$(l)のみ$()開始できます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:augment",
+      "title": "オーグメント",
+      "text": "オーグメントを適用すると特定の$(l)テーマ$()を強制できます。$(br2)オーグメントは$(l)達成クレート$()内でまれに20%の確率で授与されます。$(br2)オーグメントに刻まれたテーマは、$(l)達成したヴォールト$()のテーマと$(l)同じ$()です。$(br2)"
+    },
+
+    {
+      "anchor": "vault_catalysts",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_catalyst",
+      "title": "ヴォールトカタリスト",
+      "text": "ヴォールトカタリストフラグメントは$(l)木のチェスト$()内で見つかります。$(br2)これらを組み合わせてヴォールトカタリストをクラフトできます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_catalyst",
+      "title": "ヴォールトカタリスト",
+      "text": "ヴォールトカタリストを適用すると特定の$(l)$(l:the_vault/modifiers)モディファイア$()が追加されます。$(br2)これにより、ヴォールトクリスタルの$(l)不安定性$()が追加されたモディファイアごとに$(l)5%$()上昇します。$(br2)ただし、ヴォールトカタリストを適用する前に$(l)注入$()する必要があります。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:catalyst_infusion_table",
+      "title": "ヴォールトカタリスト",
+      "text": "これは$(l)カタリスト注入テーブル$()で$(l)ミスティカルエッセンス$()とともに行います。$(br2)$(l)ポジティブ$()なモディファイアが適用され、多くの場合$(l)ランダムなネガティブ$()モディファイアも追加されます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_catalyst_chaos",
+      "title": "カオスヴォールトカタリスト",
+      "text": "$(l:the_vault/loot#treasure_chests)宝のチェスト$()や$(l:game_mechanics/soul_shards#black_market)ブラックマーケット$()で見つかるカオスヴォールトカタリストは、ヴォールトで$(l)ワイルド$()な体験を提供します。$(br2)$(l)30個のランダムな$(l:the_vault/modifiers)モディファイア$()がヴォールトに適用され、$(l)ポジティブ$()と$(l)ネガティブ$()の両方が含まれます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:693}}",
+      "title": "インスクリプション",
+      "text": "インスクリプションは生きたチェストで見つかり、$(l)インスクリプションピース$()は木のチェストと生きたチェストの両方で見つかります。$(br2)インスクリプションは$(l)達成度$()、$(l)時間$()、$(l)不安定性$()がランダムに決定されます。達成度はヴォールトの一部が$(l)岩盤$()に置き換えられる仕組みです。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:inscription_table",
+      "title": "インスクリプション",
+      "text": "インスクリプションは$(l)インスクリプションテーブル$()でインスクリプションピースを使って作成できます。$(br2)$(l)空の$()インスクリプションと$(l)部屋$()インスクリプションの両方がクラフト可能です。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:2273,entries:[{color:7012096,count:1,pool:'the_vault:vault/rooms/omega/mush_room'}],model:2}}",
+      "title": "部屋インスクリプション",
+      "text": "部屋インスクリプションには$(l)オメガ$()または$(l)チャレンジ$()ルームが含まれています。$(br2)$(l)ヴォールトクリスタル$()と組み合わせることができ、$(l:the_vault/objectives#architect)$(l)アーキテクトヴォールト$()に紐づけられます。$(br2)部屋のない$(l)その他の$()インスクリプションを追加して、アーキテクトヴォールトの$(l)時間$()と$(l)達成度$()を増やすことができます。"
+    },
+
+    {
+      "anchor": "motes",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:mote_clarity",
+      "title": "モート",
+      "text": "モートは呪いを明らかにしたり除去したりするために使用されます。$(l)修正不可$()のヴォールトクリスタルにも適用できます。$(br)$(li)$(l)明晰のモート$()$(li2)すべての呪いを明らかにする$()$(li)$(l)浄化のモート$()$(li2)ランダムな呪いを1つ除去$()$(li)$(l)聖域のモート$()$(li2)すべての呪いを除去$()"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "title": "ウィザースケルトンスカル",
+      "text": "ヴォールトクリスタルとウィザースケルトンスカルを組み合わせると、$(l:vault_modifiers/curses)$(l)呪い$()が適用されます。$(br2)ヴォールトに$(l)追加のチャレンジ$()を加えるために行うことができます。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:soul_flame",
+      "title": "ソウルフレイム",
+      "text": "$(l:vault_modifiers/positive_modifiers/saving_grace_modifiers)$(t:Saving Grace Modifiers)$(l)アフターライフ$()はソウルフレイムを通じてのみ適用できるモディファイアです。$(br2)死亡時のアイテムロスを防ぐために、$(l)未修正$()のクリスタルにのみ適用できます。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:banished_soul",
+      "title": "バニッシュドソウル",
+      "text": "バニッシュドソウルはヴォールトの$(l)レベル$()を$(l)下げる$()ために使用されます。$(br2)ヴォールトのレベルより$(l)4レベル以上$()高い場合、プレイヤーは戦利品の量に$(l)ペナルティ$()を受けます。"
+    },
+
+    {
+      "anchor": "banished_souls",
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

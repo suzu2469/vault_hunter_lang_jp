@@ -1,0 +1,23 @@
+{
+
+  "name": "協力ヴォールト",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ヴォールトは他のプレイヤーと一緒に挑戦できます。他のプレイヤーと$(l)同じ$()ヴォールト$(l)ポータル$()に入るだけです。$(br2)ヴォールト内で$(l)倒された$()場合、ヴォールト内の最後のプレイヤーでなければ、プレイヤーの位置に$(l:game_mechanics/spirits)$(l)スピリット$()が出現します。$(br2)プレイヤーがヴォールトから出ると、$(l)再参加はできません$()。"
+    },
+
+    {
+      "anchor": "parties",
+      "type": "patchouli:text",
+      "title": "パーティ",
+      "text": "$(br)パーティを組むことで、他のプレイヤーとの協力が容易になります。$(br2)パーティは$(l:useful_commands/party_commands)$(t:Party Commands)$(l)コマンド$()で作成・管理できます。$(br2)パーティメンバーとその$(l)体力$()は画面$(l)右側$()のHUDに表示されます。"
+    }
+
+  ]
+
+}

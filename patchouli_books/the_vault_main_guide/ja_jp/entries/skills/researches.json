@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "リサーチ",
+  "icon": "the_vault:knowledge_star",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Huntersのほとんどのモッドは$(l)リサーチ$()の裏に$(l)ロック$()されています。$(br2)リサーチは$(l)グループ化$()されており、リサーチを解除すると$(l)同じグループ$()内の$(l)他の$()リサーチの$(l)コスト$()が$(l)増加$()する可能性があります。$(br2)一部のリサーチは$(l)ヴォールトギア$()の$(l:vault_gear/identification#model)$(t:Model)$(l)モデル$()も発見します。$(br2)リサーチは他のプレイヤーと$(l:useful_commands/research_commands)$(l)共有$()できます。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:knowledge_star",
+      "title": "知識の星",
+      "text": "リサーチは$(l)知識の星$()を消費して解除できます。$(br2)一度習得したリサーチは$(l)忘れることができません$()。"
+    }
+
+  ]
+
+}

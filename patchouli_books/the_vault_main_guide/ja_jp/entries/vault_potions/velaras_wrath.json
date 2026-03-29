@@ -1,0 +1,22 @@
+{
+
+  "sortnum": 3,
+  "name": "ヴェラーラの怒り",
+  "icon": "the_vault:scavenger_drowned_eye",
+  "category": "patchouli:vault_potions_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ヴォールトポーションは、$(l)ヴェラーラ$()（健康のヴォールトゴッド）を怒らせ$(l)ない$()$(l)唯一$()のポーションタイプです。$(br2)$(l)その他$()のポーションを消費すると、ヴェラーラはヴォールトに$(l)ヴェラーラの怒り$()の$(l:the_vault/modifiers)ヴォールトモディファイア$()を適用し、$(l)怒り$()を下します。$(br2)これにより$(l)回復効率$()が$(l)20%$()低下し、最大で合計$(l)80%$()まで低下します。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

@@ -1,0 +1,35 @@
+{
+
+  "name": "祭壇の自動化",
+  "icon": "the_vault:altar_conduit",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "$(l:getting_started/vault_crystal)$(t:Vault Altar)$(l)ヴォールトの祭壇$()の完了プロセスの自動化は$(l:skills/researches)$(l)リサーチ$()で解放されます。$(br2)$(l)祭壇コンジット$()をクラフトした後、$(l)Refined Storage$()または$(l)Applied Energistics$()の$(l)コントローラー$()に設置して接続できます。$(br2)プレイヤーごとに$(l)1つ$()の祭壇コンジットのみが機能します。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vaultintegrations:altar_conduit",
+      "title": "祭壇コンジット",
+      "text": "リンク後、祭壇コンジットをヴォールトの祭壇の$(l)上$()に設置すると、要求された素材で自動的に完了します。$(br2)$(l)ブラックリスト$()に追加されたアイテムは転送されません。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "vaultintegrations:speed_enhancement",
+      "title": "エンハンスメント",
+      "text": "祭壇コンジットにエンハンスメントを追加して$(l)効率$()を$(l)向上$()させることができます。$(br)$(li)$(l)スピードエンハンスメント$()$(li2)速度を増加$(br)$(li)$(l)スタックエンハンスメント$()$(li2)スタックサイズを増加$(br)$(li)$(l)スタックエンハンスメント$()$(li2)アイテムを即座にテレポート"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

@@ -1,0 +1,35 @@
+{
+
+  "sortnum": 1,
+  "name": "難易度コマンド",
+  "icon": "the_vault:scavenger_skeleton_skull",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "難易度はプレイヤーの好みに応じて設定でき、$(l:the_vault/mobs)$(l)モブ$()の$(l)スケーリング$()を調整できます。$(br2)これはモブの$(l)体力$()と$(l)ダメージ$()を変更しますが、ヴォールト内の$(l)戦利品$()は$(l)スケーリングしません$()。戦利品は別の$(l:useful_commands/gamerule_commands#vaultloot)$(t:Gamerule: vaultLoot)$(l)ゲームルール$()で行います。$(br2)$(l)Hard$()以上の難易度では、$(l)ヴォールトファイター$()が時々プレイヤーに$(l)レンガ$()を投げることがあります。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "難易度コマンド",
+      "text": "$(br)利用可能なヴォールトの難易度：$(br)$(li)$(l)Piece of Cake$()$(li2)0.25倍 モブスケーリング$()$(li)$(l)Easy$()$(li2)0.50倍 モブスケーリング$()$(li)$(l)Normal$()$(li2)0.75倍 モブスケーリング$()$(li)$(l)Hard$()$(li2)1倍 モブスケーリング$()$(li)$(l)Impossible$()$(li2)2倍 モブスケーリング$()$(li)$(l)Fragged$()$(li2)4倍 モブスケーリング$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "難易度コマンド",
+      "text": "$(li)$(8)$(l)/the_vault$(br)difficulty$(br)<difficulty>$()$(li2)全プレイヤーのグローバルヴォールト難易度を設定$()$(br2)利用可能な引数：$(li)$(c:/the_vault difficulty piece_of_cake)$(t:Click to execute the command)Piece of Cake$()$(li)$(c:/the_vault difficulty easy)$(t:Click to execute the command)Easy$()$(li)$(c:/the_vault difficulty normal)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(デフォルト)$()$()$(li)$(c:/the_vault difficulty hard)$(t:Click to execute the command)Hard$()$(li)$(c:/the_vault difficulty impossible)$(t:Click to execute the command)Impossible$()$(li)$(c:/the_vault difficulty fragged)$(t:Click to execute the command)Fragged$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "難易度コマンド",
+      "text": "$(li)$(8)$(l)/the_vault$(br)local_difficulty$(br)<difficulty>$()$(li2)プレイヤー個人のヴォールト難易度を設定$()$(br2)利用可能な引数：$(li)$(c:/the_vault local_difficulty @p piece_of_cake)$(t:Click to execute the command)Piece of Cake$()$(li)$(c:/the_vault local_difficulty @p easy)$(t:Click to execute the command)Easy$()$(li)$(c:/the_vault local_difficulty @p normal)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(デフォルト)$()$()$(li)$(c:/the_vault local_difficulty @p hard)$(t:Click to execute the command)Hard$()$(li)$(c:/the_vault local_difficulty @p impossible)$(t:Click to execute the command)Impossible$()$(li)$(c:/the_vault local_difficulty @p fragged)$(t:Click to execute the command)Fragged$()"
+    }
+
+  ]
+
+}

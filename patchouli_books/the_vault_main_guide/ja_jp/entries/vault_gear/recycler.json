@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "リサイクル",
+  "icon": "the_vault:vault_recycler",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ヴォールトギアは$(l)少量$()の素材にリサイクルできます。$(br2)精錬するギアのバリエーションに応じて、$(l)ヴォールトスクラップ$()、$(l)マグネタイト$()、$(l)トリンケットスクラップ$()やその他の素材が得られる場合があります。$(br2)$(l)未鑑定$()のヴォールトギアもリサイクルできます。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_recycler",
+      "title": "ヴォールトリサイクラー",
+      "text": "リサイクルはヴォールトリサイクラーで行います。$(br2)ヴォールトギアの$(l)耐久値$()が低下しているほど、リサイクルで得られる$(l)素材$()の量が$(l)少なく$()なります。"
+    }
+
+  ]
+
+}

@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 6,
+  "name": "スキルビルド",
+  "icon": "the_vault:skill_altar",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "スキルはプレイヤーのビルドにおいて重要な要素です。$(br2)スキル祭壇は$(l)タレント$()と$(l)アビリティ$()の両方を保存するために使用します。$(br2)最大$(l)5つの異なる$()ビルドを保存できます。これらのスキルはスキル祭壇ごとではなく、$(l)プレイヤーごと$()に保存されます。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:skill_altar",
+      "title": "スキル祭壇",
+      "text": "ビルドは$(l)コストなし$()で$(l)保存$()できます。$(br2)異なるビルドへの$(l)切り替え$()には、少量の$(l)リグレットオーブ$()を消費する必要があります。"
+    }
+
+  ]
+
+}

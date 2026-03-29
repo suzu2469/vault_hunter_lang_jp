@@ -1,0 +1,49 @@
+{
+
+  "sortnum": 2,
+  "name": "ネガティブヴォールトモディファイア",
+  "icon": "the_vault:trinket{vaultGearData:[L;4980174741243706682L,920500155886778059L,1514722424829573162L,5928572538477319491L,2676634361676693832L,23103583915527717L,1409363459118813270L,1391649128524L],vaultUses:24}",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ネガティブモディファイアはプレイヤーに$(l)不利$()なようにヴォールトに影響を与えます。$(br2)ヴォールト中にどのネガティブモディファイアが発生するかは、プレイヤーが$(l)制御できません$()。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "ネガティブヴォールトモディファイア",
+      "text": "$(br)これらは$(l)未修正$()のヴォールト内で$(l)ランダム$()に発生する可能性があります。$(br2)さらに、アフターライフが適用されたヴォールトでも発生する可能性があります。$(br2)一部のモディファイアは、ヴォールトクリスタルに適用された$(l:game_mechanics/crystal_modification#vault_catalysts)$(t:Vault Catalysts)$(l)ヴォールトカタリスト$()の結果として発生することもあります。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:zombie_head",
+      "title": "モブモディファイア",
+      "text": "モブモディファイアはヴォールト内のモブに影響します。$(br2)部屋に入った時にモブを召喚するものや、与える$(l)ダメージ$()を$(l)増加$()させるものがあります。"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "モブモディファイア",
+      "text": "$(li)$(l)Wild$()$(li2)+1セット ワイルドスポーンモブ$(br)$(li)$(l)Chunky Mobs$()$(li2)+10% モブ体力$(br)$(li)$(l)Furious$()$(li2)+10% モブダメージ$(br)$(li)$(l)Rapid Mobs$()$(li2)+5% モブスピード"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "その他のモディファイア",
+      "text": "$(li)$(l)Shortened$()$(li2)-1分 ヴォールト時間$(br)$(li)$(l)Frail$()$(li2)+20% 耐久値ダメージ$(br)$(li)$(l)Trapped$()$(li2)+5% チェストトラップ確率"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "その他のモディファイア",
+      "text": "$(li)$(l)Draining$()$(li2)-10% マナ回復$(br)$(li)$(l)Velara's Wrath$()$(li2)-20% 回復効率$(br)$(li)$(l)Vault XP Reduction$()$(li2)-25% ヴォールト経験値$(li2)スカイヴォールトでのみ発生"
+    }
+
+  ]
+
+}

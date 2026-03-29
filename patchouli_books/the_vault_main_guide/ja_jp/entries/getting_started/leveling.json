@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 6,
+  "name": "プレイヤーのレベリング",
+  "icon": "the_vault:crispy_deluxe_cheese_burger",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "各ヴォールトハンターは$(l)ヴォールトレベル0$()から冒険を始めます。$(br2)ヴォールト経験値は$(l)ヴォールト$()内で$(l)アクション$()を行うことで獲得できます。$(br2)到達可能な最大ヴォールトレベルは$(l)レベル100$()です。$(br2)ヴォールトのレベルより$(l)4レベル以上$()高い場合、$(l)経験値$()に$(l)ペナルティ$()が適用されます。"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crispy_deluxe_cheese_burger",
+      "title": "ヴォールトバーガー",
+      "text": "ヴォールトバーガーを$(l)食べる$()とヴォールト経験値を獲得できます。$(br2)バーガーの作成に使う$(l)材料が多い$()ほど、獲得できる$(l)ヴォールト経験値が多く$()なります。"
+    }
+
+  ]
+
+}

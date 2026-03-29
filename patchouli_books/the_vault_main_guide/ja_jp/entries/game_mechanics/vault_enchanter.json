@@ -1,0 +1,23 @@
+{
+
+  "name": "ヴォールトエンチャンター",
+  "icon": "the_vault:vault_enchanter",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "ヴォールトエンチャンターは$(l:vault_gear/identification)$(t:Vault Gear)ヴォールトギア$()や$(l:vault_tools/variants)$(t:Vault Tools)ヴォールトツール$()を$(l)より簡単$()で$(l)消費の少ない$()方法で$(l)エンチャント$()できます。$(br2)エンチャントテーブルや村人を使う代わりに、$(l)1つのUI$()からエンチャントを$(l)選択$()して$(l)置き換える$()方法を提供します。$(br2)ヴォールトエンチャンターのすべてのエンチャントは、そのエンチャントの$(l)最大$()レベルです。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_enchanter",
+      "title": "ヴォールトエンチャンター",
+      "text": "ヴォールトギアまたはヴォールトツールを入力した後、$(l)5個のエメラルド$()と$(l)1経験値レベル$()の$(l)コスト$()でエンチャントを選択できます。"
+    }
+
+  ]
+
+}

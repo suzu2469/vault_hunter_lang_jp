@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 4,
+  "name": "エクスパティーズ",
+  "icon": "fairylights:witch_light{color:8991416}",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "エクスパティーズはマナを$(l)必要としない$()$(l)パッシブ$()スキルです。$(br2)エクスパティーズは$(l)レベルアップ$()時に5レベルごとに獲得する$(l)エクスパティーズポイント$()を消費して$(l)習得$()または$(l)アップグレード$()できます。$(br2)各エクスパティーズにはエクスパティーズのレベルに応じて$(l)スケール$()するさまざまな$(l)属性$()があります。"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:neuralizer",
+      "title": "ニューラライザー",
+      "text": "エクスパティーズを$(l)忘れる$()にはコストがかかります。$(br2)ニューラライザーを右クリックして使用すると消費され、すべてのエクスパティーズが$(l)一括リセット$()されます。"
+    }
+
+  ]
+
+}

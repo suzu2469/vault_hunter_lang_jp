@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 3,
+  "name": "パーティコマンド",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "$(l:the_vault/cooperative_vaults#parties)$(t:Parties)パーティ$()を作成・管理して$(l)協力$()ヴォールトを可能にできます。$(br2)プレイヤーが協力ヴォールトに参加するために$(l)パーティに所属$()する$(l)必要がある$()かを決定する$(l)$(l:useful_commands/gamerule_commands)ゲームルール$()もあります。$(br2)"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "パーティコマンド",
+      "text": "$(li)$(c:/party create)$(t:Click to execute this command)$(l)/party create$()$(li2)パーティを作成$()$(br)$(li)$(8)$(l)/party invite <player>$()$(li2)プレイヤーをパーティに招待$()$(br)$(li)$(8)$(l)/party remove <player>$()$(li2)プレイヤーをパーティから除外$()$(br)$(li)$(c:/party disband)$(t:Click to execute this command)$(l)/party disband$()$(li2)パーティを解散$()"
+    }
+
+  ]
+
+}
