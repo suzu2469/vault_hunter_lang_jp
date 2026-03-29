@@ -1,0 +1,3856 @@
+{
+  "data": {
+    "Dash_Base": {
+      "description": [
+        {
+          "text": "向いている方向に",
+          "color": "$text"
+        },
+        {
+          "text": "一定距離",
+          "color": "$distance"
+        },
+        {
+          "text": "推進します！\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "distance"
+      ]
+    },
+    "Dash_Damage": {
+      "description": [
+        {
+          "text": "ダッシュを弾丸に変え、ダッシュで命中したすべてのモブにあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "物理ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "の一定割合を与えます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ]
+    },
+    "Dash_Warp": {
+      "description": [
+        {
+          "text": "着弾地点にテレポートする",
+          "color": "$text"
+        },
+        {
+          "text": "魔法の矢",
+          "color": "$force"
+        },
+        {
+          "text": "を放ちます。",
+          "color": "$text"
+        },
+        {
+          "text": "着弾時",
+          "color": "$name"
+        },
+        {
+          "text": "\nモブや他のプレイヤーに命中すると、位置が入れ替わります",
+          "color": "$text"
+        },
+        {
+          "text": "。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "force"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "force"
+      ]
+    },
+    "Execute_Base": {
+      "description": [
+        {
+          "text": "ターゲットの最大HPの",
+          "color": "$text"
+        },
+        {
+          "text": "一定割合",
+          "color": "$damage"
+        },
+        {
+          "text": "の",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を次の攻撃で与えます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✷ ネクストヒット型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "duration",
+        "damage"
+      ],
+      "next": [
+        "cooldown",
+        "duration",
+        "damage"
+      ]
+    },
+    "Farmer_Base": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内の作物の成長速度を",
+          "color": "$text"
+        },
+        {
+          "text": "一定間隔",
+          "color": "$delay"
+        },
+        {
+          "text": "で促進します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "ファーマーの対象:\n",
+          "color": "$text"
+        },
+        {
+          "text": " • 種\n",
+          "color": "$text"
+        },
+        {
+          "text": " • ジャガイモ\n",
+          "color": "$text"
+        },
+        {
+          "text": " • ニンジン (PAG)\n",
+          "color": "$text"
+        },
+        {
+          "text": " • ビートルート\n",
+          "color": "$text"
+        },
+        {
+          "text": " • 亜麻の種\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Farmer_Animal": {
+      "description": [
+        {
+          "text": "ファーマーを変更し、",
+          "color": "$text"
+        },
+        {
+          "text": "子どもの動物",
+          "color": "$baby"
+        },
+        {
+          "text": "の成長も促進します！\n",
+          "color": "$text"
+        },
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "一定間隔",
+          "color": "$delay"
+        },
+        {
+          "text": "の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内で効果を発揮します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "ランチャーの対象はベースアビリティの対象に加えて:\n",
+          "color": "$text"
+        },
+        {
+          "text": " • 子どもの動物\n",
+          "color": "$text"
+        },
+        {
+          "text": " • 子どもの村人\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical",
+        "chance"
+      ],
+      "next": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical",
+        "chance"
+      ]
+    },
+    "Farmer_Cactus": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内の作物の成長速度を",
+          "color": "$text"
+        },
+        {
+          "text": "一定間隔",
+          "color": "$delay"
+        },
+        {
+          "text": "で促進します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "ガーデナーの対象はベースアビリティの対象に加えて:\n",
+          "color": "$text"
+        },
+        {
+          "text": " • サボテン\n",
+          "color": "$text"
+        },
+        {
+          "text": " • サトウキビ\n",
+          "color": "$text"
+        },
+        {
+          "text": " • ネザーウォート\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Farmer_Melon": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内の作物の成長速度を",
+          "color": "$text"
+        },
+        {
+          "text": "一定間隔",
+          "color": "$delay"
+        },
+        {
+          "text": "で促進します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "カルティベーターの対象はベースアビリティの対象に加えて:\n",
+          "color": "$text"
+        },
+        {
+          "text": " • スイカ\n",
+          "color": "$text"
+        },
+        {
+          "text": " • カボチャ\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Ghost_Walk_Base": {
+      "description": [
+        {
+          "text": "一定",
+          "color": "$text"
+        },
+        {
+          "text": "持続時間",
+          "color": "$duration"
+        },
+        {
+          "text": "の間、透明になります。ゴーストウォーク中に何かを攻撃すると効果が解除されます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ]
+    },
+    "Ghost_Walk_Spirit": {
+      "description": [
+        {
+          "text": "一定",
+          "color": "$text"
+        },
+        {
+          "text": "持続時間",
+          "color": "$duration"
+        },
+        {
+          "text": "の間、透明になります。",
+          "color": "$text"
+        },
+        {
+          "text": "スピリットウォーク",
+          "color": "$name"
+        },
+        {
+          "text": "中に何かを攻撃したり、ブロックを壊したり、コンテナを開けたりすると効果が解除されます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration"
+      ]
+    },
+    "Heal_Base": {
+      "description": [
+        {
+          "text": "一定量の",
+          "color": "$text"
+        },
+        {
+          "text": "HP",
+          "color": "$heal"
+        },
+        {
+          "text": "を回復します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "heal"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "heal"
+      ]
+    },
+    "Heal_Cleanse": {
+      "description": [
+        {
+          "text": "ヒールを変更し、あなたに影響しているすべてのデバフを浄化します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Heal_Group": {
+      "description": [
+        {
+          "text": "ヒールをグループヒールに変更します！あなたと周囲の仲間を一定量の",
+          "color": "$text"
+        },
+        {
+          "text": "HP",
+          "color": "$heal"
+        },
+        {
+          "text": "回復します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "heal",
+        "adjustedRadius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "heal",
+        "adjustedRadius"
+      ]
+    },
+    "Hunter_Base": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "注目ポイント(POI)",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "すべてを",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内で",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "ハイライト表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "POIには",
+          "color": "$text"
+        },
+        {
+          "text": "すべてのチェスト",
+          "color": "$chance"
+        },
+        {
+          "text": "、",
+          "color": "$text"
+        },
+        {
+          "text": "コイン",
+          "color": "$chance"
+        },
+        {
+          "text": "、",
+          "color": "$text"
+        },
+        {
+          "text": "神の祭壇",
+          "color": "$chance"
+        },
+        {
+          "text": "、",
+          "color": "$text"
+        },
+        {
+          "text": "目標地点",
+          "color": "$chance"
+        },
+        {
+          "text": "\nが含まれます。\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius"
+      ]
+    },
+    "Hunter_Blocks": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のオブジェクティブを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Wooden": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のウッドチェストを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Gilded": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のギルデッドチェストを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Living": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のリビングチェストを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Ornate": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のオーネイトチェストを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Hunter_Coins": {
+      "description": [
+        {
+          "text": "ハンターを変更し、代わりに周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のコインの山を",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "表示します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Shield_Bash": {
+      "description": [
+        {
+          "text": "盾でモブを叩き、前方の",
+          "color": "$text"
+        },
+        {
+          "text": "棘ダメージ",
+          "color": "$thornsDamage"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "直線範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "thornsDamage",
+        "adjustedRadius"
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "thornsDamage",
+        "adjustedRadius"
+      ]
+    },
+    "Mana_Shield_Base": {
+      "description": [
+        {
+          "text": "一定時間、",
+          "color": "$text"
+        },
+        {
+          "text": "防御バリア",
+          "color": "$absorb"
+        },
+        {
+          "text": "を展開し、",
+          "color": "$text"
+        },
+        {
+          "text": "限られた時間",
+          "color": "$duration"
+        },
+        {
+          "text": "シールドが尽きるか時間切れになるまで、すべての被ダメージを吸収します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "healthPoints"
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "healthPoints"
+      ]
+    },
+    "Mana_Barrier": {
+      "description": [
+        {
+          "text": "魔法の",
+          "color": "$text"
+        },
+        {
+          "text": "マナキューブ",
+          "color": "$absorb"
+        },
+        {
+          "text": "をあなたの周囲に",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "召喚します。モブはこの",
+          "color": "$text"
+        },
+        {
+          "text": "ブロック",
+          "color": "$absorb"
+        },
+        {
+          "text": "を通過できませんが、あなたは通れます！",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "duration",
+        "manaCost",
+        "cooldown",
+        "adjustedRadius"
+      ],
+      "next": [
+        "duration",
+        "manaCost",
+        "cooldown",
+        "adjustedRadius"
+      ]
+    },
+    "Retribution_Base": {
+      "description": [
+        {
+          "text": "マナシールドを付与し、受けたダメージの",
+          "color": "$text"
+        },
+        {
+          "text": "一定割合",
+          "color": "$absorb"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "マナプール",
+          "color": "$manaCost"
+        },
+        {
+          "text": "にリダイレクトします。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージを吸収した後、次の攻撃のダメージに",
+          "color": "$text"
+        },
+        {
+          "text": "吸収したダメージの一定割合",
+          "color": "$damage"
+        },
+        {
+          "text": "が加算され、ターゲット周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのモブに与えます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "thornsDamage",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "thornsDamage",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Mana_Shield_Retribution": {
+      "description": [
+        {
+          "text": "強力な復讐のオーラを付与します。発動すると、モブからの被ダメージが",
+          "color": "$text"
+        },
+        {
+          "text": "リトリビューションスタック",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "を蓄積し、オーラが",
+          "color": "$text"
+        },
+        {
+          "text": "消滅",
+          "color": "$duration"
+        },
+        {
+          "text": "すると、球状の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に強力な爆発を放ち、",
+          "color": "$text"
+        },
+        {
+          "text": "スタックごとの棘ダメージ",
+          "color": "$thornsDamage"
+        },
+        {
+          "text": "を蓄積分、周囲のすべてのモブに与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "thornsDamage",
+        "adjustedRadius",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "thornsDamage",
+        "adjustedRadius",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Mana_Shield_Implode": {
+      "description": [
+        {
+          "text": "すべてのマナを消費し、消費したマナの",
+          "color": "$text"
+        },
+        {
+          "text": "一定割合",
+          "color": "$damage"
+        },
+        {
+          "text": "のダメージを周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内の敵に与えます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaDamage",
+        "adjustedRadius",
+        "cooldown"
+      ],
+      "next": [
+        "manaDamage",
+        "adjustedRadius",
+        "cooldown"
+      ]
+    },
+    "Mega_Jump_Base": {
+      "description": [
+        {
+          "text": "空中に",
+          "color": "$text"
+        },
+        {
+          "text": "メガジャンプ",
+          "color": "$range"
+        },
+        {
+          "text": "する能力を得ます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ]
+    },
+    "Mega_Jump_Break_Down": {
+      "description": [
+        {
+          "text": "メガジャンプをメガディグに変更します！空中に飛ぶ代わりに、下方向にブロックを掘り進みます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "このアビリティはオーバーワールドでは機能しません。\n\n",
+          "color": "$chance"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical",
+        "radius"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical",
+        "radius"
+      ]
+    },
+    "Mega_Jump_Break_Up": {
+      "description": [
+        {
+          "text": "メガジャンプを変更し、ジャンプ中にぶつかったブロックを破壊します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "このアビリティはオーバーワールドでは機能しません。\n\n",
+          "color": "$chance"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ]
+    },
+    "Nova_Base": {
+      "description": [
+        {
+          "text": "あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "の一定割合を周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に与えます。\n",
+          "color": "$text"
+        },
+        {
+          "text": "ノヴァの",
+          "color": "$name"
+        },
+        {
+          "text": "ダメージは範囲の中心から離れるほど減少します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power"
+      ]
+    },
+    "Nova_Dot": {
+      "description": [
+        {
+          "text": "ノヴァを変更し、代わりにあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "の一定割合を",
+          "color": "$text"
+        },
+        {
+          "text": "毒",
+          "color": "$poison"
+        },
+        {
+          "text": "で与えます。ダメージは",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "かけて与えられます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ]
+    },
+    "Nova_Slow": {
+      "description": [
+        {
+          "text": "ノヴァを変更し、周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のモブを凍結させます。モブは",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "の間凍結し、その後",
+          "color": "$text"
+        },
+        {
+          "text": "低体温症",
+          "color": "$slowness"
+        },
+        {
+          "text": "になり、永続的に",
+          "color": "$text"
+        },
+        {
+          "text": "冷却",
+          "color": "$chilled"
+        },
+        {
+          "text": "され3秒ごとにダメージを受けます\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration"
+      ]
+    },
+    "Rampage_Base": {
+      "description": [
+        {
+          "text": "ランページ状態に入り、有効な間",
+          "color": "$text"
+        },
+        {
+          "text": "物理ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "が追加で上昇します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ],
+      "next": [
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ]
+    },
+    "Rampage_Chain": {
+      "description": [
+        {
+          "text": "ランページを変更し、攻撃に",
+          "color": "$text"
+        },
+        {
+          "text": "連鎖効果",
+          "color": "$chains"
+        },
+        {
+          "text": "を付与します。ダメージ上昇の代わりに、最初のモブ以降の複数のモブにも攻撃が連鎖します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "chains"
+      ],
+      "next": [
+        "cooldown",
+        "manaCostPerSecond",
+        "chains"
+      ]
+    },
+    "Rampage_Leech": {
+      "description": [
+        {
+          "text": "ランページを変更し、ダメージ上昇の代わりに",
+          "color": "$text"
+        },
+        {
+          "text": "ライフリーチ",
+          "color": "$leech"
+        },
+        {
+          "text": "を付与します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "leech"
+      ],
+      "next": [
+        "cooldown",
+        "manaCostPerSecond",
+        "leech"
+      ]
+    },
+    "Earthquake_Landmine": {
+      "description": [
+        {
+          "text": "足元に",
+          "color": "$text"
+        },
+        {
+          "text": "地雷",
+          "color": "$name"
+        },
+        {
+          "text": "を設置します。モブが踏むと",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に爆発し、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "攻撃力",
+          "color": "$damage"
+        },
+        {
+          "text": "に基づくダメージを与え、",
+          "color": "$text"
+        },
+        {
+          "text": "ノックバック",
+          "color": "$knockback"
+        },
+        {
+          "text": "させます。\n\n地雷は互いの爆発範囲内にあると連鎖爆発します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "adjustedRadius",
+        "knockback"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "adjustedRadius",
+        "knockback"
+      ]
+    },
+    "Stonefall_Base": {
+      "description": [
+        {
+          "text": "有効な間、着地時の",
+          "color": "$text"
+        },
+        {
+          "text": "落下ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を軽減し、",
+          "color": "$text"
+        },
+        {
+          "text": "有効時",
+          "color": "$duration"
+        },
+        {
+          "text": "ノックバック",
+          "color": "$radius"
+        },
+        {
+          "text": "で周囲のモブを吹き飛ばします",
+          "color": "$text"
+        },
+        {
+          "text": "。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damageReduction",
+        "adjustedRadius",
+        "knockback",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "damageReduction",
+        "adjustedRadius",
+        "knockback",
+        "adjustedDuration"
+      ]
+    },
+    "Stonefall_Cold": {
+      "description": [
+        {
+          "text": "有効な間、着地時の",
+          "color": "$text"
+        },
+        {
+          "text": "落下ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を軽減します。\n",
+          "color": "$text"
+        },
+        {
+          "text": "有効時\n",
+          "color": "$duration"
+        },
+        {
+          "text": "冷却",
+          "color": "$chilled"
+        },
+        {
+          "text": "効果と",
+          "color": "$text"
+        },
+        {
+          "text": "氷の牢獄",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": "を周囲のモブに与えます。\n",
+          "color": "$text"
+        },
+        {
+          "text": "範囲は落下距離に影響されます。",
+          "color": "$text"
+        },
+        {
+          "text": "。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damageReduction",
+        "maxGlacialPrison",
+        "adjustedRadius",
+        "freezeDuration",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "damageReduction",
+        "maxGlacialPrison",
+        "adjustedRadius",
+        "freezeDuration",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Stonefall_Snow": {
+      "description": [
+        {
+          "text": "有効な間、着地時の",
+          "color": "$text"
+        },
+        {
+          "text": "落下ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を軽減し、",
+          "color": "$text"
+        },
+        {
+          "text": "有効時 ",
+          "color": "$duration"
+        },
+        {
+          "text": "着地時に",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "に基づくダメージを周囲のモブに与えます。\n範囲は落下距離に応じて拡大します。",
+          "color": "$text"
+        },
+        {
+          "text": "。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damageReduction",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "damageReduction",
+        "adjustedRadius",
+        "ability_power",
+        "adjustedDuration"
+      ]
+    },
+    "Summon_Eternal_Base": {
+      "description": [
+        {
+          "text": "あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "エターナル",
+          "color": "$eternals"
+        },
+        {
+          "text": "を召喚します！このアビリティを使うには、エターナルの台座に少なくとも1体の生きたエターナルが必要です。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "eternals",
+        "duration"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "eternals",
+        "duration"
+      ]
+    },
+    "Empower_Base": {
+      "description": [
+        {
+          "text": "あなたと周囲のプレイヤーに",
+          "color": "$text"
+        },
+        {
+          "text": "移動速度",
+          "color": "$speed"
+        },
+        {
+          "text": "のオーラを付与します。",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内で有効\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "speed",
+        "adjustedRadius",
+        "cooldown",
+        "manaCostPerSecond"
+      ],
+      "next": [
+        "speed",
+        "adjustedRadius",
+        "cooldown",
+        "manaCostPerSecond"
+      ]
+    },
+    "Empower_Ice_Armor": {
+      "description": [
+        {
+          "text": "氷の障壁で身を包み、あなたを攻撃したモブを",
+          "color": "$text"
+        },
+        {
+          "text": "冷却",
+          "color": "$chilled"
+        },
+        {
+          "text": "し",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "有効な間効果を発揮します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "chilled",
+        "adjustedDuration",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "chilled",
+        "adjustedDuration",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Empower_Slowness_Aura": {
+      "description": [
+        {
+          "text": "エントロピーのオーラを付与し、有効な間",
+          "color": "$text"
+        },
+        {
+          "text": "周囲のモブを減速",
+          "color": "$slowness"
+        },
+        {
+          "text": "させます。",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内で効果を発揮します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Taunt_Base": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のモブを挑発し、あなたに敵意を向けさせ、",
+          "color": "$text"
+        },
+        {
+          "text": "脆弱",
+          "color": "$vulnerable"
+        },
+        {
+          "text": "状態にします（",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "）。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "各",
+          "color": "$text"
+        },
+        {
+          "text": "脆弱レベル",
+          "color": "$vulnerable"
+        },
+        {
+          "text": "につき、そのモブへの与ダメージが",
+          "color": "$text"
+        },
+        {
+          "text": "10%",
+          "color": "$vulnerable"
+        },
+        {
+          "text": "増加します。\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "vulnerable"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "vulnerable"
+      ]
+    },
+    "Taunt_Repel": {
+      "description": [
+        {
+          "text": "周囲のモブを挑発する代わりに、",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のモブを恐怖させます。恐怖したモブは",
+          "color": "$text"
+        },
+        {
+          "text": "押し飛ばされ",
+          "color": "$distance"
+        },
+        {
+          "text": "、一定",
+          "color": "$text"
+        },
+        {
+          "text": "時間",
+          "color": "$duration"
+        },
+        {
+          "text": "の間攻撃を拒否します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "distance"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "distance"
+      ]
+    },
+    "Taunt_Charm": {
+      "description": [
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "ランダムなモブ",
+          "color": "$maxTargets"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内から魅了し、味方として戦わせます。魅了されたモブはあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "攻撃力の一定割合",
+          "color": "$damage"
+        },
+        {
+          "text": "のダメージを与え、",
+          "color": "$text"
+        },
+        {
+          "text": "ヒット時効果を発動できます。",
+          "color": "$name"
+        },
+        {
+          "text": " 魅了されたモブは",
+          "color": "$text"
+        },
+        {
+          "text": "移動速度が上昇",
+          "color": "$speed"
+        },
+        {
+          "text": "します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "maxTargets",
+        "damage",
+        "speed"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedRadius",
+        "adjustedDuration",
+        "maxTargets",
+        "damage",
+        "speed"
+      ]
+    },
+    "Totem_Base": {
+      "description": [
+        {
+          "text": "近くにトーテムを設置し、周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "回復",
+          "color": "$heal"
+        },
+        {
+          "text": "効果を",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのプレイヤーに毎秒付与します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "heal"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "heal"
+      ]
+    },
+    "Totem_Mana_Regen": {
+      "description": [
+        {
+          "text": "近くにトーテムを設置し、周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "マナ",
+          "color": "$manaCost"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのプレイヤーに毎秒回復します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "manaRegen"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "manaRegen"
+      ]
+    },
+    "Totem_Mob_Damage": {
+      "description": [
+        {
+          "text": "近くにトーテムを設置し、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "の一定割合のダメージを周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのモブに",
+          "color": "$text"
+        },
+        {
+          "text": "一定間隔",
+          "color": "$delay"
+        },
+        {
+          "text": "で与えます。これらの攻撃は",
+          "color": "$text"
+        },
+        {
+          "text": "ヒット時効果",
+          "color": "$name"
+        },
+        {
+          "text": "を適用しますが、Lucky Hitは除きます",
+          "color": "$text"
+        },
+        {
+          "text": "。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "ability_power",
+        "delay"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "ability_power",
+        "delay"
+      ]
+    },
+    "Totem_Player_Damage": {
+      "description": [
+        {
+          "text": "近くにトーテムを設置し、周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "物理ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのプレイヤーに上昇させます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "damage"
+      ],
+      "next": [
+        "cooldown",
+        "manaCost",
+        "adjustedDuration",
+        "adjustedRadius",
+        "damage"
+      ]
+    },
+    "Vein_Miner_Base": {
+      "description": [
+        {
+          "text": "複数の",
+          "color": "$text"
+        },
+        {
+          "text": "ブロック",
+          "color": "$blocks"
+        },
+        {
+          "text": "を一度に採掘できます！\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● ホールド型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks"
+      ],
+      "next": [
+        "blocks"
+      ]
+    },
+    "Vein_Miner_Durability": {
+      "description": [
+        {
+          "text": "ヴェインマイナーを変更し、採掘中に",
+          "color": "$text"
+        },
+        {
+          "text": "耐久値ダメージ",
+          "color": "$unbreaking"
+        },
+        {
+          "text": "を無視する確率を得ます。ただし、",
+          "color": "$text"
+        },
+        {
+          "text": "採掘ブロック数",
+          "color": "$blocks"
+        },
+        {
+          "text": "は減少します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● ホールド型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks",
+        "unbreaking"
+      ],
+      "next": [
+        "blocks",
+        "unbreaking"
+      ]
+    },
+    "Vein_Miner_Fortune": {
+      "description": [
+        {
+          "text": "ヴェインマイナーを変更し、採掘中に",
+          "color": "$text"
+        },
+        {
+          "text": "幸運",
+          "color": "$fortune"
+        },
+        {
+          "text": "レベルを追加します。ただし、",
+          "color": "$text"
+        },
+        {
+          "text": "採掘ブロック数",
+          "color": "$blocks"
+        },
+        {
+          "text": "は減少します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● ホールド型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks",
+        "fortune"
+      ],
+      "next": [
+        "blocks",
+        "fortune"
+      ]
+    },
+    "Vein_Miner_Void": {
+      "description": [
+        {
+          "text": "ヴェインマイナーを変更し、",
+          "color": "$text"
+        },
+        {
+          "text": "Vault内",
+          "color": "$chance"
+        },
+        {
+          "text": "で採掘したブロックを消滅させます（Vault鉱石を除く）。ただし、",
+          "color": "$text"
+        },
+        {
+          "text": "採掘ブロック数",
+          "color": "$blocks"
+        },
+        {
+          "text": "は減少します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "● ホールド型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks"
+      ],
+      "next": [
+        "blocks"
+      ]
+    },
+    "Javelin_Base": {
+      "description": [
+        {
+          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "武器ダメージに基づく",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を与え、着弾時にモブを",
+          "color": "$text"
+        },
+        {
+          "text": "ノックバック",
+          "color": "$knockback"
+        },
+        {
+          "text": "させます\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "knockback",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "damage",
+        "knockback",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Piercing": {
+      "description": [
+        {
+          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "武器ダメージに基づく",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を与え、着弾時に",
+          "color": "$text"
+        },
+        {
+          "text": "一定数のモブを貫通",
+          "color": "$piercing"
+        },
+        {
+          "text": "します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "piercing",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "damage",
+        "piercing",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Scatter": {
+      "description": [
+        {
+          "text": "魔法のジャベリンを召喚し、遠くの敵を攻撃します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "武器ダメージに基づく",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を与え、着弾時に",
+          "color": "$text"
+        },
+        {
+          "text": "一定数のジャベリンを散乱",
+          "color": "$numberOfJavelins"
+        },
+        {
+          "text": "させ、",
+          "color": "$text"
+        },
+        {
+          "text": "複数回バウンドします\n\n",
+          "color": "$numberOfBounces"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "numberOfJavelins",
+        "numberOfBounces",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "damage",
+        "numberOfJavelins",
+        "numberOfBounces",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Javelin_Sight": {
+      "description": [
+        {
+          "text": "魔法の",
+          "color": "$text"
+        },
+        {
+          "text": "ジャベリン",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "を放ち、着弾時に周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "をスキャンし、すべての",
+          "color": "$text"
+        },
+        {
+          "text": "チェスト",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "と",
+          "color": "$text"
+        },
+        {
+          "text": "モブ",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "を",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間表示します\n\n",
+          "color": "$duration"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Smite_Base": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "スマイト",
+          "color": "$name"
+        },
+        {
+          "text": "は",
+          "color": "$text"
+        },
+        {
+          "text": "定期的に",
+          "color": "$damageInterval"
+        },
+        {
+          "text": "周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のモブに雷を落とし、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "のランダムな割合のダメージを与え、",
+          "color": "$text"
+        },
+        {
+          "text": "ヒット時効果",
+          "color": "$name"
+        },
+        {
+          "text": "をターゲットに転送します（Lucky Hitを除く）。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "damageInterval",
+        "adjustedRadius",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "damageInterval",
+        "adjustedRadius",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Smite_Thunderstorm": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "スマイト・サンダーストーム",
+          "color": "$name"
+        },
+        {
+          "text": "は",
+          "color": "$text"
+        },
+        {
+          "text": "雷を降らせ",
+          "color": "$damageInterval"
+        },
+        {
+          "text": "、周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のモブにあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "のランダムな割合のダメージを与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "damageInterval",
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "damageInterval",
+        "adjustedRadius",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Smite_Archon": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "スマイト・アルコン",
+          "color": "$name"
+        },
+        {
+          "text": "はあなたをスパークに変身させます。物理的に触れたモブにあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "のランダムな割合の雷撃を与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "additionalManaPerBolt",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Shell_Base": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "シェル",
+          "color": "$name"
+        },
+        {
+          "text": "は硬化した皮膚を付与し、攻撃を受けた時にモブを",
+          "color": "$text"
+        },
+        {
+          "text": "スタンさせる確率",
+          "color": "$chance"
+        },
+        {
+          "text": "を得ます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "stunChance",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ],
+      "next": [
+        "stunChance",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ]
+    },
+    "Shell_Porcupine": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "ポーキュパイン",
+          "color": "$name"
+        },
+        {
+          "text": "はあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "棘ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を上昇させます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "additionalThornsDamage",
+        "manaCostPerSecond",
+        "cooldown"
+      ],
+      "next": [
+        "additionalThornsDamage",
+        "manaCostPerSecond",
+        "cooldown"
+      ]
+    },
+    "Shell_Quill": {
+      "description": [
+        {
+          "text": "有効な間、",
+          "color": "$text"
+        },
+        {
+          "text": "クイル",
+          "color": "$name"
+        },
+        {
+          "text": "はあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "棘ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を上昇させ、",
+          "color": "$text"
+        },
+        {
+          "text": "棘を連鎖",
+          "color": "$chains"
+        },
+        {
+          "text": "させて追加のターゲットにヒットさせます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n◐ トグル型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "additionalThornsDamage",
+        "quillCount",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ],
+      "next": [
+        "additionalThornsDamage",
+        "quillCount",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "cooldown"
+      ]
+    },
+    "Fireball_Base": {
+      "description": [
+        {
+          "text": "魔法のファイアボールを召喚し、遠くの敵を攻撃します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワーに基づく",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "を与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "adjustedRadius",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "ability_power",
+        "adjustedRadius",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Fireball_Volley": {
+      "description": [
+        {
+          "text": "魔法のバウンドするファイアボールを召喚し、経路上のモブを",
+          "color": "$text"
+        },
+        {
+          "text": "焦がし",
+          "color": "$ability_power"
+        },
+        {
+          "text": "、アビリティパワーに基づく",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "を与えます。\n",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "後に周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に爆発し、フルダメージを与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "adjustedRadius",
+        "duration",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "ability_power",
+        "adjustedRadius",
+        "duration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Fireball_Fireshot": {
+      "description": [
+        {
+          "text": "小さな魔法のファイアショットを召喚し、遠くのモブを攻撃します\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "は",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "に基づき、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "ヒット時効果",
+          "color": "$name"
+        },
+        {
+          "text": "をターゲットに転送します（Lucky Hitを除く）。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "ability_power",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Storm_Arrow_Base": {
+      "description": [
+        {
+          "text": "着弾地点の上空に嵐を生成する矢を放ちます\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワーに基づくランダムな",
+          "color": "$text"
+        },
+        {
+          "text": "ダメージ",
+          "color": "$ability_power"
+        },
+        {
+          "text": "を与えます。嵐の雲は",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "持続し、",
+          "color": "$text"
+        },
+        {
+          "text": "落雷",
+          "color": "$duration"
+        },
+        {
+          "text": "が定期的に発生します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "adjustedRadius",
+        "adjustedDuration",
+        "stormInterval",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "abilityRange",
+        "adjustedRadius",
+        "adjustedDuration",
+        "stormInterval",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Storm_Arrow_Blizzard": {
+      "description": [
+        {
+          "text": "着弾地点の上空に氷の嵐を生成する矢を放ちます\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "各氷の破片はモブを命中時に",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間凍結させます。",
+          "color": "$duration"
+        },
+        {
+          "text": "また、",
+          "color": "$text"
+        },
+        {
+          "text": "確率",
+          "color": "$chance"
+        },
+        {
+          "text": "でモブにフロストバイトを",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "stormInterval",
+        "slowDuration",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "stormInterval",
+        "slowDuration",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Base": {
+      "description": [
+        {
+          "text": "周囲のモブのエッセンスを吸収し、",
+          "color": "$text"
+        },
+        {
+          "text": "バトルクライスタック",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "を蓄積します。",
+          "color": "$text"
+        },
+        {
+          "text": "一定量",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "のスタックを消費し、次の直接攻撃に",
+          "color": "$text"
+        },
+        {
+          "text": "ボーナス攻撃力",
+          "color": "$damage"
+        },
+        {
+          "text": "を付与します。\nスタックは",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "使用しないと消滅します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "attackDamagePerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "attackDamagePerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Spectral_Strike": {
+      "description": [
+        {
+          "text": "周囲のモブのエッセンスを吸収し、",
+          "color": "$text"
+        },
+        {
+          "text": "バトルクライスタック",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "を蓄積します。",
+          "color": "$text"
+        },
+        {
+          "text": "一定量",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "のスタックを消費し、",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$abilityPowerPerStack"
+        },
+        {
+          "text": "をダメージとして次の直接攻撃に追加します。\nスタックは",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "使用しないと消滅します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "abilityPowerPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "abilityPowerPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Battle_Cry_Lucky_Strike": {
+      "description": [
+        {
+          "text": "周囲のモブのエッセンスを吸収し、",
+          "color": "$text"
+        },
+        {
+          "text": "バトルクライスタック",
+          "color": "$maxStacks"
+        },
+        {
+          "text": "を蓄積します。",
+          "color": "$text"
+        },
+        {
+          "text": "一定量",
+          "color": "$stacksUsedPerHit"
+        },
+        {
+          "text": "のスタックを消費し、次の直接攻撃に",
+          "color": "$text"
+        },
+        {
+          "text": "ボーナスLucky Hit確率",
+          "color": "$luckyHit"
+        },
+        {
+          "text": "を付与します。\nスタックは",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "使用しないと消滅します。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "luckyHitPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "adjustedRadius",
+        "adjustedDuration",
+        "luckyHitPerStack",
+        "maxStacks",
+        "stacksUsedPerHit",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Ice_Bolt_Base": {
+      "description": [
+        {
+          "text": "小さなアイスボルトを召喚し、",
+          "color": "$text"
+        },
+        {
+          "text": "固定ダメージ",
+          "color": "$damage"
+        },
+        {
+          "text": "を与え、命中したモブを",
+          "color": "$text"
+        },
+        {
+          "text": "冷却",
+          "color": "$chilled"
+        },
+        {
+          "text": "し",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "効果を持続させます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "setDamage",
+        "throwPower",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "setDamage",
+        "throwPower",
+        "adjustedDuration",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Ice_Bolt_Blast": {
+      "description": [
+        {
+          "text": "大きなグレイシャルブラストを召喚し、着弾時に爆発して",
+          "color": "$text"
+        },
+        {
+          "text": "冷却",
+          "color": "$chilled"
+        },
+        {
+          "text": "し、",
+          "color": "$text"
+        },
+        {
+          "text": "氷の牢獄",
+          "color": "$maxGlacialPrison"
+        },
+        {
+          "text": "でモブを閉じ込める可能性があります。",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内で",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "効果が持続します ",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "throwPower",
+        "adjustedDuration",
+        "adjustedRadius",
+        "glacialChance",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "throwPower",
+        "adjustedDuration",
+        "adjustedRadius",
+        "glacialChance",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Arcane_Base": {
+      "description": [
+        {
+          "text": "魔法のビームをチャネリングし、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "の一定割合のダメージを0.5秒ごとに",
+          "color": "$text"
+        },
+        {
+          "text": "距離",
+          "color": "$distance"
+        },
+        {
+          "text": "内で与えます。\n\nアルケインは",
+          "color": "$text"
+        },
+        {
+          "text": "マナコスト",
+          "color": "$manaCost"
+        },
+        {
+          "text": "をチャネリング中毎秒消費します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n● ホールド型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "distance",
+        "manaCost"
+      ],
+      "next": [
+        "ability_power",
+        "distance",
+        "manaCost"
+      ]
+    },
+    "Arcane_Rail": {
+      "description": [
+        {
+          "text": "魔法のアルケインレールを召喚し、単体のモブに驚異的な威力で攻撃します",
+          "color": "$text"
+        },
+        {
+          "text": "。あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "の一定割合のダメージを与え、",
+          "color": "$text"
+        },
+        {
+          "text": "ヒット時効果",
+          "color": "$name"
+        },
+        {
+          "text": "（",
+          "color": "$text"
+        },
+        {
+          "text": "クラウド",
+          "color": "$name"
+        },
+        {
+          "text": "や",
+          "color": "$text"
+        },
+        {
+          "text": "チェイン",
+          "color": "$chaining"
+        },
+        {
+          "text": "\nなど）を発動します\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "abilityRange",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Earthquake_Base": {
+      "description": [
+        {
+          "text": "足元に巨大な爆発を起こし、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "攻撃力",
+          "color": "$damage"
+        },
+        {
+          "text": "に基づくダメージを与え、",
+          "color": "$text"
+        },
+        {
+          "text": "ノックバック",
+          "color": "$knockback"
+        },
+        {
+          "text": "で周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内の敵モブを",
+          "color": "$text"
+        },
+        {
+          "text": "遅延後にノックバックさせます。\n中心から離れるほどダメージが減少します。",
+          "color": "$delay"
+        },
+        {
+          "text": "\n\nアースクエイクは経路上のブロックを破壊する確率もあります。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "knockback",
+        "adjustedRadius",
+        "delay",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "damage",
+        "knockback",
+        "adjustedRadius",
+        "delay",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Implode_Life_Tap": {
+      "description": [
+        {
+          "text": "あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "残り体力",
+          "color": "$health"
+        },
+        {
+          "text": "の80%を消費し、消費した",
+          "color": "$text"
+        },
+        {
+          "text": "HPあたり",
+          "color": "$damage"
+        },
+        {
+          "text": "のダメージを周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "内のすべてのモブに与えます。\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "注: ハート1つはHP2に相当します。",
+          "color": "$darkgray"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "adjustedRadius",
+        "damagePerHealth",
+        "cooldown"
+      ],
+      "next": [
+        "adjustedRadius",
+        "damagePerHealth",
+        "cooldown"
+      ]
+    },
+    "Chain_Lightning_Base": {
+      "description": [
+        {
+          "text": "着弾時に",
+          "color": "$text"
+        },
+        {
+          "text": "雷撃",
+          "color": "$name"
+        },
+        {
+          "text": "を呼ぶ雷の矢を召喚し、あなたの",
+          "color": "$text"
+        },
+        {
+          "text": "雷ダメージ",
+          "color": "$lightning"
+        },
+        {
+          "text": "は",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "に基づき、着弾地点周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$range"
+        },
+        {
+          "text": "内のモブに伝播します。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "distance",
+        "chainRange",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "distance",
+        "chainRange",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Chain_Lightning_Orbs": {
+      "description": [
+        {
+          "text": "強力な",
+          "color": "$text"
+        },
+        {
+          "text": "ライトニングボール",
+          "color": "$name"
+        },
+        {
+          "text": "を召喚します。照準に従いゆっくり移動し、命中したモブに",
+          "color": "$text"
+        },
+        {
+          "text": "雷ダメージ",
+          "color": "$lightning"
+        },
+        {
+          "text": "を与えます。ダメージはあなたの",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "に基づきます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n✴ キャスト型アビリティ ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Grenade_Base": {
+      "description": [
+        {
+          "text": "神秘的で強力な",
+          "color": "$text"
+        },
+        {
+          "text": "カオスキューブ",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "を投げます。少し経つと爆発し、",
+          "color": "$text"
+        },
+        {
+          "text": "攻撃力",
+          "color": "$damage"
+        },
+        {
+          "text": "に基づくダメージを周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "adjustedRadius",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "damage",
+        "adjustedRadius",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Toxic_Grenade": {
+      "description": [
+        {
+          "text": "毒を注入した",
+          "color": "$text"
+        },
+        {
+          "text": "有毒",
+          "color": "$poison"
+        },
+        {
+          "text": "な",
+          "color": "$text"
+        },
+        {
+          "text": "毒",
+          "color": "$poison"
+        },
+        {
+          "text": "の薬瓶を投げます。砕けると",
+          "color": "$text"
+        },
+        {
+          "text": "毒の雲",
+          "color": "$poison"
+        },
+        {
+          "text": "に変わり、",
+          "color": "$text"
+        },
+        {
+          "text": "アビリティパワー",
+          "color": "$ability_power"
+        },
+        {
+          "text": "に基づくダメージを周囲の",
+          "color": "$text"
+        },
+        {
+          "text": "範囲",
+          "color": "$radius"
+        },
+        {
+          "text": "に",
+          "color": "$text"
+        },
+        {
+          "text": "一定時間",
+          "color": "$duration"
+        },
+        {
+          "text": "与えます。",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "✴ キャスト型アビリティ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "adjustedRadius",
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "ability_power",
+        "adjustedRadius",
+        "adjustedDuration",
+        "manaCost",
+        "cooldown"
+      ]
+    }
+  }
+}

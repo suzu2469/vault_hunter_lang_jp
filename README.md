@@ -58,6 +58,34 @@ Minecraft の Vault Hunters 3rd Edition (1.18.2) に含まれる `the_vault` MOD
 | useful_commands (コマンド) | 4 | 完了 |
 | **合計** | **61** | **完了** |
 
+### コンフィグファイル
+
+| ファイル | 内容 | 状態 |
+|---------|------|------|
+| config/the_vault/quest/quests.json | クエストブック (78クエスト) | 完了 |
+| config/the_vault/quest/sky_quests.json | スカイクエストブック (80クエスト) | 完了 |
+| config/the_vault/abilities_descriptions.json | アビリティ説明文 (82アビリティ) | 完了 |
+| config/the_vault/archetype_descriptions.json | アーキタイプ説明文 (7種) | 完了 |
+
+> **注意:** コンフィグファイルは Modpack のアップデート時に上書きされる可能性があります。アップデート後は再配置が必要です。
+
+### 追加リソースパック
+
+| ファイル | 内容 | 状態 |
+|---------|------|------|
+| assets/minecraft/lang/ja_jp.json | ヴォールト時間加速ポーション名 (9キー) | 完了 |
+
+## 導入方法（コンフィグファイル）
+
+クエストブック・アビリティ説明文を日本語化するには、`config/` フォルダの内容を Modpack インスタンスの `config/` に上書きコピーしてください。
+
+```
+<インスタンス>/config/the_vault/quest/quests.json
+<インスタンス>/config/the_vault/quest/sky_quests.json
+<インスタンス>/config/the_vault/abilities_descriptions.json
+<インスタンス>/config/the_vault/archetype_descriptions.json
+```
+
 ## 翻訳キーの抽出方法
 
 MOD JAR から翻訳元の `en_us.json` を抽出するスクリプトを用意しています:

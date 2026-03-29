@@ -1,0 +1,5391 @@
+{
+  "quests": [
+    {
+      "type": "checkmark",
+      "id": "welcome_quest",
+      "name": "ヴォールトハンターズ イントロダクション",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトハンターズ サードエディションへようこそ！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこのModパックはMinecraftの体験を進行ベースのアクションRPGゲームに変えます。長期間にわたってプレイすることを想定しており、自分のプレイスタイルに合わせてプレイ内容をカスタマイズできる多くのアクセシビリティ設定があります！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこのクエストラインでは、ゲームの基本的な仕組みを説明し、冒険を始めるお手伝いをします。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nプレイを始める前に、自分に合った難易度に設定してください。これはポーズメニューから変更でき、5段階の難易度を用意しています。この設定はヴォールト内のMobの体力とダメージに影響します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n難易度に加えて、ゲームモードも選択できます。ヴォールトハンターズには3つのゲームモードがあります：ノーマル、カジュアル、ハードコアで、ノーマルがデフォルトのゲームモードです。ゲームモードは /gamerule vaultMode コマンドで設定できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nノーマル",
+            "color": "$manaCost"
+          },
+          {
+            "text": " - レベル20以降に死亡するとスポーン地点にスピリットが出現し、スピリットエクストラクターを使って失ったアイテムを買い戻すことができます",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nカジュアル",
+            "color": "$manaCost"
+          },
+          {
+            "text": " - レベル20以降に死亡してもアイテムを失わず、代わりに耐久値にダメージを受けるだけです",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nハードコア",
+            "color": "$manaCost"
+          },
+          {
+            "text": " - レベル20以降に死亡するとアイテムとインベントリが永久に失われます",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n/party invite プレイヤー名 ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "で友達をパーティーに招待し、一緒にヴォールトに挑んだり、お互いの体力を確認できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n/the_vault research_team invite プレイヤー名 ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "でプレイヤーをチームにまとめ、リサーチを一緒に進めることができます。",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/welcome",
+      "targetId": "the_vault:raw_chromatic_iron",
+      "targetProgress": 1.0,
+      "unlockedBy": "",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:cooked_vault_steak",
+            "amount": 8
+          }
+        ],
+        "vaultExp": 0
+      },
+      "questTypes": [
+        "SKY",
+        "NORMAL"
+      ]
+    },
+    {
+      "type": "collection",
+      "id": "find_chromatic_iron",
+      "name": "クロマティックアイアン",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトハンターとしての旅の第一歩は、",
+            "color": "$text"
+          },
+          {
+            "text": "核となる金属",
+            "color": "$text"
+          },
+          {
+            "text": "であるヴォールトハンターズの",
+            "color": "$text"
+          },
+          {
+            "text": "クロマティックアイアン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけることです！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "クロマティックアイアン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はワールドの最深部、",
+            "color": "$text"
+          },
+          {
+            "text": "Y-30",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "以下で見つかります。",
+            "color": "$text"
+          },
+          {
+            "text": "鉄のツルハシ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で採掘でき、幸運のエンチャントで収穫量を増やせます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nクロマティックアイアンの原石を16個入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/find_chromatic_iron",
+      "targetId": "the_vault:raw_chromatic_iron",
+      "targetProgress": 16.0,
+      "unlockedBy": "welcome_quest",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:chromatic_iron_ingot",
+            "amount": 24
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "mining",
+      "id": "mine_vault_stone",
+      "name": "ヴォールトストーン",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "冒険の次のステップは",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトストーン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけることです。クロマティックアイアンを探している時に、すでにこの非常に暗い石に出くわしているかもしれません。",
+            "color": "$text"
+          },
+          {
+            "text": "Y-5",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "以下のどこにでも見つかります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトストーン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "をシルクタッチなしで採掘すると、",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトロック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が手に入る可能性があります。ヴォールトに入るための鍵となるので捨てないようにしてください！",
+            "color": "$text"
+          },
+          {
+            "text": "。\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトストーン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "自体は非常に頑丈な素材で、様々な用途に使えますが、最も重要なのはヴォールトポータルの建設に使われることです！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトストーンを10個採掘する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/vault_stone",
+      "targetId": "the_vault:vault_stone",
+      "targetProgress": 10,
+      "unlockedBy": "welcome_quest",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_rock",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_vault_altar",
+      "name": "ヴォールト祭壇",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "いよいよヴォールト祭壇をクラフトする時です。ヴォールトロックをヴォールト祭壇に置くことで、ヴォールトクリスタルのクラフトに必要なレシピを入手できます",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールト祭壇を入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/altar",
+      "targetId": "the_vault:vault_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "mine_vault_stone",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:stone_button"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "craft_crystal",
+      "id": "complete_vault_crystal",
+      "name": "ヴォールトクリスタル",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "最初のヴォールトクリスタルを作る時が来ました！レシピは毎回異なり、クリスタルを作るごとに必要な素材の量が徐々に増えていきます。\n\nヴォールトロックをヴォールト祭壇に使うと、クリスタルのレシピを完成させるために必要なアイテムが表示されます。インベントリからアイテムを祭壇の近くに投げ出すことで投入できます。祭壇のレシピが完成したら、レッドストーン信号を送るとクラフトプロセスが完了します。\n\nアイテムが何か分かりにくい場合は、しゃがむと名前を確認できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトクリスタルを完成させる",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/crystal",
+      "targetId": "the_vault:vault_crystal",
+      "targetProgress": 1.0,
+      "unlockedBy": "craft_vault_altar",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:shulker_box"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "learning_skills",
+      "name": "スキルとタレント",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "最初のヴォールトに入る前に、ヴォールトハンターズのいくつかの重要な要素についてお伝えします。ヴォールトハンターズには、ヴォールトでの体験をより楽しくするための詳細なアビリティとタレントシステムがあります。\n\nアビリティは通常、ゲームプレイを大きく変える強力なアクティブスキルを与えることに重点を置いています。ノヴァやランペイジなどのダメージアビリティ、ヒールやトーテムなどの回復アビリティ、ダッシュやゴーストウォークなどの生存アビリティなどがあります。\n\nタレントはプレイヤーにパッシブバフを与えます。様々なタレントがあり、それぞれの体験の特定の側面を強化するために設計されています。\n\nデフォルトで'H'キーを押してヴォールトUIを確認し、上部の2番目と3番目のタブをクリックしてアビリティとタレントをそれぞれ確認してください。\n\nこのクエストの報酬は",
+            "color": "$text"
+          },
+          {
+            "text": "スキルポイント1つ",
+            "color": "$manaCost"
+          },
+          {
+            "text": "です。初めてプレイする場合は",
+            "color": "$text"
+          },
+          {
+            "text": "ヒールアビリティ",
+            "color": "$heal"
+          },
+          {
+            "text": "を取ることを強くお勧めします。ヴォールト内では自然な体力回復がないためです",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/skills",
+      "targetId": "the_vault:any",
+      "targetProgress": 1.0,
+      "unlockedBy": "complete_vault_crystal",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:cooked_vault_steak",
+            "amount": 8
+          }
+        ],
+        "vaultExp": 0,
+        "skillPoints": 1
+      }
+    },
+    {
+      "type": "collection",
+      "id": "vault_enchanter",
+      "name": "より良いエンチャント",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトハンターズでは、エンチャントはバニラMinecraftとは少し異なります。防御と攻撃のエンチャントは無効化されており、後々の防御・攻撃属性のスケーリングを可能にしています。ただし、バニラのツールやギア、そしてヴォールトツールやギアの両方で機能するエンチャントもいくつかあります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトエンチャンターは、あらゆるギアやツールのエンチャントに最適なテーブルです。エメラルドと経験値のコストで常に最大のエンチャントを提供してくれます。クラフトして、エンチャント可能なアイテムを入れてみましょう。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトエンチャンターを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/enchanter",
+      "targetId": "the_vault:vault_enchanter",
+      "targetProgress": 1.0,
+      "unlockedBy": "learning_skills",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:experience_bottle",
+            "amount": 20
+          },
+          {
+            "item": "minecraft:emerald",
+            "amount": 50
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "vault_potions",
+      "name": "ヴォールトポーション",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトポーションは戦闘外での",
+            "color": "$text"
+          },
+          {
+            "text": "回復アビリティ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の代替手段です。\nヴォールト内で",
+            "color": "$text"
+          },
+          {
+            "text": "ヴェラーラ",
+            "color": "$velara"
+          },
+          {
+            "text": "を怒らせない唯一のポーションタイプです！\n\nヴォールトポーションは各ヴォールトで使用できる",
+            "color": "$text"
+          },
+          {
+            "text": "チャージ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "数が決まっており、ヴォールトを出ると完全に回復します。\n最初は",
+            "color": "$text"
+          },
+          {
+            "text": "バイアル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "ティアのポーションのみアクセスでき、冒険を進めるとより良いティアをリサーチできるようになり、チャージごとの回復量が大きくなります。\n最初のポーション（",
+            "color": "$text"
+          },
+          {
+            "text": "バイアル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "）をクラフトする際に、3つの異なるリチャージ方法から選択できます；\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "スローター",
+            "color": "$red"
+          },
+          {
+            "text": "は一定数のMobを倒すとバイアルがリチャージされます\n",
+            "color": "$text"
+          },
+          {
+            "text": "ゴブリン",
+            "color": "$yellow"
+          },
+          {
+            "text": "は一定数のチェストをルーティングするとバイアルがリチャージされます\n",
+            "color": "$text"
+          },
+          {
+            "text": "パシフィスト",
+            "color": "$blue"
+          },
+          {
+            "text": "は時間経過で自動的にバイアルがリチャージされます\n\n心配しないでください、全てクラフトして自分に最も合うものを試せます。ただし、ヴォールトごとに使えるのは1つだけです！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nバイアルをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/potion",
+      "targetId": "the_vault:bottle",
+      "targetProgress": 1.0,
+      "unlockedBy": "learning_skills",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:ender_pearl"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "enter_vault",
+      "id": "enter_vault",
+      "name": "ヴォールトハンティング",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトストーンブロックを使って、ネザーポータルと同じ要領でヴォールトポータルを建設しましょう。ポータルが完成したら、ヴォールトクリスタルをフレームに右クリックしてポータルを開きます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールト内には制限時間があり、タイマーが0になる前にクリアする必要があります。ブロックで道を印しておくと、ポータルへの帰り道を簡単に見つけられます。\n\n死亡するとオーバーワールドに戻りますが、ヴォールトレベル20未満の場合は「ビギナーズグレース」が付与され、死亡しても脱出してもすべてのルートを保持できます。\n\nヴォールトをクリアすると、設置してスニーク＋右クリックで開けるクレートが報酬として与えられます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトに入る",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/enter_vault",
+      "targetId": "the_vault:any",
+      "targetProgress": 1.0,
+      "unlockedBy": "learning_skills",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:sword",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:shield",
+            "nbt": ""
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "shard_pouch",
+      "name": "ルーティング！",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトでのルーティングは楽しく、たくさんのワクワクするアイテムが見つかります！\nギアステータスの",
+            "color": "$text"
+          },
+          {
+            "text": "アイテム数量",
+            "color": "$itemquantity"
+          },
+          {
+            "text": "は見つかるルートの量を増やし、",
+            "color": "$text"
+          },
+          {
+            "text": "アイテムレアリティ",
+            "color": "$itemrarity"
+          },
+          {
+            "text": "はより高いティアのルートを見つけやすくします。\n",
+            "color": "$text"
+          },
+          {
+            "text": "チェストのルートに加えて、Mobを倒すと",
+            "color": "$text"
+          },
+          {
+            "text": "ソウルシャード",
+            "color": "$soulchance"
+          },
+          {
+            "text": "が手に入ります。ソウルシャードは",
+            "color": "$text"
+          },
+          {
+            "text": "ブラックマーケット",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でレアアイテムの購入に使えます。\nしかし、ルートはすぐに圧倒的な量になるので、優秀なハンターには良いルート整理が必要です！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "シュルカーボックスは序盤に非常に役立ちます。シェルは",
+            "color": "$text"
+          },
+          {
+            "text": "木のチェスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中で見つかります。しかし、",
+            "color": "$text"
+          },
+          {
+            "text": "ポーチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の方がルートを集めるのにはるかに優れた信頼性の高い方法です。\n",
+            "color": "$text"
+          },
+          {
+            "text": "最初のポーチは私たちからの贈り物ですが、進行に応じてさらにクラフトすることをお勧めします。より大きなポーチ、ベルト、バックパックは後で",
+            "color": "$text"
+          },
+          {
+            "text": "知識\n\n",
+            "color": "$knowledge"
+          },
+          {
+            "text": "でリサーチしてアンロックできます。\nポーチはアップグレードカードでアップグレードでき、より多くのルートを運んだり、チェストを壊した時に自動でルートを拾ったり、余分なルートを消去したり、食事まで自動でしてくれます！\n",
+            "color": "$text"
+          },
+          {
+            "text": "ポーチ自体にフィルターを設定することもできます。空のままにすればどんなアイテムでも入ります。\nフィルターを設定するには、ポーチを開いてその中の",
+            "color": "$text"
+          },
+          {
+            "text": "バックパック設定",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タブを参照してください。",
+            "color": "$text"
+          },
+          {
+            "text": "スロットメモリ設定",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タブでは、ポーチに入れる内容をホワイトリストまたはブラックリストで設定できます。これらのフィルターは保存して後で他のポーチに再適用することもできます。システムを理解するまで設定を色々試してみることをお勧めします。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "このクエストをクリアすると2つの基本アップグレードが報酬として貰えます。どちらもポーチにインストールできます：\n",
+            "color": "$text"
+          },
+          {
+            "text": "ピックアップアップグレード",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はチェストが壊された時やアイテムが投げ出された時に、ポーチが自動的に床からアイテムを拾います\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォイドアップグレード",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はポーチに入りきらない余分なアイテムをヴォイド（削除）するように設定できます。アイテムの消去は奇妙に聞こえるかもしれませんが、序盤のルーティングを改善するのに非常に有用です。ただしクラフトコストが高いので、このクエストで貰えるものは賢く使いましょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ソウルシャード",
+            "color": "$soulchance"
+          },
+          {
+            "text": "はMobがドロップするアイテムで、",
+            "color": "$text"
+          },
+          {
+            "text": "シャードポーチ",
+            "color": "$soulchance"
+          },
+          {
+            "text": "に保管するのが最適です。シャードポーチはソウルシャードしか保管できませんが、インベントリにある限り無限に保管できます。ブラックマーケットで買い物をする際にもインベントリに入れておくだけで、手動でソウルシャードを数える必要がありません。全てのハンターの必需品です！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nシャードポーチをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/black_market2",
+      "targetId": "the_vault:shard_pouch",
+      "targetProgress": 1.0,
+      "unlockedBy": "learning_skills",
+      "reward": {
+        "items": [
+          {
+            "item": "sophisticatedbackpacks:backpack",
+            "amount": 1
+          },
+          {
+            "item": "sophisticatedbackpacks:pickup_upgrade",
+            "amount": 1
+          },
+          {
+            "item": "sophisticatedbackpacks:void_upgrade",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "coin_pouch",
+      "name": "コインポーチ",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "あなたの",
+            "color": "$text"
+          },
+          {
+            "text": "ブロンズ",
+            "color": "$bronze"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "シルバー",
+            "color": "$common"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "ゴールド",
+            "color": "$gold"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "プラチナ",
+            "color": "$platinum"
+          },
+          {
+            "text": "を保管する最良の方法は、",
+            "color": "$text"
+          },
+          {
+            "text": "コインポーチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を入手することです！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "コインポーチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "ソウルバウンド",
+            "color": "$soulchance"
+          },
+          {
+            "text": "アイテムで、インベントリに入れたままにしておけます。死亡してもそのまま残り、",
+            "color": "$text"
+          },
+          {
+            "text": "ブロンズ",
+            "color": "$bronze"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "シルバー",
+            "color": "$common"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "ゴールド",
+            "color": "$gold"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "プラチナ",
+            "color": "$platinum"
+          },
+          {
+            "text": "を無制限に収納できます。通貨間の自動変換も行われ、",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトハンターズ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のすべてのワークステーションがコインポーチから直接読み取れるため、アイテムを細かく管理する必要がありません！\n\nもう一つの素晴らしい機能は、",
+            "color": "$text"
+          },
+          {
+            "text": "コインポーチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "がホワイトリストで通貨を許可している",
+            "color": "$text"
+          },
+          {
+            "text": "バックパック",
+            "color": "$blocks"
+          },
+          {
+            "text": "の後ろに配置されていない限り、集めた通貨を自動的に拾ってくれることです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nコインポーチを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/coin_pouch",
+      "targetId": "the_vault:coin_pouch",
+      "targetProgress": 1.0,
+      "unlockedBy": "shard_pouch",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_platinum",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:chromatic_steel_ingot",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "complete_bounty",
+      "name": "バウンティハンティング",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "バウンティをクリアすることは、追加のルートを確保し、確実な目標を持つための素晴らしい方法です。まずバウンティテーブルをクラフトし、右クリックで操作してください。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nバウンティテーブルをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/bounty_table",
+      "targetId": "the_vault:bounty_block",
+      "targetProgress": 1.0,
+      "unlockedBy": "learning_skills",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:bounty_pearl",
+            "amount": 10
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "bounty_complete",
+      "id": "complete_bounty2",
+      "name": "バウンティと報酬",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "バウンティテーブル内で、利用可能なバウンティの一つをクリックし、「有効化」をクリックして選択できます。バウンティを完了したら、テーブルに戻って報酬を受け取りましょう。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nバウンティを完了する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/bounty",
+      "targetId": "the_vault:any",
+      "targetProgress": 1.0,
+      "unlockedBy": "complete_bounty",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:chromatic_iron_ingot",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "animal_pens",
+      "name": "アニマルペン",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "動物を大規模に管理するのは難しく、",
+            "color": "$text"
+          },
+          {
+            "text": "Minecraft",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で大量のラグを引き起こす可能性があります。これは",
+            "color": "$text"
+          },
+          {
+            "text": "アニマルペン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使用することで解決できます。クラフトで作ることができ、",
+            "color": "$text"
+          },
+          {
+            "text": "アニマルジャー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使えば、1つのペンに1種類の動物を無限に飼育・繁殖させることができます！これによりラグが大幅に軽減され、動物を棚に飾るだけでなく、管理もとても簡単になります！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アニマルペン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を設置したら、1種類の動物を好きなだけ",
+            "color": "$text"
+          },
+          {
+            "text": "アニマルジャー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に集めましょう。ゲーム内の全てのパッシブで繁殖可能な動物を集められます。そしてジャーをペンに右クリックするだけで住処が完成します。\n\n動物が2匹以上いれば繁殖アイテムを使って繁殖できます。例えば牛なら",
+            "color": "$text"
+          },
+          {
+            "text": "小麦",
+            "color": "$gold"
+          },
+          {
+            "text": "です。\n\n最後に、",
+            "color": "$text"
+          },
+          {
+            "text": "剣",
+            "color": "$damage"
+          },
+          {
+            "text": "で動物を倒してドロップアイテムを得ることができます。",
+            "color": "$text"
+          },
+          {
+            "text": "ドロップ増加",
+            "color": "$fortune"
+          },
+          {
+            "text": "のエンチャントもここで機能し、収穫量が増えます。一部の動物には特殊な機能があります。例えば、ペン内の牛を",
+            "color": "$text"
+          },
+          {
+            "text": "バケツで搾乳",
+            "color": "$heal"
+          },
+          {
+            "text": "したり、",
+            "color": "$text"
+          },
+          {
+            "text": "バケツ",
+            "color": "$blocks"
+          },
+          {
+            "text": "を使ったり、",
+            "color": "$text"
+          },
+          {
+            "text": "ハチをハサミで刈る",
+            "color": "$yellow"
+          },
+          {
+            "text": "とハニカムが手に入ります。",
+            "color": "$text"
+          },
+          {
+            "text": "Shift",
+            "color": "$cooldown"
+          },
+          {
+            "text": "を押しながら",
+            "color": "$text"
+          },
+          {
+            "text": "アニマルペン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見ると、そのペンの詳細情報を確認できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアニマルペンを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/animal_pen",
+      "targetId": "the_vault:animal_pen",
+      "targetProgress": 1.0,
+      "unlockedBy": "enter_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:animal_jar",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:animal_jar",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:animal_pen",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "tool_station",
+      "name": "ツールステーション",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ツールステーションは、ヴォールトでの体験を大幅に向上させるツールをクラフトするために使用できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n（ほとんどのヴォールトステーションは壊してもインベントリを保持するようになりました）",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nツールステーションを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/station",
+      "targetId": "the_vault:tool_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "enter_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gemstone",
+            "amount": 2
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "forge_gear",
+      "id": "craft_tool",
+      "name": "ヴォールトツール",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトツールはバニラツールの後継です。ジュエルで改造し、ツールに新しいアフィニティやトレイトを付与できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアフィニティを使うと、チェストやコインを大幅に速い速度で破壊でき、木のチェスト以外のすべてのコインやチェストを即座に採掘できるようになります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nまた、ツールの機能を別のツールの機能に変更するジュエルもあります。例えば、ツルハシにシャベリングジュエルを付けて、ツルハシの速度で採掘しシャベルの速度で掘れるマトックを作ることができます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nツールを大幅に強化する他のモディファイアもあります：",
+            "color": "$text"
+          },
+          {
+            "text": "\nアイテムレアリティ",
+            "color": "#E5B819"
+          },
+          {
+            "text": "と",
+            "color": "$text"
+          },
+          {
+            "text": "アイテム数量",
+            "color": "#E88A12"
+          },
+          {
+            "text": "はどちらもツールのルート能力を向上させます。",
+            "color": "$text"
+          },
+          {
+            "text": "\nトラップ解除確率",
+            "color": "#8143FF"
+          },
+          {
+            "text": "はヴォールト内のトラップチェストを解除する確率があります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n採掘速度",
+            "color": "#48BAF8"
+          },
+          {
+            "text": "はツールの基本採掘速度を上げます！",
+            "color": "$text"
+          },
+          {
+            "text": "\nコピアスリー",
+            "color": "#F74780"
+          },
+          {
+            "text": "はヴォールト内のヴォールト鉱石の産出を2倍にする確率を追加します！シルクタッチと幸運にも対応しています。",
+            "color": "$text"
+          },
+          {
+            "text": "\n耐久度",
+            "color": "#DFD0FE"
+          },
+          {
+            "text": "はツールの基本耐久度を上げます",
+            "color": "$text"
+          },
+          {
+            "text": "\nパルヴァライジング",
+            "color": "#73B373"
+          },
+          {
+            "text": "と",
+            "color": "$text"
+          },
+          {
+            "text": "スメルティング",
+            "color": "#FF4500"
+          },
+          {
+            "text": "はどちらもツールに特殊な効果を付与します。パルヴァライジングは採掘したブロックの出力に対してツールベースの粉砕処理を行います。スメルティングは採掘したブロックの出力を精錬します！",
+            "color": "$text"
+          },
+          {
+            "text": "\nハンマリング",
+            "color": "#25d4A5"
+          },
+          {
+            "text": "はハンマーの採掘範囲を拡大します",
+            "color": "$text"
+          },
+          {
+            "text": "\nソウルバウンド",
+            "color": "#9664FD"
+          },
+          {
+            "text": "はツールが死亡してもインベントリに残るようにします！",
+            "color": "$text"
+          },
+          {
+            "text": "\nバニラ不朽",
+            "color": "#AF8DC3"
+          },
+          {
+            "text": "はヴォールト外でツールが耐久値を消費しない確率を付与します。100%で破壊不能になります！",
+            "color": "$text"
+          },
+          {
+            "text": "\nリーチ",
+            "color": "#F9B37F"
+          },
+          {
+            "text": "はプレイヤーがブロックと対話できる範囲を広げます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nクロマティックアイアンのツルハシをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/tool",
+      "targetId": "the_vault:tool/pick/chromatic_iron_ingot",
+      "targetProgress": 1.0,
+      "unlockedBy": "tool_station",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:jewel",
+            "nbt": "{vaultGearData:[L;3591402060363627150L,2130563721701514760L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,2196334573319662592L,-6834473908914065246L,1099511627698L,32768L,65536L]}"
+          },
+          {
+            "item": "the_vault:jewel",
+            "nbt": "{vaultGearData:[L;8807676962843960878L,-1018090581902778908L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-7164678727146624000L,-6834473908914083200L,1099511627698L,32768L,65536L]}"
+          },
+          {
+            "item": "the_vault:jewel",
+            "nbt": "{vaultGearData:[L;-4246674546207997586L,469804410667479720L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,1749915260256562176L,-6834473908914085726L,1099511627698L,32768L,65536L]}"
+          },
+          {
+            "item": "the_vault:jewel",
+            "nbt": "{vaultGearData:[L;9040600318283653614L,-2646425694881105473L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-6032128973979210752L,-6834473908914079292L,1099511627698L,32768L,65536L]}"
+          },
+          {
+            "item": "the_vault:jewel",
+            "nbt": "{vaultGearData:[L;1437378485525153694L,-4161882800610591095L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617707599909354749L,1330939757422750720L,-348445744039196665L,268435455L,8L,16L]}"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "apply_jewel",
+      "name": "ツールのジュエル",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ジュエルアプリケーターを使えば、ツールへのジュエルの適用がとても簡単になり、ツールの結果を確認しながら作業できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nジュエルアプリケーターのインベントリは3つのパートに分かれています；\n",
+            "color": "$text"
+          },
+          {
+            "text": "左側",
+            "color": "$manaCost"
+          },
+          {
+            "text": "にはジュエルを置くことができ、ツールに配置した場合の合計結果が表示されます。\n",
+            "color": "$text"
+          },
+          {
+            "text": "中央",
+            "color": "$manaCost"
+          },
+          {
+            "text": "にはツールを置き、シャベリングやアクシングなどのツールタイプジュエルを組み合わせた視覚的な出力も確認できます。\n最後に、",
+            "color": "$text"
+          },
+          {
+            "text": "右側",
+            "color": "$manaCost"
+          },
+          {
+            "text": "には左側に置いたジュエルを使った更新後のステータスが表示され、ジュエルをアプリケーターに置くと容量とすべてのプレフィックスとサフィックスが自動計算されます",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nすべてのジュエルは",
+            "color": "$text"
+          },
+          {
+            "text": "サイズ10固定",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でロールされ、ツールの",
+            "color": "$text"
+          },
+          {
+            "text": "容量",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nジュエルアプリケーターを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/apply_jewel",
+      "targetId": "the_vault:vault_jewel_application_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "craft_tool",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:chromatic_steel_ingot",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "jewel_crafting",
+      "name": "ジュエルのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ジュエルクラフトテーブルでは、ツールに適用してその性能を向上させるための様々なジュエルをクラフトできます。これらのジュエルはすべて決まったサイズです。すべてのアフィックスがクラフトできるわけではないので、残りは見つける必要があります！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nジュエルクラフトテーブルを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/jewel_cutting",
+      "targetId": "the_vault:jewel_crafting_table",
+      "targetProgress": 1.0,
+      "unlockedBy": "craft_tool",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:silver_scrap",
+            "amount": 512
+          },
+          {
+            "item": "the_vault:gemstone",
+            "amount": 8
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "level_five",
+      "name": "エキスパティーズ",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "エキスパティーズは、5レベルごとに獲得できるエキスパティーズポイントを消費して取得します。エキスパティーズはタレントと同様にプレイヤーにパッシブバフを与えますが、Fortunate（幸運を2レベル追加）やAngel（64ブロック範囲内でクリエイティブ飛行を可能にするエンジェルブロックをクラフトできる）などの、より特定の用途に特化しています。\n\nプレイスルーを通じて合計20のエキスパティーズポイントを獲得でき、その有用性からリセットも容易ではなく、ヴォールトゴールドではなくニューラライザーが必要です。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル5に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/expertises",
+      "targetId": "the_vault:5",
+      "targetProgress": 1.0,
+      "unlockedBy": "apply_jewel",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "vault_forge",
+      "name": "ギアの鍛造",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトフォージでは、プレイヤーレベルに紐づいた技量を使って強力なギアをクラフトできます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n技量はフォージでヴォールトスクラップを消費することで上昇し、クラフトポテンシャル、レアリティ、耐久度、修理スロット、ソウルバウンド確率、グレーターモディファイア確率に影響します。グレーターモディファイアはそのギアレベルの最大レベルモディファイアの1つ上のモディファイアです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nギアのクラフトは技量を消費しないので、進捗を失うことなくクラフトし続けることができます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nクラフトの主なコストはヴォールトアロイで、特に序盤ではギアクラフトが強力になるようにバランス調整されています。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n大量クラフトするには、Shiftを押しながらクラフトすると、クラフトされたアイテムが直接インベントリに送られます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトフォージを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/forge",
+      "targetId": "the_vault:vault_forge",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_five",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_alloy",
+            "amount": 9
+          },
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 3
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "forge_gear",
+      "id": "gear_forge",
+      "name": "マグネット",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "マグネットはプレイヤーの周囲のルートを吸い寄せます！アフィニティやヴォールト内でのチェスト破壊と非常に相性がよく、ルーティングを大幅にスピードアップできます。マグネットにもモディファイアを適用して強化できます。\n\nマグネットを装備するには、インベントリ内のヘルメットスロットの横にあるCuriosボタンを押してCuriosインベントリを開き、ベルトスロットに配置します！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトフォージでマグネットを鍛造する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/magnet",
+      "targetId": "the_vault:magnet",
+      "targetProgress": 1.0,
+      "unlockedBy": "vault_forge",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_alloy",
+            "amount": 9
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "artisan_table",
+      "name": "アーティザンステーションでの改造",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "アーティザンステーションは、特定のビルドスタイルに合ったギアをさらに改造・作成するために使用できます。インターフェースにはヴォールトプレーティング、ヴォールトブロンズ、様々な機能を持つフォーカス、そしてヴォールトギアのスロットがあります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアーティザンステーションを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/artisan",
+      "targetId": "the_vault:vault_artisan_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "gear_forge",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:wild_focus",
+            "amount": 8
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "modify_gear",
+      "id": "wild_focus",
+      "name": "ギアモディファイアのリロール",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトブロンズ、ヴォールトプレーティング、ワイルドフォーカスをアーティザンステーションに入れると、ギアのモディファイアを全てリロールできます。リフォージボタンをクリックすると、ギアや武器に新しいモディファイアが適用されます。これが自分のビルドスタイルに合ったギアを作る最初のステップです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nワイルドフォーカスでギアをリロールする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/reroll",
+      "targetId": "the_vault:reforge_all",
+      "targetProgress": 1.0,
+      "unlockedBy": "artisan_table",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_plating",
+            "amount": 12
+          },
+          {
+            "item": "the_vault:vault_bronze",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_recycler",
+      "name": "ヴォールトギアの分解",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトリサイクラーは、古い不要なギアをヴォールトスクラップ、ワイルドフォーカス、ファセットフォーカスに分解するために使用します。ジュエル、マグネット、インスクリプションの分解やリサイクルにも使えます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトリサイクラーを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/recycler",
+      "targetId": "the_vault:vault_recycler",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_five",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_scrap",
+            "amount": 16
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "alchemystation",
+      "name": "アルケミーテーブル",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "アルケミーテーブル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はとても便利なテーブルです。",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトポーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "にチャージごとの",
+            "color": "$text"
+          },
+          {
+            "text": "セカンダリ効果",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を追加して改造することができます！\n\nこれらの",
+            "color": "$text"
+          },
+          {
+            "text": "セカンダリ効果",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中にはアンロックが必要なものもありますが（後で学びます）、すでにいくつかは",
+            "color": "$text"
+          },
+          {
+            "text": "利用可能",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "です。\nポーションごとに1つの効果を追加でき、その強さはポーションの基本",
+            "color": "$text"
+          },
+          {
+            "text": "ティア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に応じて",
+            "color": "$text"
+          },
+          {
+            "text": "スケール",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアルケミーテーブルを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/alchemytable",
+      "targetId": "the_vault:alchemy_table",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_five",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 8
+          },
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 8
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "level_ten",
+      "name": "ヴォールトの目標",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベルが上がるにつれて、ヴォールトは新しい、より挑戦的な目標を提示するようになります。シールをクラフトしてアンビルでクリスタルに適用することで、目標を追加することもできます。\n\nレベル10はランダムヴォールトへの「ブレイジャーに火を灯せ」目標の導入を意味します。\nレベル20はランダムヴォールトへの「スカベンジャー」目標の導入を意味します。\nレベル50はランダムヴォールトへの「ビンゴ」と「ルーンハント」目標の導入を意味します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル10に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/ten",
+      "targetId": "the_vault:10",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_five",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_scout"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "seals",
+      "name": "目標の選択",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "シールはヴォールトの目標を自分で設定できる特に便利なアイテムです。これにより、低レベルでもいつでも好きな目標をプレイできます。シールを使うには、クリスタルワークベンチでクリスタルに適用してください",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nブランクシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/empty_seal",
+      "targetId": "the_vault:crystal_seal_empty",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_empty"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_sage_seal",
+      "name": "エリクサーシールのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "セージのシール",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "クリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "エリクサー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "目標を適用します。クラフトにはブランクシールといくつかのヴォールト素材が必要です",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nエリクサー目標では、チェストのルーティング、Mobの討伐、鉱石の採掘によってエリクサーを一定量集める必要があります。エリクサーバーが満タンになったら、ロードストーンを見つけてヴォールトから脱出しましょう",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこの目標の推奨レベルは0で、そのレベル以降はランダムにヴォールトに出現するようになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nセージのシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/sage",
+      "targetId": "the_vault:crystal_seal_sage",
+      "targetProgress": 1.0,
+      "unlockedBy": "seals",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_sage",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_brazier_seal",
+      "name": "ブレイジャーシールのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "スカウトのシール",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "クリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "ブレイジャーに火を灯せ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "目標を適用します。クラフトにはブランクシールといくつかのヴォールト素材が必要です",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n「ブレイジャーに火を灯せ」目標では、ブレイジャーを見つけて火を灯す必要があります。ブレイジャーにはポジティブとネガティブな効果が付いているので、賢く選びましょう。すべてのブレイジャーに火を灯したら、ヴォールトポータルから出るか、追加ブレイジャーを略奪してさらにルートを得ることができます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこの目標の推奨レベルは10+で、そのレベル以降はランダムにヴォールトに出現するようになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nスカウトのシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/scout",
+      "targetId": "the_vault:crystal_seal_scout",
+      "targetProgress": 1.0,
+      "unlockedBy": "seals",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_scout",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_hunter_seal",
+      "name": "スカベンジャーシールのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ハンターのシール",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "クリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "スカベンジャー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "目標を適用します。クラフトにはブランクシールといくつかのヴォールト素材が必要です",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nスカベンジャーアイテム専用のポーチを作ることをお勧めします。一般的に",
+            "color": "$text"
+          },
+          {
+            "text": "スカベンジャーポーチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "と呼ばれています。これによりスカベンジャーアイテムの整理がずっと簡単になります！もう一つ知っておくと良いのは、ヴォールトから出るとスカベンジャーアイテムは",
+            "color": "$text"
+          },
+          {
+            "text": "削除",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "されるということです。スカベンジャーアイテムはそのヴォールト内でのみ有効です！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nスカベンジャー目標では、画面上部に表示される特定のアイテムリストを見つける必要があります。アイテムの下のアイコンを見ると入手方法が分かります。すべてのアイテムを集めたら、スカベンジャー祭壇に納めましょう！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこの目標の推奨レベルは20+で、そのレベル以降はランダムにヴォールトに出現するようになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nハンターのシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/hunter",
+      "targetId": "the_vault:crystal_seal_hunter",
+      "targetProgress": 1.0,
+      "unlockedBy": "seals",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_hunter",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_Prophet_seal",
+      "name": "ビンゴシールのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "プロフェットのシール",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "クリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "ビンゴ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "目標を適用します。クラフトにはブランクシールといくつかのヴォールト素材が必要です",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nビンゴ目標では、ビンゴボードのタスクを実行してラインの完成を目指します。この目標の報酬は完成したラインの数に応じてスケールします。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nレベル90以上のプレイヤーは4x4グリッドの代わりに5x5グリッドになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nビンゴ目標のモディファイア：",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n迅速に（Rapidly）：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タスクを非常に素早く実行しないとリセットされます。例：6秒以内に木のチェストを10個ルーティングする",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n完璧に（Flawlessly）：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "ダメージを一切受けずにタスクを実行します（毒や落下ダメージも含む）",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n静かに（Silently）：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タスク実行中にMobにダメージを与えてはいけません",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n原始的に（Primitively）：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タスク実行中にマナを使用してはいけません",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nコンボ（Combo）：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "制限時間内に一連のタスクを実行します。最初のタスクを完了すると次のタスクに変わります",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこの目標の推奨レベルは50+で、そのレベル以降はランダムにヴォールトに出現するようになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nプロフェットのシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/prophet",
+      "targetId": "the_vault:crystal_seal_prophet",
+      "targetProgress": 1.0,
+      "unlockedBy": "seals",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_prophet",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_guardian_seal",
+      "name": "ルーンハントシールのクラフト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "エクスキューショナーのシール",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "クリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "ルーンハント",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "目標を適用します。クラフトにはブランクシールといくつかのヴォールト素材が必要です",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nルーンハントでは、ルーンを見つけてルーンボスの柱に適用することが目標です。各ルーンには異なるモディファイアと報酬アイテムがあります。正しい数のルーンを挿入すると、部屋が閉鎖され、選んだモディファイアを持つボスが出現します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n各ルーンの報酬アイテムは完了クレートに追加されます。これらのアイテムにはギア、ギアフォーカス、インスクリプションが含まれることがあります",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこの目標の推奨レベルは50+で、そのレベル以降はランダムにヴォールトに出現するようになります。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\nエクスキューショナーのシールを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/executioner",
+      "targetId": "the_vault:crystal_seal_executioner",
+      "targetProgress": 1.0,
+      "unlockedBy": "seals",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_executioner",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "regret",
+      "name": "決断のやり直し",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "どのアビリティやタレントを取るか決めるのはかなりストレスになることがありますが、心配しないでください！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトハンターズには、",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトゴールド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使って決断をやり直す仕組みがあります。インベントリに十分な",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトゴールド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があれば、",
+            "color": "$text"
+          },
+          {
+            "text": "忘れる",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を",
+            "color": "$text"
+          },
+          {
+            "text": "スキルツリー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "から選択できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "以前はこれは",
+            "color": "$text"
+          },
+          {
+            "text": "リグレットオーブ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で行われていましたが、その仕組みは廃止されました。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールト内ではリグレットを実行できません。",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/regretorb",
+      "targetId": "the_vault:any",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "craft_black_market",
+      "name": "ブラックマーケットの商品",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ブラックマーケットでは、ソウルシャードを使って2時間ごとにリフレッシュされるアイテムプールから購入したり、入手可能な全アイテムからランダムに選ばれたプールから購入できます。ブラックマーケットではレアアイテムが手に入るので、こまめにチェックしましょう！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nブラックマーケットを操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/black_market",
+      "targetId": "the_vault:black_market",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:soul_shard",
+            "amount": 256
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "soul_diffuser",
+      "name": "ソウルディフューザー",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ソウルディフューザーはヴォールトアイテムをソウルダストに分解し、それをソウルシャードに変換してブラックマーケットの通貨として使用できます。何が価値あるもので何を分解するに値するか、自分で判断できます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトソウルディフューザーを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/diffuser",
+      "targetId": "the_vault:vault_diffuser",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:soul_shard",
+            "amount": 256
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "identification_stand",
+      "name": "鑑定台",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "鑑定台は右クリックすると、インベントリ内の未鑑定のヴォールトギアを全て即座に",
+            "color": "$text"
+          },
+          {
+            "text": "鑑定",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "するブロックです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n鑑定台を入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/identificationstand",
+      "targetId": "the_vault:identification_stand",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:helmet",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:chestplate",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:leggings",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:boots",
+            "nbt": ""
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "craft_knowledge_star",
+      "name": "知識の活用",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "知識の星の入手と使用は、ヴォールトハンターズの進行における重要な要素の一つです。新しいModのアンロックに必要な核となるコンポーネントだからです。'H'キーを押してリサーチタブを選択すると、アンロックできるすべてのものが表示されます。一部のリサーチを購入するとそのグループ内の後続アンロックの価格が上がるので注意してください。\n\nこのクエストの報酬はModボックスです！使用すると、アンロック済みのModからランダムなアイテムが手に入ります",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n知識の星をクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/knowledge",
+      "targetId": "the_vault:knowledge_star",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_ten",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:mod_box"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "reach_level_20",
+      "name": "レベル20の変化",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル20に到達すると、ヴォールトハンターズのチュートリアル段階が終了します！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "カジュアルモード",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でプレイしていない限り、ヴォールト内で死亡するとアイテムが保持されなくなります。これについては",
+            "color": "$text"
+          },
+          {
+            "text": "スピリットエクストラクター",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のクエストで詳しく学びます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "このレベルでは多くの新しいことが起こります。",
+            "color": "$text"
+          },
+          {
+            "text": "ベンドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "ダンジョンドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "がヴォールト内で見つかるようになり、追加のルートや新しいMobも登場します！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "でも心配しないでください、まだ始まったばかりです！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル20に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/twenty",
+      "targetId": "the_vault:20",
+      "targetProgress": 1.0,
+      "unlockedBy": "craft_knowledge_star",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:knowledge_star"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "burgers",
+      "name": "追加経験値",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトバーガー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を食べるとヴォールト経験値を得られます。\nヴォールトバーガーは",
+            "color": "$text"
+          },
+          {
+            "text": "ブラックマーケット",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "ベンドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で稀に見つかります。サイズが異なり、ボリュームがあるほど多くの経験値を獲得できます。\n 追加の経験値は時として便利ですが、自己責任でお使いください。現在のギアよりもレベルが上がりすぎてしまう可能性があります！",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/burger",
+      "targetId": "the_vault:plain_burger",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:plain_burger",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:cheese_burger",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:deluxe_cheese_burger",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "crystal_workbench",
+      "name": "ヴォールトクリスタルの改造",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトクリスタルは、現在のニーズや好みに合わせて",
+            "color": "$text"
+          },
+          {
+            "text": "改造",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "できます。クリスタルに対して行える改造はいくつかあります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "オーグメント",
+            "color": "$titleLine"
+          },
+          {
+            "text": "はヴォールトのテーマを設定します。完了クレートで時折見つかります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "キャップストーン",
+            "color": "$titleLine"
+          },
+          {
+            "text": "は使用するキャップストーンに応じてヴォールトにバフを与え、クリスタルを改造不可にします\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カタリスト",
+            "color": "$titleLine"
+          },
+          {
+            "text": "はヴォールトにモディファイアを追加します。モディファイアは例えば特定のチェストの量を増やしつつ、ランダムなネガティブモディファイアを追加してヴォールトを少し難しくすることもあります。例えばヴォールト内のMobを強化するなどです。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプション",
+            "color": "$titleLine"
+          },
+          {
+            "text": "は追加するインスクリプションごとに、ヴォールト内のどこかに特定の部屋を追加します。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "クリスタルを",
+            "color": "$text"
+          },
+          {
+            "text": "改造",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "することで、ヴォールトを自分好みに",
+            "color": "$text"
+          },
+          {
+            "text": "調整",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "できます。各クリスタルには",
+            "color": "$text"
+          },
+          {
+            "text": "容量インジケーター",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があり、レベルが高いほどクリスタルの容量が大きくなります。容量を超えることもできますが、超えるたびにヴォールトに",
+            "color": "$text"
+          },
+          {
+            "text": "呪い",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が追加されます！\n\nクリスタルへのすべての改造は",
+            "color": "$text"
+          },
+          {
+            "text": "クリスタルワークベンチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で行います！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nクリスタルワークベンチをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/crystalworkbench",
+      "targetId": "the_vault:crystal_workbench",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:augment",
+            "nbt": "{\"theme\":\"the_vault:classic_vault_cave_geode\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:phoenix_feather",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "apply_catalyst",
+      "name": "カタリスト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトクリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "カタリスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使用すると、求めているルートを大幅に改善できます！\n",
+            "color": "$text"
+          },
+          {
+            "text": "カタリスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はヴォールトに",
+            "color": "$text"
+          },
+          {
+            "text": "モディファイア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を追加します。",
+            "color": "$text"
+          },
+          {
+            "text": "モディファイア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は例えば特定のチェストの量を増やしつつ、ランダムなネガティブモディファイアを追加してヴォールトを少し難しくすることもあります。例えばヴォールト内のMobの強さを上げるなどです。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カタリスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "カタリストインフュージョンテーブル",
+            "color": "$titleLine"
+          },
+          {
+            "text": "で、原料の",
+            "color": "$text"
+          },
+          {
+            "text": "カタリストフラグメント",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使ってクラフトします。カタリストフラグメントは",
+            "color": "$text"
+          },
+          {
+            "text": "未改造のヴォールト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の",
+            "color": "$text"
+          },
+          {
+            "text": "木のチェスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中で見つかります。\nすべてのクラフトされたカタリストはヴォールトクリスタルの",
+            "color": "$text"
+          },
+          {
+            "text": "容量10",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使用します。容量が少ないカタリストはトレジャールームや完了クレートで稀に見つかります。\n",
+            "color": "$text"
+          },
+          {
+            "text": "カタリスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "クリスタルワークベンチ",
+            "color": "$titleLine"
+          },
+          {
+            "text": "でクリスタルに適用できます\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カタリストインフュージョンテーブルをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/catalyst",
+      "targetId": "the_vault:catalyst_infusion_table",
+      "targetProgress": 1.0,
+      "unlockedBy": "crystal_workbench",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_catalyst_fragment",
+            "amount": 9
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "inscription_table",
+      "name": "インスクリプション",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトクリスタルに",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使用すると、特定の部屋を含むヴォールトを作成できるため、多くのアドバンテージを得られます",
+            "color": "$text"
+          },
+          {
+            "text": "！",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプションテーブル",
+            "color": "$titleLine"
+          },
+          {
+            "text": "で、原料の",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプションピース",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使ってクラフトできます。",
+            "color": "$text"
+          },
+          {
+            "text": "木のチェスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中で見つかります\nクラフトされたインスクリプションはクリスタルの",
+            "color": "$text"
+          },
+          {
+            "text": "容量10",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使用します。容量が少ないインスクリプションはリビングチェスト、トレジャールーム、完了クレートで稀に見つかります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "クリスタルワークベンチ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でクリスタルに適用できます。クリスタルに1つ以上のインスクリプションが刻まれていると、ヴォールトのスタートルームに",
+            "color": "$text"
+          },
+          {
+            "text": "マップが表示",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "されて部屋の場所が分かります。部屋への道を覚えてから探索に出かけましょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インスクリプションテーブルをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/inscriptiontable",
+      "targetId": "the_vault:inscription_table",
+      "targetProgress": 1.0,
+      "unlockedBy": "crystal_workbench",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:inscription_piece",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "mining",
+      "id": "temporal_shards",
+      "name": "パイロンとテンポラルレリック",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールト内ですでに",
+            "color": "$text"
+          },
+          {
+            "text": "パイロン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に出くわしたことがあるかもしれません。この強力な浮遊クリスタルは、右クリックするとパイロンに応じた限定的なバフを与えてくれます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "しかし、パイロンの力を消費する代わりに、ツール（ピッキング付き）で壊して破壊することもできます。壊すには時間がかかりますが、完了すると稀に",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルレリック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が手に入ります。これは非常に強力なアイテムで、鑑定すると消耗アイテムとなり、使用したヴォールトに",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルモディファイア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を追加します！\n\nテンポラルモディファイアは非常に強力で5分間持続し、正しく使えばヴォールトや現在の目標の結果を完全に変えることができます！",
+            "color": "$text"
+          },
+          {
+            "text": "！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "パイロンを破壊してテンポラルレリックを入手するチャンスを得る",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/temporal_shard",
+      "targetId": "the_vault:pylon",
+      "targetProgress": 1,
+      "unlockedBy": "crystal_workbench",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:temporal_shard",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "artifact",
+      "name": "アーティファクト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "全てのハンターの目標は、伝説のアーティファクトパズルを完成させ、伝説のヘラルドと戦うことです！\n",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトはレベル20以降、",
+            "color": "$text"
+          },
+          {
+            "text": "完了クレート",
+            "color": "$yellow"
+          },
+          {
+            "text": "で稀に見つかります。ヴォールト完了時のレベルが高いほど、アーティファクトを見つける確率が高くなります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "全部で25種類のユニークなアーティファクトがあり、",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルド",
+            "color": "$herald"
+          },
+          {
+            "text": "にアクセスするには全てを集める必要があります！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトの書",
+            "color": "$yellow"
+          },
+          {
+            "text": "はパズルをその上に表示し、アーティファクトを正しい場所に配置してパズルを完成させることができます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトを探している間に複製が見つかる可能性が高いです。複製は",
+            "color": "$text"
+          },
+          {
+            "text": "火の中に投げ込む",
+            "color": "$orange"
+          },
+          {
+            "text": "ことで",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトの欠片",
+            "color": "$fragment"
+          },
+          {
+            "text": "に燃え変わり、新しいアーティファクトのクラフトに使えます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアーティファクトの書を入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/artifact",
+      "targetId": "the_vault:artifact_projector_block",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:unidentified_artifact"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "spirit_extractor",
+      "name": "復活",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "スピリットエクストラクターはヴォールト内で失ったルートを回収するために使用します。死亡した場合、スニーク＋右クリックでスピリットを拾い、右クリックでエクストラクターに置いてください。アイテムを受け取るために支払うべきヴォールトゴールドの価格が表示されます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nスピリットエクストラクターを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/extractor",
+      "targetId": "the_vault:spirit_extractor",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "trinkets",
+      "name": "トリンケット",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル20以降のもう一つの大きな変化は、トリンケットを見つけられるようになることです！\nこれらはCuriosのバブルスロットに装備できる強力なアイテムです。",
+            "color": "$text"
+          },
+          {
+            "text": "青",
+            "color": "$blue"
+          },
+          {
+            "text": "と",
+            "color": "$text"
+          },
+          {
+            "text": "赤",
+            "color": "$red"
+          },
+          {
+            "text": "の2色があり、それぞれ1つずつ、合計2つのトリンケットを同時に装備できます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "青",
+            "color": "$blue"
+          },
+          {
+            "text": "のトリンケットは他では入手できない機能を提供します。例えば",
+            "color": "$text"
+          },
+          {
+            "text": "三段ジャンプ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "壁登り",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "など。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "赤",
+            "color": "$red"
+          },
+          {
+            "text": "のトリンケットはステータスを強化します。例えば",
+            "color": "$text"
+          },
+          {
+            "text": "マナ再生",
+            "color": "$manaCost"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "体力",
+            "color": "$heal"
+          },
+          {
+            "text": "など。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットには耐久値がなく、代わりに使用回数（チャージ）があります。ヴォールト外では無制限に使えますが、装備した状態でヴォールトに入るとチャージを1つ消費します。ヴォールト内では外すこともできません。\n",
+            "color": "$text"
+          },
+          {
+            "text": "エキスパティーズ",
+            "color": "$expertise"
+          },
+          {
+            "text": "の",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケッター",
+            "color": "$expertise"
+          },
+          {
+            "text": "はヴォールト入場時にトリンケットのチャージを消費しないランダム確率を与えます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットを見つけると恒久的に発見され、",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットフォージ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でクラフトできるようになります。\n\nクラフトされたトリンケットは常に12回の使用/チャージがあり、ルーティングで見つけたトリンケットは20〜30回のランダムな使用/チャージがあります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n最初のトリンケットはこのクエストを読んだ報酬です。気に入るものが出ることを願っています！気に入らなければ、ヴォールトリサイクラーでスクラップして主要素材の",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットスクラップ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を入手できます。\nトリンケットスクラップを入手する確率は、スクラップ時にトリンケットに残っている使用回数/チャージで決まります。フルチャージのトリンケットは必ずスクラップが得られ、完全に消耗したものからは絶対に得られません。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/trinket",
+      "targetId": "the_vault:trinket",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:trinket",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "trinket_forge",
+      "name": "トリンケットフォージ",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "トリンケットを見つけたので、",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットフォージ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で自分のトリンケットをクラフトできます",
+            "color": "$text"
+          },
+          {
+            "text": "。",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットスクラップ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が必要です。",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトリサイクラー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で入手できます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "トリンケットフォージを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/trinket_forge",
+      "targetId": "the_vault:trinket_forge",
+      "targetProgress": 1.0,
+      "unlockedBy": "trinkets",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:trinket_scrap",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "vaultrocks",
+      "name": "ヴォールトロック",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトハンターズの世界には、神秘的な",
+            "color": "$text"
+          },
+          {
+            "text": "特殊ヴォールトロック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "も存在します。クラフトできるものもあれば、見つけることでしか入手できないものもあります。\n\nこれらの",
+            "color": "$text"
+          },
+          {
+            "text": "特殊ヴォールトロック",
+            "color": "$text"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールト祭壇",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で使用すると、",
+            "color": "$text"
+          },
+          {
+            "text": "改造不可の特殊ヴォールトクリスタル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が作成されます。\n\n",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/vaultrock",
+      "targetId": "the_vault:none",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "warden",
+      "name": "ワーデンのヴォールトロック",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル20以降、カジュアルモード以外でプレイしている場合、ヴォールト内で死亡するとスピリットの買い戻しでゴールドを失うか、買い戻さない場合はアイテムを失います。\n\nこれは時に怖く、フラストレーションが溜まることがありますが、ヴォールトに入る前に死亡時の保険が欲しい場合は、",
+            "color": "$text"
+          },
+          {
+            "text": "ワーデンのヴォールトロック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "をクラフトしてみてください。\n\nこの特殊な岩で作られたクリスタルは",
+            "color": "$text"
+          },
+          {
+            "text": "アフターライフモディファイア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を付与し、死亡時のアイテムの安全を保証します。デメリットとして、ヴォールト内で獲得する",
+            "color": "$text"
+          },
+          {
+            "text": "経験値が半分",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "になりますが、追いつく必要がある場合にはむしろメリットになる可能性もあります！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ワーデンのヴォールトロックをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/wardenrock",
+      "targetId": "the_vault:wardens_pearl",
+      "targetProgress": 1.0,
+      "unlockedBy": "vaultrocks",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "plunderer",
+      "name": "プランダラーのヴォールトロック",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "プランダラーのヴォールトロック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はヴォールトのスケーリングカーブに遅れを感じている場合に最適な特殊ヴォールトロックです。",
+            "color": "$text"
+          },
+          {
+            "text": "ルートの量が増加",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "し、ヴォールト鉱石も含まれますが、",
+            "color": "$text"
+          },
+          {
+            "text": "経験値獲得がなくなります",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "。\n\nレベルアップしたくないけど、追加のルートが必要な場合に最適です！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "プランダラーのヴォールトロックをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/plunderrock",
+      "targetId": "the_vault:plunderer_pearl",
+      "targetProgress": 1.0,
+      "unlockedBy": "vaultrocks",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "vendoors",
+      "name": "ベンドア",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル20になったので、ヴォールト内で",
+            "color": "$text"
+          },
+          {
+            "text": "ベンドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけられるようになります！\n\nこの",
+            "color": "$text"
+          },
+          {
+            "text": "暗い赤色のドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は空の手で右クリックして開き、中には3つの",
+            "color": "$text"
+          },
+          {
+            "text": "ショッピング台座",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があります。\n\n価格は",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトゴールド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "なので、ヴォールトに入る時はゴールドを持っていくようにしましょう。必要に応じてゲームがインベントリやバックパック内のブロンズとシルバーを自動的にまとめてくれます。",
+            "color": "$text"
+          },
+          {
+            "text": "バーター",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のエキスパティーズで価格を下げることができます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールト内でベンドアを開く",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/vendoor",
+      "targetId": "the_vault:vendor_door",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 20
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "dungeons",
+      "name": "ダンジョン",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ダンジョンはヴォールト内の恐ろしい場所で、チャレンジとルートがあります！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールト内でランダムに見つかるダンジョンドアは、",
+            "color": "$text"
+          },
+          {
+            "text": "右クリック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で開きます。開くと、ダンジョンの",
+            "color": "$text"
+          },
+          {
+            "text": "難易度",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "がアナウンスされ、",
+            "color": "$text"
+          },
+          {
+            "text": "ノーマル",
+            "color": "$normal"
+          },
+          {
+            "text": "から",
+            "color": "$text"
+          },
+          {
+            "text": "インポッシブル",
+            "color": "$impossible"
+          },
+          {
+            "text": "の範囲です。\n\nドア自体のMobの頭はダンジョン内のMobの種類を示しています。",
+            "color": "$text"
+          },
+          {
+            "text": "ダンジョンにはさまざまな",
+            "color": "$text"
+          },
+          {
+            "text": "サイズ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があり、大きいほどルートが多く、",
+            "color": "$text"
+          },
+          {
+            "text": "アルケミーアーカイブ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が見つかる確率も高くなります。",
+            "color": "$text"
+          },
+          {
+            "text": "ダンジョンチャンピオン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を倒した後に！\n\n運が良ければ、ダンジョン内で",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトグローブ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけることができます。",
+            "color": "$text"
+          },
+          {
+            "text": "ダンジョンボス",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に守られています。ダンジョンが大きいほど、グローブが見つかる可能性が高くなります。いくつかの種類のグローブがありますが、1つのダンジョンには最大1つです。クリックすると、",
+            "color": "$text"
+          },
+          {
+            "text": "グローブ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は現在のヴォールト内の全プレイヤーに対して、そのグローブタイプの",
+            "color": "$text"
+          },
+          {
+            "text": "すべての部屋を表示",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "します。\n\nダンジョンには",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "バリア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "もあり、ダンジョンのモンスターが外に出られないようになっています。でも安心してください、あなたはこの",
+            "color": "$text"
+          },
+          {
+            "text": "バリア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を通り抜けられます。\n慎重に進み、難易度を尊重しましょう！ハンター、頑張って！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nダンジョンドアを開く",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/dungeon_quest",
+      "targetId": "the_vault:dungeon_door",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_pog"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "storing_gear",
+      "name": "ギアの保管",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ワードローブを使うと、ギアセットとホットバーを保存し、GUIを使って素早く切り替えることができます。これにより多くの異なるビルドセットを使い分けることが可能になり、アクセスが格段に簡単になります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nワードローブを操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/wardrobe",
+      "targetId": "the_vault:wardrobe",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:wardrobe"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "skill_altar",
+      "name": "マルチビルド",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ワードローブがギアの保存を可能にするように、スキル祭壇はアビリティとタレントを保存でき、異なるビルド間を素早く切り替えられます！ワードローブとの相性が非常に良いです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nスキル祭壇を操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/skill_altar",
+      "targetId": "the_vault:skill_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 10
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "transmog",
+      "name": "トランスモグリフィケーション",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "トランスモグリフィケーションテーブルでは、取得したアンロック済みのトランスモグにギアの外観を変更できます。ギアとブロンズを置いてトランスモグの閲覧を始めましょう！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nトランスモグリフィケーションテーブルを操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/transmog",
+      "targetId": "the_vault:transmog_table",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_bronze",
+            "amount": 64
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "unique_codex",
+      "name": "ユニークギア",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ユニークギア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はヴォールトハンターズのエキサイティングな要素です！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ユニークギア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は通常のギアとは異なり改造できません。しかし、ユニークな特性を持ってロールされます！",
+            "color": "$text"
+          },
+          {
+            "text": "例えばアビリティにまったく新しい使い方を与えるものや、好みのプレイスタイルを大幅に強化するものがあります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "ユニークコーデックス",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "をクラフトして、これらのエキサイティングなギアの入手場所を閲覧しましょう。ただし注意、中には非常にレアなものもあります！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ユニークコーデックスをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/unique_codex",
+      "targetId": "the_vault:unique_codex",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "reach_level_40",
+      "name": "レベル40！",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル40に到達したことで、ヴォールトの神々があなたの存在に気づきました！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "神々は善でも悪でもなく、完全に無視することもできます。しかし、あなたの時間を費やす価値があるかもしれません！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル40に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/level40",
+      "targetId": "the_vault:40",
+      "targetProgress": 1.0,
+      "unlockedBy": "transmog",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_echo",
+            "amount": 4
+          },
+          {
+            "item": "the_vault:mod_box",
+            "amount": 2
+          },
+          {
+            "item": "the_vault:sour_orange",
+            "amount": 1
+          },
+          {
+            "item": "minecraft:bamboo",
+            "amount": 12
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "charms",
+      "name": "神々",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトの神々について知る時が来ました！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "善でも悪でもなく、彼らは；\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "イドナ",
+            "color": "$idona"
+          },
+          {
+            "text": "\n戦いの神\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "テノス",
+            "color": "$tenos"
+          },
+          {
+            "text": "\n知識の神\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴェラーラ",
+            "color": "$velara"
+          },
+          {
+            "text": "\n生命の神\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ウェンダー",
+            "color": "$wendarr"
+          },
+          {
+            "text": "\n時の神\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "レベル40に到達したことで、非常に稀に",
+            "color": "$text"
+          },
+          {
+            "text": "ゴッドチャーム",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけることがあるかもしれません。",
+            "color": "$text"
+          },
+          {
+            "text": "リビングチェスト",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "リビングダンジョンバレル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中で見つかります。クラフトも改造もできませんが、ヴォールトスクラップにリサイクルできます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "チャームはCuriosの",
+            "color": "$text"
+          },
+          {
+            "text": "チャームスロット",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に装備でき、トリンケットと同様に使用回数があります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "チャームが紐づいている神に応じて、貴重な属性や",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルモディファイア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を追加できます。\n\nこれらの属性の強さは、紐づいている神との",
+            "color": "$text"
+          },
+          {
+            "text": "名声",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に基づいています！名声が高いほど、属性がより強力になります。\n\n次のクエストで神との名声の上げ方を学べますが、今のところ良いスタートを切るために、鑑定用の無料ゴッドチャームをプレゼントします！",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/gods_quest_x",
+      "targetId": "the_vault:charms",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_40",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_god_charm"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "god_altars",
+      "name": "ゴッド祭壇と名声",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル40以降、ヴォールト内にゴッド祭壇が出現するようになります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "祭壇は4柱の神の一柱を表しています。\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールト内でこれらの祭壇のいずれかに触れると、神からのチャレンジが提示されます。タスクを完了すると",
+            "color": "$text"
+          },
+          {
+            "text": "好意",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を得られ、ヴォールト内で強力なバフが付与されます。さらに重要なのは、その神との",
+            "color": "$text"
+          },
+          {
+            "text": "名声ポイント",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が上がることです。ただし注意！チャレンジに失敗すると",
+            "color": "$text"
+          },
+          {
+            "text": "名声ポイントが減少",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "します！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "各神につき最大",
+            "color": "$text"
+          },
+          {
+            "text": "50",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の名声ポイントに到達でき、統計画面で進捗を追跡できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n各神との名声が高いほど、そのチャームがより強力になります！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nゴッド祭壇をクリアする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/god_altar",
+      "targetId": "the_vault:god_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "charms",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_pog"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "reach_level_50",
+      "name": "エキスパティーズのリセット",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトレベル50に到達するとレベルの折り返し地点です。つまり、現在すでに全エキスパティーズポイントの半分を持っているということです。ニューラライザーを使うと、現在割り振っているエキスパティーズポイントを完全にリセットでき、別のエキスパティーズの方が自分のニーズに合うと判断した場合に変更できます！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル50に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/level50",
+      "targetId": "the_vault:50",
+      "targetProgress": 1.0,
+      "unlockedBy": "god_altars",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:neuralizer"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "checkmark",
+      "id": "card_system",
+      "name": "カードシステム",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "カードシステムは、",
+            "color": "$text"
+          },
+          {
+            "text": "カード",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使ってステータスやアビリティを強化する仕組みです。カードには多くの種類があり、",
+            "color": "$text"
+          },
+          {
+            "text": "デッキ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を通じて装備します。各デッキには独自のレイアウトとソケット制限があります。",
+            "color": "$text"
+          },
+          {
+            "text": "コア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はさらなる強化とカスタマイズを提供します。\n\nカード、デッキ、コアに加えて、このシステムに関連するいくつかの新しいワークステーションがあります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "デッキステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はデッキと低ティアのコアのクラフトに使用します。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カードバインダー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はカードの保管とデッキの構築に使用できます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カードアップグレードステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はティア付きカードをアップグレードしてより強力にするために使用できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nカードシステムの各パートの詳細は、他のカード関連クエストを確認してください。",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/card_table",
+      "targetId": "the_vault:deck_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_pog",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "obtain_card",
+      "name": "カードの種類",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "カードはブースターパックから入手でき、完了クレートやブラックマーケットで見つかります。\n\n4色あり、各カードの用途は入手した特定のカードによって異なります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nステータスパック：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "このパックにはステータスカードが含まれています。",
+            "color": "$text"
+          },
+          {
+            "text": "体力",
+            "color": "$health"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "防御力",
+            "color": "$armor"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "攻撃力",
+            "color": "$damage"
+          },
+          {
+            "text": "などのプレイヤーベースのステータスを向上させます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nリソースパック：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "このパックにはリソースカードが含まれています。各カードにはリソースと条件があり、ヴォールトクリア時に条件を満たしていれば、そのリソースが完了クレートに追加されます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nアルケインパック：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "このパックにはアルケインカードが含まれており、現在のアビリティに追加レベルを付与します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nエボリューションパック：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "このパックにはエボリューションカードが含まれています。ステータスカードと似た機能ですが、他のカードと一緒に配置・ペアリングするとより強力になります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nミックスパック：",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "このパックは上記のパックのいずれかからランダムなカードを提供します。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nこれらのパックはすべてメガバリアントがあり、開封時により多くのカードから選べるようになります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nカードは",
+            "color": "$text"
+          },
+          {
+            "text": "カードバインダー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に保管でき、",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトリサイクラー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でリサイクルでき、",
+            "color": "$text"
+          },
+          {
+            "text": "カードアップグレードステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でアップグレードできます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nブースターパックを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/booster",
+      "targetId": "the_vault:booster_pack",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:arcane_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:evolution_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:resource_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:stat_pack\"}",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "decks",
+      "name": "デッキ",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "デッキを使うとカードをヴォールトに持ち込み、特殊効果の恩恵を受けることができます。デッキの効果を得るには、",
+            "color": "$text"
+          },
+          {
+            "text": "カードデッキ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のCuriosスロットにデッキを配置する必要があります。\n\nデッキは",
+            "color": "$text"
+          },
+          {
+            "text": "デッキステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でクラフトします。基本デッキはすぐに利用可能です。",
+            "color": "$text"
+          },
+          {
+            "text": "アドバンスドデッキ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "タブにアクセスするには、まず",
+            "color": "$text"
+          },
+          {
+            "text": "ヴォールトデッキ",
+            "color": "$yellow"
+          },
+          {
+            "text": "のリサーチを学び、それぞれのアンロック条件を満たす必要があります。\n\n各デッキには独自のレイアウトとソケット数があります。自分が作りたいデッキに最適な組み合わせを見つけるために、すべてのデッキをチェックしましょう。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nデッキは",
+            "color": "$text"
+          },
+          {
+            "text": "カードバインダー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "内で構築・変更できます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nカードデッキをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/deck",
+      "targetId": "the_vault:card_deck",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:card_binder",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "cores",
+      "name": "デッキコア",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "コアは",
+            "color": "$text"
+          },
+          {
+            "text": "アンビル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でデッキに適用できるオーグメントです。\n\nレッサーコアは",
+            "color": "$text"
+          },
+          {
+            "text": "デッキステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "でクラフトできますが、より強力なコアはヴォールトでの冒険を通じて見つかります。\n\nコアは強力なデッキの構築に重要な役割を果たすので、慎重に選びましょう。",
+            "color": "$text"
+          },
+          {
+            "text": "レッサーからノーマルのコアにアップグレードできますが、一度ソケットに入れたコアは別のコアに交換できません。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nレッサーコアをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/lesser_deck_core",
+      "targetId": "the_vault:deck_socket",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:silver_scrap",
+            "amount": 256
+          },
+          {
+            "item": "the_vault:gem_black_opal",
+            "amount": 16
+          },
+          {
+            "item": "the_vault:gem_pog",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 16
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "obtain_juicer",
+      "name": "カードのアップグレード",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "不要なカードはヴォールトリサイクラーでリサイクルして",
+            "color": "$text"
+          },
+          {
+            "text": "カードジュース",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を入手できます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "カードアップグレードステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "では、ティアのあるカードを必要量のカードジュースと組み合わせてティアをアップグレードできます。\n\nティア1からティア2へのアップグレードにはカードジュース10個が必要で、それ以上のティアでは大幅に多く必要になります。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nカードアップグレードステーションをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/card_upgrade_table",
+      "targetId": "the_vault:card_essence_extractor",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:card_juice",
+            "amount": 5
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "blank_key",
+      "name": "トレジャーキー",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル50以降、ヴォールト内に奇妙なカラフルなドアが出現するようになります。これが",
+            "color": "$text"
+          },
+          {
+            "text": "トレジャードア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "です！\n\nドアと同じ宝石タイプの",
+            "color": "$text"
+          },
+          {
+            "text": "トレジャーキー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で開けることができます。\nキーは高価で",
+            "color": "$text"
+          },
+          {
+            "text": "キーピース",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "とエコージェムが必要ですが、作る価値は十分にあります！\n\nまず",
+            "color": "$text"
+          },
+          {
+            "text": "ブランクキー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を作り、アンビルでレジェンダリージェム",
+            "color": "$text"
+          },
+          {
+            "text": "クラスター",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "と組み合わせます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nブランクキーをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/blank_key",
+      "targetId": "the_vault:blank_key",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:perfect_echo_gem"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "gear_sealer",
+      "name": "ギアのシーリング",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "最高のヴォールトギアをシーリングすることは、それを最大限に活かすための非常に強力な方法ですが、運が悪い場合もあるので注意してください。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "見つける必要があるのは",
+            "color": "$text"
+          },
+          {
+            "text": "アセンダントマーク",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で、",
+            "color": "$text"
+          },
+          {
+            "text": "ベンドア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "、",
+            "color": "$text"
+          },
+          {
+            "text": "ブラックマーケット",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "、その他いくつかの場所で見つかります。これらのレアなマークを使ってギアをシーリングします。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ギアをシーリングする際、",
+            "color": "$text"
+          },
+          {
+            "text": "10分の1の確率",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で追加の強力なシーリングモディファイアが付与されます。それ以外の場合は",
+            "color": "$text"
+          },
+          {
+            "text": "ランダムな未フリーズのモディファイアを置換",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "して、強力なシーリングモディファイアが適用されます。\n\n強力なシーリングモディファイアには",
+            "color": "$text"
+          },
+          {
+            "text": "追加スキルレベル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の獲得や、",
+            "color": "$text"
+          },
+          {
+            "text": "ユニーク効果",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の獲得が含まれます。シーリングのコストは",
+            "color": "$text"
+          },
+          {
+            "text": "ギアのレベル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "と",
+            "color": "$text"
+          },
+          {
+            "text": "ギアのレアリティ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "によって決まります。\n\n最後に、一度シーリングされたギアはそれ以上改造できません。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ギアシーラーをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/modifier",
+      "targetId": "the_vault:vault_sealer",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vorpal_focus",
+            "amount": 3
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "treasure",
+      "name": "トレジャールーム",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "トレジャーキーを手に入れたら、ヴォールトに持ち込んで対応するドアを探しましょう。ドアにキーを使って開けます。\n\nトレジャールームにはランダムな量の",
+            "color": "$text"
+          },
+          {
+            "text": "トレジャーサンド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があり、採掘するとたくさんの宝物が手に入ります。",
+            "color": "$text"
+          },
+          {
+            "text": "\nトレジャールームには",
+            "color": "$text"
+          },
+          {
+            "text": "3つのトレジャー台座",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "もあり、それぞれ1つのヴォールトギアが入っています。ただし、これらのヴォールトギアには",
+            "color": "$text"
+          },
+          {
+            "text": "レジェンダリーモディファイアが1つ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "保証されています！\n\n台座は1つだけ選ぶことができ、選ぶ際に分かる情報はギアの種類とレアリティだけです！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nトレジャー台座を操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/treasure",
+      "targetId": "the_vault:treasure_pedestal",
+      "targetProgress": 1.0,
+      "unlockedBy": "blank_key",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:unidentified_treasure_key"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "royale",
+      "name": "ロイヤルヴォールト",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ロイヤルヴォールトはヴォールトハンターズの完全にオプションのパートですが、レベル100への道のりが退屈になった時の良い気分転換であり、報酬は素晴らしいものになり得ます！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルヴォールトに入ると、完全に何も持たない状態になります。全てのギアとスキルポイントの割り当ては帰還時のために保存されます。最初に",
+            "color": "$text"
+          },
+          {
+            "text": "トミー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に会いましょう！\n",
+            "color": "$text"
+          },
+          {
+            "text": "トミー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は3つのロードアウトを提供してくれます。快適に感じるものを選ぶか、究極のチャレンジを求めるなら何も選ばないこともできます。\n",
+            "color": "$text"
+          },
+          {
+            "text": "次に、",
+            "color": "$text"
+          },
+          {
+            "text": "トミー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は3つの青いトリンケットから1つ、次に3つの赤いトリンケットから1つ提供してくれます。最後に、勝利した場合の報酬を選びます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "報酬の1つは常に",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルクラウン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "です。クラウンはルート倍率アイテムで、",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルクリスタル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "にアンビルで取り付けるたびに報酬倍率が上がります。ロイヤルのラン間で行います。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルヴォールト内では",
+            "color": "$text"
+          },
+          {
+            "text": "ポーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "も",
+            "color": "$text"
+          },
+          {
+            "text": "ヒール",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "スペルも提供されません。代わりに、他の回復手段に頼る必要があります。最も一般的なのは",
+            "color": "$text"
+          },
+          {
+            "text": "ハーティアップル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "です。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "トミー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の元を離れると、スキルポイントがいくつか割り振られた状態ですが、装備は何もありません。ギアと追加のスキルポイントスクロールは光る",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルバレル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "の中で見つかります。戦う前にしっかりルーティングしましょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "最後に、ロイヤルヴォールトはロックされており、入った道からは脱出できません。脱出するにはランダムな目標をクリアする必要があります！\n\n頑張って、ハンター。好きか嫌いかのどちらかでしょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ロイヤルロックを入手する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/royale",
+      "targetId": "the_vault:crystal_seal_vault_royale",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_vault_royale"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "antiques",
+      "name": "アンティーク",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "アンティークはヴォールトの領域が持つ古代のスタンプです。これらの古代スタンプを集めて組み合わせると、その特定のアンティークコレクションに紐づいた報酬を得られます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アンティークはレベル50以降に出現しますが、ハンターが",
+            "color": "$text"
+          },
+          {
+            "text": "アンティークスタンプコレクターの本",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を持っている場合に限ります。この本はクラフトでき、インベントリに入れておくだけで大丈夫です。全てのアンティークを自動的に拾い、分類し、整理してくれます。必要な数が揃ったら、取り出して右クリックで交換して報酬を受け取れます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アンティークの見つけ方と入手方法は、1つのアンティークをより多く見つけるほど明らかになっていきます。アンティークにカーソルを合わせて、どこから来たのか推測してみましょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アンティークスタンプコレクターの本をクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/antique_collector_book",
+      "targetId": "the_vault:antique_collector_book",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "companions",
+      "name": "コンパニオン！",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル50以降、",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を見つけられるようになります！彼らはかなり臆病ですが、うまくいけばコンパニオンエッグがスポーンするチャンスがあります！発見された部屋のどこかにスポーンし、周囲にパーティクルがあります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "エッグは",
+            "color": "$text"
+          },
+          {
+            "text": "インキュベーター",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で孵化でき、全てのコンパニオンはこの段階で所有者に個人的に紐づけられます。\n",
+            "color": "$text"
+          },
+          {
+            "text": "Curiosインベントリのヘッドスロットにコンパニオンを装備して使用します。準備ができている状態であれば、ヴォールトに入る時に一緒に来てくれます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は1つの",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルモディファイア",
+            "color": "$titleLine"
+          },
+          {
+            "text": "を持っています。このモディファイアはいつでもホットキーを押して発動できます（キーバインドで設定可能）。",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルモディファイア",
+            "color": "$titleLine"
+          },
+          {
+            "text": "の持続時間はコンパニオンのレベルで決まります。レベル1で1分、レベル3で3分などです。",
+            "color": "$text"
+          },
+          {
+            "text": "テンポラルモディファイア",
+            "color": "$titleLine"
+          },
+          {
+            "text": "は変更や改造ができません。コンパニオンの魂のようなものです。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオンレリック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "も装備できます。これらのレアアイテムは",
+            "color": "$text"
+          },
+          {
+            "text": "チェスト",
+            "color": "$yellow"
+          },
+          {
+            "text": "や",
+            "color": "$text"
+          },
+          {
+            "text": "トレジャーサンド",
+            "color": "$yellow"
+          },
+          {
+            "text": "の中で見つかりますが、ヴォールトにコンパニオンを連れている場合に限ります。\n",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオンレリック",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はヴォールトモディファイアを持っており、",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオンホーム",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "内で装備できます。ただし、コンパニオンはレリックにかなり愛着を持つため、外そうとすると大量のゴールドが必要になります！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "正しくケアすれば、コンパニオンは非常に強力になり、ヴォールトでの冒険を助けてくれます！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "コンパニオンインキュベーターをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/companion",
+      "targetId": "the_vault:companion_incubator",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:companion_egg",
+            "nbt": "{HatchTime:20,Series:\"PET\"}"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "soul_flame",
+      "name": "チャレンジャーのヴォールトロック",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル65に到達すると、",
+            "color": "$text"
+          },
+          {
+            "text": "チャレンジャーのヴォールトクリスタル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のクラフトが解放されます。\n\nこのクリスタルは改造できず、連勝記録（アセンション）を追跡します。",
+            "color": "$text"
+          },
+          {
+            "text": "チャレンジャーのヴォールトクリスタル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "をクリアするたびに、次のチャレンジャークリスタルの難易度が上がります！\n\nいずれ失敗する時が来ます（必ず来ます）。その時、到達度に応じて",
+            "color": "$text"
+          },
+          {
+            "text": "エンバー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を受け取ります。\nエンバーは",
+            "color": "$text"
+          },
+          {
+            "text": "アセンションフォージ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "で使用する通貨アイテムです。\n\nアセンションの準備はできましたか？",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nチャレンジャーのヴォールトロックをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/flame",
+      "targetId": "the_vault:soul_flame",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 64
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "ascension_forge",
+      "name": "アセンションフォージ",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "アセンションフォージ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "は",
+            "color": "$text"
+          },
+          {
+            "text": "エンバー",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を使う場所です。\nギア用のとても",
+            "color": "$text"
+          },
+          {
+            "text": "特別なトランスモグ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があり、あなたがチャレンジャーであることを際立たせます！\n",
+            "color": "$text"
+          },
+          {
+            "text": "プレフィックス",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "と",
+            "color": "$text"
+          },
+          {
+            "text": "サフィックス",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "のネームタグ称号も購入できます。\n\nあなたが勝ち方を知っていることを世界に知らしめましょう！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "アセンションフォージをクラフトする",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/ascensionforge",
+      "targetId": "the_vault:ascension_forge",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:ember",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "block_interact",
+      "id": "imbuement_altar",
+      "name": "インビューメント祭壇",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル60以降、",
+            "color": "$text"
+          },
+          {
+            "text": "インビューメント祭壇",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を",
+            "color": "$text"
+          },
+          {
+            "text": "ダンジョン",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "内で稀に見つけるチャンスがあります。ダンジョンが大きいほど、見つかる可能性が高くなります。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "インビューメント祭壇",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "と対話すると、インビューメントするギアの確認を求められます。ギアが確定されると取り消しはできません。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インビューメント祭壇は最大3つのインビューメントオプションを提示します。モディファイアのインビューには",
+            "color": "$text"
+          },
+          {
+            "text": "成功確率",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "があり、成功するとより強力になり、値がアップグレードされます。\n\nインビューメントが成功した後、ギアに元々",
+            "color": "$text"
+          },
+          {
+            "text": "リビング",
+            "color": "$living"
+          },
+          {
+            "text": "モディファイアがあった場合、リビングモディファイアはギアから除去されます。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nインビューメントが",
+            "color": "$text"
+          },
+          {
+            "text": "失敗",
+            "color": "$red"
+          },
+          {
+            "text": "すると、ギアは",
+            "color": "$text"
+          },
+          {
+            "text": "腐敗",
+            "color": "$red"
+          },
+          {
+            "text": "し、モディファイアは代わりにダウングレードされます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "インビューされた",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "ギアも",
+            "color": "$text"
+          },
+          {
+            "text": "腐敗した",
+            "color": "$red"
+          },
+          {
+            "text": "ギアも、",
+            "color": "$text"
+          },
+          {
+            "text": "アーティザンステーション",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "では改造できなくなります。ただし、",
+            "color": "$text"
+          },
+          {
+            "text": "インビューされたギア",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "はシーリングすることは可能です。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "インビューメント祭壇を操作する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/imbuement_altar",
+      "targetId": "the_vault:imbuement_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_echo",
+            "amount": 10
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "level_up",
+      "id": "reach_level_100",
+      "name": "最大レベルへの到達",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "レベル100はヴォールトハンターズの通常レベルの終わりを意味します。ここまで到達すると、利用可能なすべてのスキルポイントを制覇し、すべてのギアティアグループをアンロックしています！\n\n最も重要なのは、アリーナに入ってヘラルドと対峙するアビリティがアンロックされたことです。",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nヴォールトレベル100に到達する",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/100",
+      "targetId": "the_vault:100",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:companion_egg",
+            "nbt": "{HatchTime:20,Series:\"PET\"}"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "complete_vault",
+      "id": "herald",
+      "name": "ヘラルド",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "自分の実力を証明する時です！\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "究極のチャレンジである",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に立ち向かうには、レベル100に到達し、",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトパズル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を完成させていなければなりません。両方が完了して初めて",
+            "color": "$text"
+          },
+          {
+            "text": "アリーナ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "に入ることができます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "完成した",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルドの岩",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を右クリックして",
+            "color": "$text"
+          },
+          {
+            "text": "アーティファクトの書",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "から入手してください。好きなだけ入手できます。この岩を祭壇でクラフトすると",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルドのクリスタル",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "が作られます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "注意してください。これは異なるフェーズを持つ非常に難しいボスで、このチャレンジを倒すためにこれまでのすべての知識が試されます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "幸運を、ヴォールトハンターよ。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルドを倒す",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/herald",
+      "targetId": "the_vault:herald",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_100",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:omega_pog",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "spend_prestige_point",
+      "id": "prestige",
+      "name": "プレステージパワー",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "よくやりました！",
+            "color": "$text"
+          },
+          {
+            "text": "ヘラルド",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "を倒しレベル100に到達した後、ヴォールトハンターズの最終章：",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージパワー",
+            "color": "$omega"
+          },
+          {
+            "text": "がアンロックされます。\n\nレベル100以降に獲得する各レベルは",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージレベル",
+            "color": "$white"
+          },
+          {
+            "text": "となり、1",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージポイント",
+            "color": "$prestige_points"
+          },
+          {
+            "text": "が付与されます。",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージポイント",
+            "color": "$prestige_points"
+          },
+          {
+            "text": "は知識ポイントと合わせて",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージパワー",
+            "color": "$omega"
+          },
+          {
+            "text": "タブ（ヴォールトハンターズメニューからアクセス可能）で使用できます。\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "プレステージパワー",
+            "color": "$omega"
+          },
+          {
+            "text": "は直感的なティアシステムに従い、各行が異なるティアを表しています。",
+            "color": "text"
+          },
+          {
+            "text": "より良いパワーを取得するには前のティアで一定数のパワーを取得する必要があり、各行が前の行の上に自然に積み重なって意味のある満足のいく進行を保証します。\n\n",
+            "color": "text"
+          },
+          {
+            "text": "一部のプレステージパワーは",
+            "color": "text"
+          },
+          {
+            "text": "プレステージ有効化画面",
+            "color": "$white"
+          },
+          {
+            "text": "のキーバインドを設定すると、有効/無効を切り替えられます。\n\n",
+            "color": "text"
+          },
+          {
+            "text": "アンロック可能な",
+            "color": "text"
+          },
+          {
+            "text": "プレステージパワー",
+            "color": "$omega"
+          },
+          {
+            "text": "の膨大なコレクションがあり、究極の問いが残ります：\n\nすべてを手に入れることができるでしょうか？\n\n",
+            "color": "text"
+          },
+          {
+            "text": "プレステージポイントを使う",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/prestige_powers",
+      "targetId": "the_vault:1",
+      "targetProgress": 1.0,
+      "unlockedBy": "herald",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:knowledge_star",
+            "amount": 25
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "crafting",
+      "id": "tbd",
+      "name": "今後の追加をお楽しみに！",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "ヴォールトハンターズの現在利用可能な全クエストを完了しました！今後のゲームアップデート時にさらに追加される可能性があるので、ここに戻ってきてチェックしてください！",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nただし、このクエストラインはほんの始まりに過ぎません。ゲームの全体的な目標は、完了クレートで非常に稀に見つかる25個のユニークなアーティファクトを集め、レベル100に到達し、ゲームが提供する全ての奥深いシステムを体験することです！",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/tbd",
+      "targetId": "minecraft:bedrock",
+      "targetProgress": 100.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:omega_pog"
+          }
+        ],
+        "vaultExp": 0
+      }
+    }
+  ]
+}

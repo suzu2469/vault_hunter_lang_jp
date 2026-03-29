@@ -5,5 +5,6 @@
     "model": "patchouli:book_gray",
     "show_progress": "false",
     "show_toasts": "false",
+    "i18n": true,
     "version": 3
 }

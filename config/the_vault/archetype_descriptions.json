@@ -1,0 +1,141 @@
+{
+  "descriptions": {
+    "the_vault:default": [
+      {
+        "text": "ありのままのあなた。バフもデバフもありません"
+      }
+    ],
+    "the_vault:treasure_hunter": [
+      {
+        "text": "ルーティングの技術に身を捧げよう！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "50% アイテム数量\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "50% アイテム品質\n"
+      },
+      {
+        "text": "+",
+        "color": "dark_red"
+      },
+      {
+        "text": "100% 被ダメージ"
+      }
+    ],
+    "the_vault:berserker": [
+      {
+        "text": "バーサーカーの魂で満たせ！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "500% ダメージ\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "80% 最大体力"
+      }
+    ],
+    "the_vault:commander": [
+      {
+        "text": "エターナルを栄光の勝利に導け！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "100% エターナルへのダメージ\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "50% プレイヤーダメージ"
+      }
+    ],
+    "the_vault:ward": [
+      {
+        "text": "盾を持って最強の壁になれ！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "25% 盾装備時のブロック確率\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "50% プレイヤーダメージ"
+      }
+    ],
+    "the_vault:barbarian": [
+      {
+        "text": "血への飢えを解き放て！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "ヒットごとに3 レイジ",
+        "color": "gold"
+      },
+      {
+        "text": " ポイント\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "レイジポイントごとに2.5% ダメージ\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "レイジポイントごとに0.5% 回復効率低下"
+      }
+    ],
+    "the_vault:vampire": [
+      {
+        "text": "ヴァンパイアの血が脈打つ\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "5% ライフリーチ\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "他の手段では回復できなくなる"
+      }
+    ]
+  }
+}
