@@ -1,0 +1,4139 @@
+{
+    "series": {
+        "Deepcrag": {
+            "displayName": "\u30c7\u30a3\u30fc\u30d7\u30af\u30e9\u30c3\u30b0",
+            "colour": 5786945,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u3088\u308a\u591a\u304f\u306e",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\u9271\u77f3",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u3068",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\u30af\u30ed\u30de\u30c6\u30a3\u30c3\u30af\u6d1e\u7a9f",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u751f\u6210\u3055\u308c\u308b\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Deeprot Miners ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Orebound ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Vault Wraiths ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Belcher ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u271a",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Saltshade": {
+            "displayName": "\u30bd\u30eb\u30c8\u30b7\u30a7\u30a4\u30c9",
+            "colour": 4765616,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u3088\u308a\u591a\u304f\u306e",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\u30b3\u30a4\u30f3\u306e\u5c71",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u3088\u308a\u5927\u304d\u304f\u751f\u6210\u3055\u308c\u308b\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Drowned ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Pirateon ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Crab ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83d\udee1",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Sunken ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Bloodveil": {
+            "displayName": "\u30d6\u30e9\u30c3\u30c9\u30f4\u30a7\u30fc\u30eb",
+            "colour": 8267302,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30da\u30a4\u30ca\u30a4\u30c8",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u3068",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\u30d6\u30e9\u30c3\u30af\u30aa\u30d1\u30fc\u30eb",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u51fa\u3084\u3059\u304f\u306a\u308b",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Rocklings ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Blood Rogue ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Blood Slime ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Bloodfish ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Rock Hulk ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 5",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83d\udee1",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Snowfell": {
+            "displayName": "\u30b9\u30ce\u30a6\u30d5\u30a7\u30eb",
+            "colour": 13232880,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30e9\u30ea\u30de\u30fc",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u51fa\u3084\u3059\u304f\u306a\u308b",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Frostwalkers ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Stray ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9 \u2744",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Snow Wolf ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Goats ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u26a0",
+                            "color": "gold"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Shiver ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2744",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Glimmergrove": {
+            "displayName": "\u30b0\u30ea\u30de\u30fc\u30b0\u30ed\u30fc\u30d6",
+            "colour": 8762936,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u6d1e\u7a9f",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u898b\u3064\u304b\u308b\u3053\u3068\u304c\u3042\u308b\u3002",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Overgrown ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Spider ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Slime ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Stonewarden ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Sporegrove": {
+            "displayName": "\u30b9\u30dd\u30a2\u30b0\u30ed\u30fc\u30d6",
+            "colour": 10377914,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u306a\u3057",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Funguy ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Levishroom ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Slime ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Deathcap ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Nether": {
+            "displayName": "\u30cd\u30b6\u30fc",
+            "colour": 6946816,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30ec\u30a2\u30b8\u30a7\u30e0\u304c\u5897\u52a0",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Piglin ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Wither Skeleton ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Blaze ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Magma Slime ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Brute ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Void": {
+            "displayName": "\u30f4\u30a9\u30a4\u30c9",
+            "colour": 4077133,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a8\u30b3\u30fc\u30b8\u30a7\u30e0\u304c\u5897\u52a0",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Deep Zombie ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Deep Skeleton ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Enderman ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u21af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Shulker ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 0",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\ud83c\udff9 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Deeplings ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Warden ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Candoria": {
+            "displayName": "\u30ad\u30e3\u30f3\u30c9\u30ea\u30a2",
+            "colour": 15560362,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u306a\u3057",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Yellow Gummy Bear",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Blue Gummy Bear",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Green Gummy Bear",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Evil Rabbit ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Red Gummy Bear",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 5",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Sandsworn": {
+            "displayName": "\u30b5\u30f3\u30c9\u30b9\u30a6\u30a9\u30fc\u30f3",
+            "colour": 15192471,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30ec\u30ad\u30b5\u30f3\u30c9\u30e9\u30a4\u30c8",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u51fa\u3084\u3059\u304f\u306a\u308b",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Husk ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Skeleton ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Creeper ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 0",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2738",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Mummy ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "RawVault": {
+            "displayName": "\u30ed\u30a6\u30f4\u30a9\u30fc\u30eb\u30c8",
+            "colour": 13948116,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30f4\u30a9\u30fc\u30eb\u30c8\u796d\u58c7\u306e\u7d20\u6750",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\u3068",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\n\u30af\u30ed\u30de\u30c6\u30a3\u30c3\u30af\u6d1e\u7a9f",
+                            "color": "$name"
+                        },
+                        {
+                            "text": "\u304c\u898b\u3064\u304b\u308b\u3053\u3068\u304c\u3042\u308b\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Deeprot Miners ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Orebound ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83c\udff9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Vault Wraiths ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Belcher ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 4",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u271a",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Plastic": {
+            "displayName": "\u30d7\u30e9\u30b9\u30c1\u30c3\u30af",
+            "colour": 13232880,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30d0\u30d5\u30be\u30f3\u30d0\u30fc\u30c8\u30f3\u3068\u30b9\u30b1\u30eb\u30c8\u30f3\u30b8\u30e3\u30c3\u30af\u304c\u5f37\u5316\u3055\u308c\u308b\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Plastic Zombies ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Plastic Skeletons ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Plastic Slimes ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Buff Zomberton ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 5",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83d\udee1",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Skeleton Jack ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 5",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83d\udee1",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Spooky": {
+            "displayName": "\u30b9\u30d7\u30fc\u30ad\u30fc",
+            "colour": 4078914,
+            "description": [
+                {
+                    "description": [
+                        {
+                            "text": "\u30d1\u30fc\u30af: ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30b9\u30d7\u30fc\u30ad\u30fc\u30b7\u30fc\u30ba\u30f3\u5230\u6765\n",
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "description": [
+                        {
+                            "text": "\u30db\u30fc\u30c9",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Jack ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Poison Jack ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \u2623",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30a2\u30b5\u30b7\u30f3",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Jack O Web ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " Grimwick ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 3",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u30bf\u30f3\u30af",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591\n",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": " Craftenstein ",
+                            "color": "white"
+                        },
+                        {
+                            "text": "\ud83d\udde1",
+                            "color": "$orange"
+                        },
+                        {
+                            "text": " 2",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2764",
+                            "color": "red"
+                        },
+                        {
+                            "text": " 5",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u265d",
+                            "color": "$speed"
+                        },
+                        {
+                            "text": " 1",
+                            "color": "white"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2694 \ud83d\udee1",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\n\u30c9\u30a5\u30a8\u30e9\u30fc",
+                            "color": "gray"
+                        },
+                        {
+                            "text": " | ",
+                            "color": "$darkgray"
+                        },
+                        {
+                            "text": "\u2591",
+                            "color": "gray"
+                        },
+                        {
+                            "text": "\u2591\u2591\u2591",
+                            "color": "$darkgray"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "augments": {
+        "Deepcrag": [
+            "the_vault:classic_vault_cave",
+            "the_vault:classic_vault_cave_deepslate",
+            "the_vault:classic_vault_cave_geode",
+            "the_vault:classic_vault_cave_wasteland"
+        ],
+        "Saltshade": [
+            "the_vault:classic_vault_beach",
+            "the_vault:classic_vault_flooded",
+            "the_vault:classic_vault_shipwreck",
+            "the_vault:classic_vault_haunted",
+            "the_vault:classic_vault_sea_floor",
+            "the_vault:classic_vault_season_summer"
+        ],
+        "Bloodveil": [
+            "the_vault:classic_vault_blood_ash",
+            "the_vault:classic_vault_blood_moon",
+            "the_vault:classic_vault_flesh",
+            "the_vault:classic_vault_blood"
+        ],
+        "Snowfell": [
+            "the_vault:classic_vault_aurora_cave",
+            "the_vault:classic_vault_ice_cave",
+            "the_vault:classic_vault_ice",
+            "the_vault:classic_vault_season_winter"
+        ],
+        "Glimmergrove": [
+            "the_vault:classic_vault_lush_cave",
+            "the_vault:classic_vault_living_cave",
+            "the_vault:classic_vault_season_spring"
+        ],
+        "Sporegrove": [
+            "the_vault:classic_vault_mushroom",
+            "the_vault:classic_vault_fairy_ring",
+            "the_vault:classic_vault_poison",
+            "the_vault:classic_vault_season_fall"
+        ],
+        "Nether": [
+            "the_vault:classic_vault_nether_crimson",
+            "the_vault:classic_vault_nether_warped",
+            "the_vault:classic_vault_nether_blackstone",
+            "the_vault:classic_vault_nether_soul"
+        ],
+        "Void": [
+            "the_vault:classic_vault_void",
+            "the_vault:classic_vault_factory_void",
+            "the_vault:classic_vault_end_void"
+        ],
+        "Candoria": [
+            "the_vault:classic_vault_sweet",
+            "the_vault:classic_vault_easter_egg",
+            "the_vault:classic_vault_easter_pastel"
+        ],
+        "Sandsworn": [
+            "the_vault:classic_vault_desert",
+            "the_vault:classic_vault_sandy_cave",
+            "the_vault:classic_vault_mesa",
+            "the_vault:classic_vault_deep_mesa"
+        ],
+        "RawVault": [
+            "the_vault:raw_vault_cave",
+            "the_vault:raw_vault_cave_lvl10",
+            "the_vault:raw_vault_cave_lvl20",
+            "the_vault:raw_vault_cave_lvl30",
+            "the_vault:raw_vault_cave_granite",
+            "the_vault:raw_vault_cave_granite_lvl10",
+            "the_vault:raw_vault_cave_granite_lvl20",
+            "the_vault:raw_vault_cave_granite_lvl30",
+            "the_vault:raw_vault_cave_diorite",
+            "the_vault:raw_vault_cave_diorite_lvl10",
+            "the_vault:raw_vault_cave_diorite_lvl20",
+            "the_vault:raw_vault_cave_diorite_lvl30",
+            "the_vault:raw_vault_cave_andersite",
+            "the_vault:raw_vault_cave_andersite_lvl10",
+            "the_vault:raw_vault_cave_andersite_lvl20",
+            "the_vault:raw_vault_cave_andersite_lvl30"
+        ],
+        "Plastic": [
+            "the_vault:classic_vault_plastic"
+        ],
+        "Spooky": [
+            "the_vault:classic_vault_gloom"
+        ]
+    }
+}
